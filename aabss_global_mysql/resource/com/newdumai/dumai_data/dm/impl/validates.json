@@ -1,0 +1,32 @@
+[
+    {
+        "identifier": "idCardNameValidate",
+        "expression": "result==1",
+        "invalidMsg": "身份证一致性验证不通过",
+        "dm_source_code": "aa959655-9ead-4884-91dd-2cb6ab04cac0"
+    },
+    {
+        "identifier": "mobileNameValidate",
+        "expression": "statusCode=='2005'",
+        "invalidMsg": "手机号一致性验证不通过",
+        "dm_source_code": "4235c551-0ed3-459e-9d59-c245c83dcd1d"
+    },
+    {
+        "identifier": "bankCardNameValidate",
+        "expression": "statusCode=='2005'",
+        "invalidMsg": "银行卡一致性验证不通过",
+        "dm_source_code": "edd257aa-8a11-4946-90b9-4b23024840c6"
+    },
+    {
+        "identifier": "carOwnerValidate",
+        "expression": "jdcsyr.endsWith('公司') || jdcsyr==$.name",
+        "invalidMsg": "车辆车主一致性验证不通过",
+        "dm_source_code": "d6f59205-9855-4dcc-bb4b-c327de2ce8b5"
+    },
+    {
+        "identifier": "carStatusValidate",
+        "expression": "/^[AG]$/.test(jdczt)",
+        "invalidMsg": "车辆正常状态证验证不通过",
+        "dm_source_code": "d6f59205-9855-4dcc-bb4b-c327de2ce8b5"
+    }
+]

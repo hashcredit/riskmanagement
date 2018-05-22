@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="mySystem">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet/less" href="css/system.less" type="text/less">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ng-grid.css">
+
+</head>
+<body>
+
+<div class="system" id="system" ng-controller="mySystem">
+    <div class="system_header">
+        <h5>读脉风控管理平台<a href="#/homePage"></a></h5>
+    </div>
+    <div class="system_bodies">
+        <ul>
+            <li class="current1">
+                <span class="shezhi shezhi_1"></span> <span>功能设定</span>
+            </li>
+            <li>
+                <span class="shezhi shezhi_2"></span> <span>用户管理</span>
+            </li>
+            <li>
+                <span class="shezhi shezhi_3"></span> <span>日志</span>
+            </li>
+            <li>
+                <span class="shezhi shezhi_4"></span> <span>修改密码</span>
+            </li>
+        </ul>
+        <div class="system_Box">
+            <div class="system_content system_content1" >
+                <div class="system_left">
+                    <h5>安全设定</h5>
+                    <div class="system_left_bottom">
+                        <p>通用</p>
+                        <label ng-click="addIP()" ng-class="{true:'addSel',false:'removeSel'}[addFlag]"></label>
+                        <input type="checkbox">IP访问控制
+                        <div  ng-class="{true:'show_2',false:'hide_2'}[addFlag]">
+                            <textarea name='多个ip用","分隔' ></textarea>
+                            <p>注：多个ip用","分隔</p>
+                            <div class="yingyong"><input type="button" value="应用" ></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="system_right">
+                    <h5>审核方式</h5>
+                    <div class="system_right_bottom">
+                        <label>业务类型：
+                            <select>
+                                <option value="1" style="background-color:#223746;">请选择</option>
+                                <option value="1" style="background-color:#223746;">1</option>
+                                <option value="2" style="background-color:#223746;">2</option>
+                                <option value="3" style="background-color:#223746;">3</option>
+                            </select>
+                        </label>
+                        <label style="display: inline-block"> <span style="letter-spacing: 24px">贷</span>前：</label>
+                        <label class="daizhong checked box1"><input type="radio" name="dai">规则 </label>
+                        <label class="daizhong box1"><input type="radio" name="dai">模型 </label>
+                    </div>
+                </div>
+                <div class="system_grid" ng-controller="systemGridCtrl">
+                    <h5>数据查询设定</h5>
+                    <div class="system_right_bottom">
+                        <label>业务类型：
+                            <select>
+                                <option value="1">请选择</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="system_gridStyle" ng-grid="gridOptions"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<script charset="utf-8" type="text/javascript" src="js/lib/less.min.js"></script>
+<script charset="utf-8" type="text/javascript">
+    less.watch();
+</script>
+<script src="js/lib/jquery.min.js"></script>
+<script src="js/lib/angular.js"></script>
+<script src="js/lib/ng-grid.js"></script>
+<script src="js/controller/systemCtroller1.js"></script>
+</body>
+</html>

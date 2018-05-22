@@ -1,0 +1,19 @@
+【黑名单查询】http://112.126.81.154/front.shandianx/bill/searchBalck.do {"reason":"","retCode":"100000"}
+【冻结查询】http://112.126.81.154/front.shandianx/bill/searchFrozen.do {"reason":"","retCode":"100001"}
+【账单查询】http://112.126.81.154/front.shandianx/bill/queryBill.do {"retCode":"100000"}
+
+==========
+result:{"regId":"13701259346","retCode":"V03005","traceNo":"20160812-151214"}
+===========
+result:{"reason":"","regId":"13701259346","retCode":"V03005","traceNo":"20160816-123456"}
+============
+result:{"acctMobile":"13800005001","idCode":"372922199401458545","idType":"01","name":"孔里","payAcctNo":"62260000744556656","payType":"","regId":"13800005001","retCode":"V10001","traceNo":"20160816-215315"}
+
+
+取值	         描述
+000000	响应成功
+100000	验签返回失败
+V10000	系统内部错误
+V10001	不存在该用户该日期的账单信息
+V03005	没有该用户注册信息
+V03008	没有操作该用户的权限

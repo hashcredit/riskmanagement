@@ -1,0 +1,29 @@
+{
+	"third_interface_sources": [
+		{
+			"code":"ac187116-d5d3-4a32-8b8e-8946d51d6d88",//车辆基本信息
+			"para_order":{
+			    "plate":"plate",
+			    "plateType":"plateType"
+			},
+			"out_paras":[
+				{
+				    "name":"原始数据",
+				    "key":"$"
+				}
+			]
+		}
+	],
+	"srcFileAsset": "D:/Work/文档/待查车俩.xls",
+	"srcRange": "A2,B2",
+	"sheet":"Sheet1",
+	"headers": {
+		"A1":"plate",
+		"B1":"plateType"
+	},
+	"fixedProps": [{
+		
+	}],
+	"destFilePrefix": "D:/Work/文档/asset/待查车俩 - ",
+	"destStartPos": "C2"
+}	

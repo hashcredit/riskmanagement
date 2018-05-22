@@ -1,0 +1,33 @@
+{
+	"status": 0,
+	"message": "成功",
+	"seqNum": "d316f9c1afb942a58726289fac55344a",
+	"data": {
+		"result": 5,
+		"resultMsg": "报告查询成功",
+		"basic": {
+			"vin": "LSGWX52X98S072249",
+			"model": "君越",
+			"year": "2012",
+			"brand": "上海通用别克",
+			"displacement": "2.4L",
+			"gearbox": "A/MT"
+		},
+		"report": [
+			{
+				"content": "首保； ",
+				"material": "燃油系统处理 (20 盎司)； 油液滤清器； 机油； ",
+				"mileage": "3954",
+				"repairDate": "2009-01-04",
+				"type": "免费保养"
+			},
+			{
+				"content": "更换机油滤清器； 检查发动机故障灯亮； ",
+				"material": "燃油系统处理 (20 盎司)； 油液滤清器； 机油； ",
+				"mileage": "3954",
+				"repairDate": "2009-01-04",
+				"type": "免费保养"
+			}
+		]
+	}
+}

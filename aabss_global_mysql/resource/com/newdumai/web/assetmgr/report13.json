@@ -1,0 +1,44 @@
+{
+	"result": 0,
+	"message": null,
+	"data": {
+        "phone": "18090806575",
+        "idCard": "510902197906100000",
+        "areaCode": "",
+        "imei": "",
+        "name": "李三",
+        "imsi": "",
+        "others": [
+            {
+                "orgLostContact": "2016-04-12 21:27:03",
+                "bankLostContact": "2016-04-12 21:27:03",
+                "seriousOverdueTime": "2016-04-12 21:27:03",
+                "dunTelCallTime": "2016-04-12 21:27:03",
+                "orgBlackList": "工行",
+                "orgOverduePeriod": "12",
+                "bankOverduePeriod": "23",
+                "orgLitigation":"诉讼1",
+                "bankLitigation": "诉讼2",
+                "orgOneMonthOvedue": "无",
+				"matchType":"phone",
+                "matchValue": "18090806575",
+                "matchId": "0477575FFC39A2979A96DE4A57F9B624"
+            },
+             {
+                "orgLostContact": "2016-04-12 21:27:03",
+                "bankLostContact": "2015-04-07 13:16:46",
+                "seriousOverdueTime": "2015-04-12 21:27:03",
+                "dunTelCallTime": "2015-04-12 21:27:03",
+                "orgBlackList": "中行",
+                "orgOverduePeriod": "23",
+                "bankOverduePeriod": "22",
+                "orgLitigation":"诉讼3",
+                "bankLitigation": "诉讼24",
+                "orgOneMonthOvedue": "有",
+				"matchType":"phone",
+                "matchValue": "18090806575",
+                "matchId": "0477575FFC39A2979A96DE4A57F9B624"
+            }
+        ]
+    }
+}

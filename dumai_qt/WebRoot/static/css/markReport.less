@@ -1,0 +1,460 @@
+body,html{
+  width: 100%;
+  height: 100%;
+  min-width: 800px;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+@bg1:#314452;
+@bg2:#203443;
+@bg3:#586772;
+@bg4:#94a4c2;
+@bg5:#D9DADA;
+@c1:#304a5f;
+@bg6: #dedfdf;
+@bg7:#466277;
+@bg8:#cfdae2;
+@w1:16px;
+@h1:16px;
+@f1:16px;
+@f2:12px;
+@bor1:1px solid @bg8;
+
+input,select,option,textarea{outline: none;}
+input:focus {
+  outline: none;
+}
+input[type=button]{
+  outline: none;
+  border: none;
+}
+i{
+  display: inline-block;
+  cursor: pointer;
+}
+span{
+  display: inline-block;
+}
+::-webkit-scrollbar/*整体部分*/
+{
+  width: 10px;
+  height:10px;
+}
+
+::-webkit-scrollbar-track/*滑动轨道*/
+{
+  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+  border-radius: 0px;
+  background: rgba(0,0,0,0.1);
+}
+
+::-webkit-scrollbar-thumb/*滑块*/
+{
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+  background: rgba(0,0,0,0.2);
+}
+
+::-webkit-scrollbar-thumb:hover/*滑块效果*/
+{
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+  background: rgba(0,0,0,0.4);
+}
+
+
+.report_close{
+  cursor: pointer;
+}
+.markReport1,.markReport2{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(5, 11, 11, 0.3);
+  z-index:200;
+  top:0px;
+  left:0px;
+  color: #304a5f;
+  overflow: auto;
+  min-width: 800px;
+  .baseReport,.detailReport,.tongzhuReport{
+    position: absolute;
+    top:15px;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    width: 45%;
+    height: 92%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: #fdfcfc;
+    padding: 0px;
+    margin-top: 40px;
+    z-index:500;
+    .base_header{
+      width: 100%;
+      height: 50px;
+      line-height: 50px;
+      padding-left: 0;
+      margin: 0;
+      border-bottom: 1px solid @bg5;
+      li{
+        display: inline-block;
+        font-size:@f2;
+        color: #1A3141;
+        img{
+          position: absolute;
+          left:20px;
+          top:10px;
+          width: 96px;
+          height: 30px;
+        }
+      }
+      .base_right{
+        float:right;
+        li{
+          float: left;
+          margin-right: 10px;
+          &:nth-child(3){
+            a{
+              font-size: @f1;
+              color: #1A3141;
+            }
+            span{
+              width: 24px;
+              height: 24px;
+              background: url("../images/icon_guanbi.png") no-repeat;
+              vertical-align: middle;
+              margin-left: 5px;
+              margin-top:-3px;
+            }
+          }
+        }
+      }
+    }
+    .base_title{
+      width: 100%;
+      text-align: center;
+      color: #F64067;
+      border: 1px solid transparent;
+      margin-top: 10px;
+      p{
+        margin: 0;
+        height: 30px;
+        line-height:30px;
+      }
+      span{
+        position: absolute;
+        top:61px;
+        right:20px;
+        width: 73px;
+        height: 28px;
+        background: url("../images/icon_tongguo.png") no-repeat;
+      }
+    }
+    .base_list{
+      padding: 0;
+      margin: 0;
+      width: 99%;
+      .soloInfo,.fraudRule,.fraudScore,.creditCheck,.phoneCheck{
+        width: 100%;
+        margin: 10px auto;
+        font-size: @f2;
+        margin-left: 30px;
+        .solo_title,.fraudRule_title,.fraudScore_title,.creditCheck_title,.phoneCheck_title{
+          text-align:left;
+          color: black;
+          //padding: 0 10px 0 30px;
+          font-size: 14px;
+          margin-bottom: 10px;
+          span{
+            width: @w1;
+            height: @h1;
+            background: url("../images/xinxi.png") no-repeat;
+            vertical-align: middle;
+            margin-top: -3px;
+            margin-right: 5px;
+          }
+          h5{
+            position: absolute;
+            right:0px;
+            display: inline-block;
+            i,em{
+              font-style: normal;
+              float: right;
+              margin-right: 50px;
+            }
+            em{
+              margin-right: -68px;
+            }
+            span{
+              position: absolute;
+              right:0px;
+              top:1px;
+              background: url("../images/icon_correct.png") no-repeat;
+            }
+          }
+        }
+        .fraudRule_title,.repayment_title,.GPSdata_title,.creditCheck_title,.fraudScore_title,.phoneCheck_title{
+          position: relative;
+          span{
+            width: 16px;
+            height: 16px;
+            background: url("../images/fengkong.png") no-repeat;
+          }
+        }
+        .creditCheck_title,.phoneCheck_title{
+          span{
+            background: url("../images/xinyong.png") no-repeat ;
+          }
+          h5{
+            span{
+              background: url("../images/icon_error.png") no-repeat -2px 2px;
+            }
+          }
+        }
+        .fraudScore_title{
+          span{
+            background:url("../images/icon_guifan.png") no-repeat ;
+          }
+        }
+        .basicInfo{
+          width: 101%;
+          //padding: 0 10px 10px;
+          border-bottom: 1px solid @bg5;
+          li{
+            color: @c1;
+            margin-bottom: 10px;
+            span{
+              &:nth-child(1){
+                width: 20%;
+                text-align: right;
+              }
+            }
+          }
+          img{
+            position:absolute;
+            width:218px;
+            height:284px;
+            right: 3%;
+            top:18%;
+          }
+        }
+
+
+      }
+      .fraudRule,.fraudScore,.creditCheck,.phoneCheck{
+        margin-left: 30px;
+        margin-right: 30px;
+        width: auto;
+        ul,.solution{
+          width: 100%;
+          li{
+            width: 100%;
+            height: 29px;
+            font-size: 0;
+            line-height: 30px;
+            border-bottom: @bor1;
+            background: white;
+            &:nth-child(1){
+              background: @bg7;
+              span{
+                color: white;
+                border-right:@bor1;
+                &:nth-child(3){
+                  border-right:none;
+                }
+              }
+            }
+            &:last-child{
+              border-radius: 4px;
+              border-top-left-radius:0;
+              border-top-right-radius:0;
+            }
+            span{
+              width:33%;
+              font-size: @f2;
+              color:@c1;
+              text-align: center;
+              border-right:@bor1;
+            }
+
+          }
+
+        }
+        .solution{
+          width: auto;
+          margin: 10px 0px 0;
+          border: 1px solid lightgrey;
+          padding: 10px;
+          word-wrap: break-word;
+          word-break: normal;
+        }
+
+      }
+      .fraudScore,.creditCheck,.phoneCheck{
+        ul{
+          position: relative;
+          li{
+            display: none;
+            &:nth-child(1){
+              display: block;
+              i{
+                position: absolute;
+                right:-1px;
+                top:0;
+                width:14px;
+                height: 30px;
+                background: url("../images/icon_model.png") no-repeat 100% 100%;
+                &.on{
+                  transform: rotate(180deg);
+                }
+                &.off{
+                  right:0px;
+                  top:-2px;
+                  transform: rotate(0deg);
+
+                }
+              }
+              i.credit_unfold{
+                background: url("../images/icon_fraue.png") no-repeat 100% 100%;
+              }
+
+            }
+            &:nth-child(2){
+              display: block;
+            }
+          }
+        }
+      }
+      .fraudScore,.creditCheck{
+        ul{
+          li{
+            span{
+              width: 50%;
+              &:nth-child(1){
+                border-left: @bor1;
+              }
+            }
+          }
+        }
+      }
+      .fraudRule{
+        ul{
+          li{
+            span{
+              &:nth-child(1){
+                border-left: @bor1;
+              }
+              &:nth-child(3){
+                width: 34%;
+              }
+            }
+          }
+        }
+      }
+      .fraudRule1,.fraudRule2{
+        .fraudRule_title{
+          span{
+            width: 18px;
+            height: 18px;
+            background: url("../images/icon_dzrp.png") no-repeat;
+          }
+        }
+        ul{
+          li{
+            span{
+              width: 50%;
+            }
+          }
+        }
+      }
+      .fraudRule1{
+        .fraudRule_title{
+          span{
+            background-position: -15px -10px;
+          }
+        }
+      }
+      .fraudRule2{
+        .fraudRule_title{
+          span{
+            background-position: -16px -36px;
+          }
+        }
+      }
+      .phoneCheck{
+        ul{
+          li{
+            width: 100%;
+            font-size: 0;
+            span{
+              width: 20%;
+              font-size: @f2;
+              &:nth-child(1){
+                border-left: @bor1;
+              }
+
+            }
+            &.title{
+              span{
+                &:nth-child(3){
+                  border-right: @bor1;
+                }
+              }
+            }
+          }
+        }
+        .phoneCheck_title{
+          span{
+            background: url("../images/dianhua.png") no-repeat;
+          }
+        }
+
+      }
+      .detailList{
+        padding-left: 30px;
+        p{
+          margin-bottom: 5px;
+          font-size: 14px;
+
+          span{
+            width: 16px;
+            height: 16px;
+            background: url("../images/shuju.png") no-repeat;
+            vertical-align: middle;
+            margin-right:5px ;
+            margin-top: -5px;
+          }
+        }
+        ul{
+          li{
+            a{
+              font-size: @f2;
+              color: @c1;
+              text-decoration: underline;
+              &:hover{
+                color: #F76181;
+              }
+            }
+            &:last-child{
+              padding-bottom: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.show_1{  display: block; }
+.hide_1{  display: none; }
+[ng-cloak]{
+  display: none;
+}

@@ -1,0 +1,49 @@
+.css {
+	FONT-SIZE: 12px; COLOR: #e10501
+}
+.font_474747 {
+	FONT-SIZE: 12px; COLOR: #474747
+}
+.font_000000 {
+	FONT-SIZE: 12px; COLOR: #000000
+}
+.font_FFFFFF {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff
+}
+.font_241ADC {
+	FONT-SIZE: 12px; COLOR: #241adc
+}
+.font_3366CC {
+	FONT-SIZE: 12px; COLOR: #3366cc; LINE-HEIGHT: 20px
+}
+.font_666666 {
+	FONT-SIZE: 12px; COLOR: #666666; LINE-HEIGHT: 18px
+}
+#case_content1 {
+	DISPLAY: block; FONT-SIZE: 12px; MARGIN-LEFT: 1px; OVERFLOW: hidden; WIDTH: 780px; COLOR: #000000; POSITION: relative
+}
+.case_box {
+	BORDER-RIGHT: #ff6600 1px solid; BORDER-TOP: #ff6600 1px solid; FLOAT: left; MARGIN: 2px 1px 2px 2px; BORDER-LEFT: #ff6600 1px solid; WIDTH: 120px; BORDER-BOTTOM: #ff6600 1px solid; HEIGHT: 300px
+}
+.case_box_inner1 {
+	BORDER-RIGHT: #ffcc00 2px solid; PADDING-RIGHT: 5px; BORDER-TOP: #ffcc00 2px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; OVERFLOW: visible; BORDER-LEFT: #ffcc00 2px solid; WIDTH: 150px; PADDING-TOP: 5px; BORDER-BOTTOM: #ffcc00 2px solid
+}
+#case_content A {
+	BORDER-TOP-WIDTH: 1px; PADDING-RIGHT: 2px; PADDING-LEFT: 2px; BORDER-LEFT-WIDTH: 1px; BORDER-LEFT-COLOR: #ffcc00; PADDING-BOTTOM: 2px; BORDER-TOP-COLOR: #ffcc00; LINE-HEIGHT: 11px; PADDING-TOP: 2px; BORDER-BOTTOM: #ffcc00 1px double; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #ffcc00
+}
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	color: #FF0000;
+	text-decoration: none;
+}
+a:active {
+	color: #000000;
+	text-decoration: none;
+}

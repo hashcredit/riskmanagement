@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="mySystem">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet/less" href="css/system.less" type="text/less">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ng-grid.css">
+
+</head>
+<body>
+
+<div class="system" id="system" ng-controller="mySystem">
+    <div class="system_header">
+        <h5>读脉风控管理平台<a href="#/homePage"></a></h5>
+    </div>
+    <div class="system_bodies">
+        <ul>
+            <li>
+                <span class="shezhi shezhi_1"></span> <span>功能设定</span>
+            </li>
+            <li>
+                <span class="shezhi shezhi_2"></span> <span>用户管理</span>
+            </li>
+            <li>
+                <span class="shezhi shezhi_3"></span> <span>日志</span>
+            </li>
+            <li class="current1">
+                <span class="shezhi shezhi_4"></span> <span>修改密码</span>
+            </li>
+        </ul>
+        <div class="system_Box">
+            <div  class="system_content system_content4" >
+                <div class="contain" ng-controller="myPassCtrl">
+                    <div class="bottom">
+                        <form name="myForm" class="form-horizontal userForm">
+                            <div class="form-group">
+                                <label class="control-label col-md-3">新密码：</label>
+                                <div class="col-md-5">
+                                    <input type="password" name="user_name" ng-model="name" ng-maxlength="16" ng-minlength="6" class="form-control col-md-2" required id="pass" ng-blur="CheckWord1('{{name}}')">
+                                    <i class="Eye1" ng-click="changeClass1()" ng-class="{true:'openEye',false:'closeEye'}[classFlag1]"></i>
+                                    <div ng-show="myForm.user_name.$invalid&&myForm.user_name.$dirty">
+                                        <div class="alert alert-danger">
+                                            <p ng-show="myForm.user_name.$error.required">
+                                                该项为必填项，请输入内容
+                                            </p>
+                                            <p ng-show="myForm.user_name.$error.maxlength">
+                                                字符不可以超过16位
+                                            </p>
+                                            <p ng-show="myForm.user_name.$error.minlength">
+                                                字符不可以少于6位
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span style="display: inline;">6-16 个字符，需使用字母、数字或符号组合，不能使用纯数字、纯字母、纯符号</span>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-3">确认密码：</label>
+                                <div class="col-md-5">
+                                    <input type="password" ng-model="newPass" class="form-control" required id="newPass" >
+                                    <i class="Eye2" ng-class="{true:'openEye',false:'closeEye'}[classFlag2]" ng-click="changeClass2()"></i>
+                                </div>
+                                <span style="display: inline-block;margin-top: 8px">请再次输入密码</span>
+                            </div>
+                            <div class="form-group tijiaoButton">
+                                <div ng-click="InputCheckWord()" id="tijiao">保存</div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script charset="utf-8" type="text/javascript" src="js/lib/less.min.js"></script>
+<script charset="utf-8" type="text/javascript">
+    less.watch();
+</script>
+<script src="js/lib/jquery.min.js"></script>
+<script src="js/lib/angular.js"></script>
+<script src="js/lib/ng-grid.js"></script>
+<script src="js/controller/systemCtroller4.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+[
+  {
+  "name": "手机入网时长最小值",
+  "descrite":"手机号入网时长是都不满一年12个月",
+    "icon":"judicial"
+  },
+  {
+    "name": "短信催收名单",
+    "descrite":"查询是否有涉案信息",
+    "icon":"message"
+  },
+  {
+    "name": "手机号实名",
+    "descrite":"手机号是否为本人的手机号",
+    "icon":"phone"
+  }
+]

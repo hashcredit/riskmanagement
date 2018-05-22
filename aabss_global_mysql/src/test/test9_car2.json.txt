@@ -1,0 +1,22 @@
+{
+	"third_interface_sources": [
+		{
+			"code":"ac187116-d5d3-4a32-8b8e-8946d51d6d88",//车辆基本信息
+			"para_order":{
+			    "plate":"plate"
+			},
+			"out_paras":"ALL"
+		}
+	],
+	"srcFileAsset": "D:/Work/文档/需查询车辆.xls",
+	"srcRange": "A2,B33",
+	"sheet":"Sheet1",
+	"headers": {
+		"B1":"plate"
+	},
+	"fixedProps": {
+		"plateType":"02"
+	},
+	"destFilePrefix": "D:/Work/文档/asset/需查询车辆 - ",
+	"destStartPos": "C2"
+}	

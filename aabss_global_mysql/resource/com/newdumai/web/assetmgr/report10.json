@@ -1,0 +1,370 @@
+{
+	"result": 0,
+	"message": null,
+	"data": {
+		"tags": {
+			"18833333333_867463025470991":{
+				"city": "上海市上海市",
+				"label": "未被标记",
+				"operator":"上海移动",
+				"M0":{
+					"distributionOfContacts": {
+						 "1": "8",
+						 "2": "9",
+						 "3": "7",
+						 "5": "1",
+						 "6": "1",
+						 "7": "1",
+						 "23": "1"
+					 },
+					 "dailyCallTimes": 4.632,
+					 "hourStat": {
+						 "night": 22,
+						 "day": 60,
+						 "morning": 6
+					 },
+					 "callTimes": 52, 
+					 "calledTimes": 36,
+					 "smsNotifications": null,
+					 "activeShortest": 1,
+					 "activeLongest": 138243,
+					 "activeAverage": 20020.12,
+					 "contactAmount": 28,
+					 "month": "201604"
+				},
+				"M1":{
+					"distributionOfContacts": {
+						 "1": "8",
+						 "2": "9",
+						 "3": "7",
+						 "5": "1",
+						 "6": "1",
+						 "7": "1",
+						 "23": "1"
+					 },
+					 "dailyCallTimes": 4.632,
+					 "hourStat": {
+						 "night": 22,
+						 "day": 60,
+						 "morning": 6
+					 },
+					 "callTimes": 52, 
+					 "calledTimes": 36,
+					 "smsNotifications": null,
+					 "activeShortest": 1,
+					 "activeLongest": 138243,
+					 "activeAverage": 20020.12,
+					 "contactAmount": 28,
+					 "month": "201605"
+				}
+			},
+			"18833333333_867463025470991":{
+				"city": "上海市上海市",
+				"label": "未被标记",
+				"operator":"上海移动",
+				"M0":{
+					"distributionOfContacts": {
+						 "1": "8",
+						 "2": "9",
+						 "3": "7",
+						 "5": "1",
+						 "6": "1",
+						 "7": "1",
+						 "23": "1"
+					 },
+					 "dailyCallTimes": 4.632,
+					 "hourStat": {
+						 "night": 22,
+						 "day": 60,
+						 "morning": 6
+					 },
+					 "callTimes": 52, 
+					 "calledTimes": 36,
+					 "smsNotifications": null,
+					 "activeShortest": 1,
+					 "activeLongest": 138243,
+					 "activeAverage": 20020.12,
+					 "contactAmount": 28,
+					 "month": "201604"
+				},
+				"M1":{
+					"distributionOfContacts": {
+						 "1": "8",
+						 "2": "9",
+						 "3": "7",
+						 "5": "1",
+						 "6": "1",
+						 "7": "1",
+						 "23": "1"
+					 },
+					 "dailyCallTimes": 4.632,
+					 "hourStat": {
+						 "night": 22,
+						 "day": 60,
+						 "morning": 6
+					 },
+					 "callTimes": 52, 
+					 "calledTimes": 36,
+					 "smsNotifications": null,
+					 "activeShortest": 1,
+					 "activeLongest": 138243,
+					 "activeAverage": 20020.12,
+					 "contactAmount": 28,
+					 "month": "201605"
+				}
+			}
+		},
+		"directCall": {
+			"18344567191__": {
+				"T6": {
+					"periodicity": false,
+					"dailyCallTimes": 0.007,
+					"hourStat": {
+						"night": 0,
+						"day": 1,
+						"morning": 0
+					},
+					"callTimes": 1,
+					"calledTimes": 0,
+					"earliestTime": 1453275041000,
+					"latestTime": 1453275041000
+				},
+				"M0": {
+					"periodicity": false,
+					"dailyCallTimes": 0.007,
+					"hourStat": {
+						"night": 0,
+						"day": 1,
+						"morning": 0
+					},
+					"callTimes": 1,
+					"calledTimes": 0,
+					"earliestTime": 1453275041000,
+					"latestTime": 1453275041000
+				}
+			},
+			"18344567893__": {
+				"T6": {
+					"periodicity": false,
+					"dailyCallTimes": 0.007,
+					"hourStat": {
+						"night": 0,
+						"day": 1,
+						"morning": 0
+					},
+					"callTimes": 1,
+					"calledTimes": 0,
+					"earliestTime": 1453275041000,
+					"latestTime": 1453275041000
+				},
+				"M0": {
+					"periodicity": false,
+					"dailyCallTimes": 0.007,
+					"hourStat": {
+						"night": 0,
+						"day": 1,
+						"morning": 0
+					},
+					"callTimes": 1,
+					"calledTimes": 0,
+					"earliestTime": 1453275041000,
+					"latestTime": 1453275041000
+				}
+			}
+		},
+		"commonContacts": {
+            "13717745418 | 15011527023": {
+                "M0": {
+                    "count": "1",
+                    "month": "201610"
+                },
+                "M1": {
+                    "count": "1",
+                    "month": "201609"
+                },
+                "M2": {
+                    "count": "0",
+                    "month": "201608"
+                },
+                "M3": {
+                    "count": "0",
+                    "month": "201607"
+                },
+                "M4": {
+                    "count": "0",
+                    "month": "201606"
+                },
+                "M5": {
+                    "count": "0",
+                    "month": "201605"
+                },
+                "T6": {
+                    "6a00ba5211f0e181fbce853c62bd8498": {
+                        "13717745418": {
+                            "hourStat": {
+                                "night": 2,
+                                "day": 6,
+                                "morning": 0
+                            },
+                            "dailyCallTimes": 0.045,
+                            "rateOfCallPerAve": 0,
+                            "callTimes": 0,
+                            "calledTimes": 8,
+                            "earliestTime": 1473687945000,
+                            "latestTime": 1476258287000,
+                            "periodicity": false
+                        },
+                        "15011527023": {
+                            "hourStat": {
+                                "night": 1,
+                                "day": 6,
+                                "morning": 0
+                            },
+                            "dailyCallTimes": 0.04,
+                            "rateOfCallPerAve": 0,
+                            "callTimes": 0,
+                            "calledTimes": 7,
+                            "earliestTime": 1472866796000,
+                            "latestTime": 1473855067000,
+                            "periodicity": false
+                        }
+                    }
+                }
+            }
+        },
+		"grayscale": {
+			"18833333333_867463025470991": {
+				"M0": {
+					"bank": {
+						"contactTimes": "3",
+						"orgNums": "2",
+						"earliestTime": "20160402",
+						"latestTime": "20160405"
+					},
+					"NBFI": {
+						"contactTimes": "3",
+						"orgNums": "2",
+						"earliestTime": "20160402",
+						"latestTime": "20160405"
+					},
+					"collectionAgency": {
+						"contactTimes": "3",
+						"orgNums": "2",
+						"earliestTime": "20160402",
+						"latestTime": "20160405"
+					},
+					"month": "201604"
+				},
+				"M1": {
+					"bank": {
+						"contactTimes": "3",
+						"orgNums": "2",
+						"earliestTime": "20160402",
+						"latestTime": "20160405"
+					},
+					"NBFI": {
+						"contactTimes": "3",
+						"orgNums": "2",
+						"earliestTime": "20160402",
+						"latestTime": "20160405"
+					},
+					"collectionAgency": {
+						"contactTimes": "3",
+						"orgNums": "2",
+						"earliestTime": "20160402",
+						"latestTime": "20160405"
+					},
+					"month": "201605"
+				}
+			},
+			"18833333334_867463025470991": {
+				"M0": {
+					"bank": {
+						"contactTimes": "3",
+						"orgNums": "2",
+						"earliestTime": "20160402",
+						"latestTime": "20160405"
+					},
+					"NBFI": {
+						"contactTimes": "3",
+						"orgNums": "2",
+						"earliestTime": "20160402",
+						"latestTime": "20160405"
+					},
+					"collectionAgency": {
+						"contactTimes": "3",
+						"orgNums": "2",
+						"earliestTime": "20160402",
+						"latestTime": "20160405"
+					},
+					"month": "201604"
+				},
+				"M1": {
+					"bank": {
+						"contactTimes": "3",
+						"orgNums": "2",
+						"earliestTime": "20160402",
+						"latestTime": "20160405"
+					},
+					"NBFI": {
+						"contactTimes": "3",
+						"orgNums": "2",
+						"earliestTime": "20160402",
+						"latestTime": "20160405"
+					},
+					"collectionAgency": {
+						"contactTimes": "3",
+						"orgNums": "2",
+						"earliestTime": "20160402",
+						"latestTime": "20160405"
+					},
+					"month": "201605"
+				}
+			},
+			"18833333344_867463025470991": {
+				"M0": {
+					"bank": {
+						"contactTimes": "3",
+						"orgNums": "2",
+						"earliestTime": "20160402",
+						"latestTime": "20160405"
+					},
+					"NBFI": {
+						"contactTimes": "3",
+						"orgNums": "2",
+						"earliestTime": "20160402",
+						"latestTime": "20160405"
+					},
+					"collectionAgency": {
+						"contactTimes": "3",
+						"orgNums": "2",
+						"earliestTime": "20160402",
+						"latestTime": "20160405"
+					},
+					"month": "201604"
+				},
+				"M1": {
+					"bank": {
+						"contactTimes": "3",
+						"orgNums": "2",
+						"earliestTime": "20160402",
+						"latestTime": "20160405"
+					},
+					"NBFI": {
+						"contactTimes": "3",
+						"orgNums": "2",
+						"earliestTime": "20160402",
+						"latestTime": "20160405"
+					},
+					"collectionAgency": {
+						"contactTimes": "3",
+						"orgNums": "2",
+						"earliestTime": "20160402",
+						"latestTime": "20160405"
+					},
+					"month": "201605"
+				}
+			}
+		}
+	}
+}

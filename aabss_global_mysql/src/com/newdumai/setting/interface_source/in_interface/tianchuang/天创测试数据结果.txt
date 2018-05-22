@@ -1,0 +1,89 @@
+
+http://api.tcredit.com/api/person/login
+dmkj
+密码 gAjlXGFQhAXM
+
+
+
+需求1：调试“天创API - 车辆驾驶信息”接口，并根据附件样式展示查得结果，注意返回结果中，
+cllx hpzl jdczt等字段需要参照文档附件的字典解读。
+{"data": {
+        "authResult": "查询成功_有数据",
+        "authStatus": "0",
+        "ccdjrq": "2015/9/2 1",
+        "cllx": "K31",
+        "clsbdh": "LSVYB65L4E2014558",
+        "clxh": "SVW6452FGD",
+        "cphm": "晋A1709U",
+        "cpxh": "斯柯达牌SVW6452FGD",
+        "csys": "I",
+        "fdjh": "6811",
+        "fdjxh": "CSS",
+        "hpzl": "02",
+        "jdcsyr": "张学梅",
+        "jdczt": "G",
+        "jyyxqz": "2017/9/30",
+        "syxz": "A",
+        "zwpp": "斯柯达牌"
+    },
+    "message": "成功",
+    "seqNum": "0cbb0cf66d2d4c0283c691307e99cf52",
+    "status": 0
+}
+
+需求2：根据查得结果查询“天创API－车辆驾驶信息－车辆维修保养报告”接口，
+并根据附件样式展示查得结果。注意该接口需要使用第一个接口的返回结果
+{
+    "data": {
+        "basic": {
+            "brand": "上海大众斯柯达",
+            "displacement": "1.4T",
+            "gearbox": "A/MT",
+            "model": "野帝",
+            "vin": "LSVYB65L4E2014558",
+            "year": "201311"
+        },
+        "report": [
+            {
+                "content": "首次5000公里保养；&nbsp;",
+                "material": "机滤（DAH,CPD,CKA,CSS,CSR,CST,）；&nbsp;机油；&nbsp;油底螺丝；&nbsp;油底螺丝密封环；&nbsp;",
+                "mileage": "5860",
+                "repairDate": "2015-10-21",
+                "type": "质量担保保养"
+            },
+            {
+                "content": "钣金右前叶子板；&nbsp;喷漆前杠、右前叶子板；&nbsp;拆装更换右前大灯、前杠、内衬；&nbsp;",
+                "material": "前保险杠；&nbsp;轮罩衬壳-塑料；&nbsp;LED气体放电大灯；&nbsp;LED气体放电大灯；&nbsp;大灯；&nbsp;铆钉；&nbsp;抽芯铆钉帽；&nbsp;",
+                "mileage": "10292",
+                "repairDate": "2015-12-02",
+                "type": "事故车维修"
+            },
+            {
+                "content": "保养消费送冰铲1个；&nbsp;免费专项检测；&nbsp;更换机油、机滤；&nbsp;更换空气滤清器；&nbsp;尊选机油；&nbsp;",
+                "material": "冰铲；&nbsp;高端机油（尊选级4L）；&nbsp;机滤（DAH,CPD,CKA,CS；&nbsp;油底螺丝；&nbsp;空滤(CSS,CST)；&nbsp;",
+                "mileage": "12749",
+                "repairDate": "2015-12-22",
+                "type": "服务活动;常规保养"
+            },
+            {
+                "content": "拆装更换冷却液管（铁管）；&nbsp;",
+                "material": "冷却液管；&nbsp;防冻液；&nbsp;",
+                "mileage": "13864",
+                "repairDate": "2016-02-26",
+                "type": "普通索赔"
+            },
+            {
+                "content": "更换机油、机滤；&nbsp;清洗节气门及进气支管；&nbsp;免费专项检测；&nbsp;车辆检测；&nbsp;",
+                "material": "高端机油（尊选级4L）；&nbsp;油底螺丝；&nbsp;机滤（DAH,CPD,CKA,CS；&nbsp;进气系统清洗养护套装；&nbsp;",
+                "mileage": "22824",
+                "repairDate": "2016-05-20",
+                "type": "服务活动;常规保养"
+            }
+        ],
+        "result": 5,
+        "resultMsg": "报告查询成功"
+    },
+    "message": "成功",
+    "seqNum": "1922e1ffcb094042a9e8aacfd9e6d442",
+    "status": 0
+}

@@ -1,0 +1,20 @@
+{
+	"resCode": "0000",
+	"resMsg": "提交成功",
+	"data": {
+		"statusCode": "2012",
+		"statusMsg": "查询成功",
+		"result": [
+			{
+				"crimeType": "比中在逃和前科",
+				"caseType": "诈骗案 ",
+				"caseTime": "20110927",
+				"caseSource": "在逃"
+			},
+			{
+				"crimeType": "比中在逃和前科",
+				"caseSource": "前科"
+			}
+		]
+	}
+}

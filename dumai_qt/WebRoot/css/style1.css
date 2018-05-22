@@ -1,0 +1,690 @@
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/* 初始系统样式设置 */
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+/******************************/
+/* 样式类型：整体系统样式风格 */
+/* 适用范围：整个系统         */
+/******************************/
+
+body
+{
+	margin: 0px;
+}
+
+body,td,th,input,caption,a,a:hover
+{
+	font-size: 12px; 
+}
+a
+{
+	color: #000000; text-decoration: none;
+}
+a:hover
+{
+	color: #ff0000; text-decoration: none;
+}
+.title a
+{
+	color: #CFD9FD; text-decoration: none;
+}
+.title a:hover
+{
+	color: #F0ED8E; text-decoration: underline;
+}
+input.button_style
+{
+	background-image: url(bt_bg.gif); background-repeat: no-repeat; height: 31px; width: 111px; color: #FFFFFF; font-size: 12px; border: 1px solid #00527C; text-align: center; padding: 0px; margin:0px; vertical-align: top; padding-left: 5px; padding-right: 5px; padding-top: 6px; cursor: hand; background-color: #0672AF; 
+}
+
+form
+{
+	margin: 0px;
+}
+
+div
+{
+	margin: 0px;
+}
+div.absence_border
+ {
+	background-color: #FFECF2;
+
+}
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+-->
+</style>
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/* 登录和引导页样式 */
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+body.login_style
+{
+	background-image: url(login_bg2.gif); background-repeat: repeat-y; background-position: 777px 0px ;  
+}
+div.login_style
+{
+	background-image: url(login_bg1.gif); background-repeat: repeat-x; background-position: top left; height: 416px; 
+}
+div.login_style1
+{
+	background-image: url(login_bg.gif); background-repeat: no-repeat; padding-top: 40px; padding-right: 10px; height: 416px; text-align: right;  width: 768px;
+}
+div.login_chart
+{
+	padding-top: 195px; text-align: right; padding-right: 30px; color: #FFFFFF; font-weight: bold; 
+}
+div.login_chart input.text_style
+{
+	background-color: #4F86DD; border: 1px solid #FFFFFF; width: 125px; height: 20px; color: #FFFF00; font-weight: bold;
+}
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/* 各个框架页样式 */
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/******************************/
+/* 样式类型：头部页面样式风格 */
+/* 适用范围：top.jsp          */
+/******************************/
+body.frame_top
+{
+	background-image: url(top_bg.gif); background-repeat: repeat-x; background-color: #4EB77E;
+}
+
+div.frame_top
+{
+	height: 71px; background-image: url(top_logo.gif); background-repeat: no-repeat; padding-left: 250px; padding-top: 5px; padding-right: 10px;
+}
+
+table.frame_top td.frame_top_left
+{
+	padding-left: 50px;
+}
+table.frame_top td.frame_top_right
+{
+	width:260px; background-image:url('time_box.gif'); background-repeat:no-repeat; background-position: center right; color: #F8FF8E; vertical-align: top; text-align: right; padding-right: 22px; padding-top: 16px;
+}
+
+table.top_icon th
+{
+	padding: 3px; width:8%; color: #FFFFFF; white-space : nowrap; font-weight: lighter;
+}
+
+.icon_style
+{
+	cursor: hand; margin-bottom: 3px;
+}
+
+table.top_icon a
+{
+	color: #003030; 
+}
+table.top_icon a:hover 
+{
+	color: #FFFF00; 
+}
+
+.top_normal         {}
+.top_over           {padding:4px; border-left:1px solid #ffffff; border-right:1px solid #1B242E;border-top:1px solid #ffffff; border-bottom:1px solid #1B242E; cursor: hand;}
+.top_down           {padding:4px; border-left:1px solid #1B242E; border-right:1px solid #ffffff;border-top:1px solid #1B242E; border-bottom:1px solid #ffffff; cursor: hand;}
+
+.top_normal2         {}
+.top_over2           {padding:0px;border-left:1px solid #ffffff; border-right:1px solid #1B242E;cursor: hand; color: #4BFFFD;}
+.top_over3           {color: #FF0000;}
+.top_down2           {padding:0px;border-left:1px solid #1B242E; border-right:1px solid #ffffff;cursor: hand; color: #4BFFFD;}
+.style12 {
+	FONT-SIZE: 13px; COLOR: #000
+}
+.style13 {
+	FONT-SIZE: 18px; COLOR: #000
+}
+.style14 {
+	FONT-SIZE: 14px; COLOR: #000
+}
+.style15 {color: #000066}
+.style7 {color: #6593E8}
+.style3 {color: #000000}
+
+/********************************/
+/* 样式类型：菜单头部页面样式   */
+/* 适用范围：left_top.jsp       */
+/********************************/
+body.frame_left_top
+{
+	background-color: #41B274; background-image: url(left_top_bg.gif); background-repeat: no-repeat; color: #FFFFFF; font-weight: bold; margin-top: 4px;
+}
+
+
+/**********************************/
+/* 样式类型：隐藏显示页面样式风格 */
+/* 适用范围：hide.html            */
+/**********************************/
+body.frame_hide
+{
+	background-image: url(hide_bg.gif); background-repeat: no-repeat; background-position: left bottom;
+}
+table.frame_hide
+{
+	background-image: url(hide_top_bg.gif); background-repeat: no-repeat;
+}
+table.frame_hide td
+{
+	padding-top: 200px;
+}
+
+/**********************************/
+/* 样式类型：版权所有页面样式风格 */
+/* 适用范围：copyright.html            */
+/**********************************/
+body.frame_copyright
+{
+	background-image: url(bottom_bg.gif); background-repeat: repeat-x; background-color: #41B274; margin-top: 9px;
+}
+
+
+/********************************/
+/* 样式类型：菜单样式风格       */
+/* 适用范围：left.jsp           */
+/********************************/
+
+body.frame_left
+{
+	background-color: #D185BC;
+}
+
+body.frame_left div
+{
+        scrollbar-3dlight-color:#010000;
+        scrollbar-arrow-color:#FFFFFF;
+        scrollbar-base-color:#D686BD;
+        scrollbar-face-color:#D686BD;
+        scrollbar-highlight-color:#FFFFFF;
+        scrollbar-shadow-color:FFDAF9;
+        scrollbar-darkshadow-color:FFFFFF;
+	
+}
+
+/*  图标样式  */
+.leftpage 	{margin-top:10px; margin-bottom:10px; } 
+.normal         {padding:4px; border-left:1px solid #ffffff; border-right:1px solid #1B242E;border-top:1px solid #ffffff; border-bottom:1px solid #1B242E; cursor: hand;}
+.over           {padding:4px; border-left:1px solid #1B242E; border-right:1px solid #ffffff;border-top:1px solid #1B242E; border-bottom:1px solid #ffffff; cursor: hand;}
+.down           {padding:4px; border-left:1px solid #1B242E; border-right:1px solid #ffffff;border-top:1px solid #1B242E; border-bottom:1px solid #ffffff; cursor: hand;}
+
+.left_icon
+{
+	cursor: hand;
+}
+
+table.left_menu_title
+{
+	background-color: #D185BC; background-image:url('left_bt_bg.gif'); background-repeat: repeat-y; background-position: left top; height: 24px;
+}
+table.left_menu_title td
+{
+	vertical-align: top; text-align: left;  padding-top: 8px; padding-left: 20px;
+}
+table.left_menu_title a
+{
+	color: #000000; letter-spacing: 4px;
+}
+table.left_menu_title a:hover
+{
+	color: #000000; letter-spacing: 4px;
+}
+
+
+/********************************/
+/* 样式类型：横向导航风格       */
+/* 适用范围：nav.jsp            */
+/********************************/
+body.frame_nav
+{
+	margin-left: 110px; background-image:url('right-top-bg.gif'); background-repeat: repeat-x;
+}
+table.frame_nav
+{
+	background-image:url('nav_bg.gif'); background-repeat: repeat-x; color: #002E32;
+}
+table.frame_nav a
+{
+	color: #002E32;
+}
+table.frame_nav a:hover
+{
+	color: #002E32;
+}
+table.frame_nav td.frame_nav_left
+{
+	background-image:url('nav_top_bg.gif'); background-repeat: no-repeat; padding-left: 40px; vertical-align: top; padding-top: 5px;
+}
+table.frame_nav td.frame_nav_middle
+{
+	text-align: right; padding-right: 10px; vertical-align: top; padding-top: 3px;
+}
+table.frame_nav td.frame_nav_right
+{
+	padding-right: 10px; text-align: right; vertical-align: top;
+}
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/* 主体功能窗口样式 */
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+body.main
+{
+	margin: 20px; background-color: #FFFFFF; background-image:url(icon-bg.gif);background-repeat:repeat-x,repeat-y;
+}
+body.mainbig
+{
+	margin: 20px; background-color: #FFFFFF;
+}
+body.mainsmall
+{
+	margin: 20px; background-color: #FFFFFF;
+}
+body.main, body.main td, body.main th, body.main input, body.main select, body.main a, body.main a:hover, body.main div
+{
+	font-size: 14.67px;
+}
+
+body.mainbig, body.mainbig td, body.mainbig th, body.mainbig input, body.mainbig select, body.mainbig a, body.mainbig a:hover, body.mainbig div
+{
+	font-size: 16px;
+}
+
+body.mainsmall, body.mainsmall td, body.mainsmall th, body.mainsmall input, body.mainsmall select, body.mainsmall a, body.mainsmall a:hover, body.mainsmall div
+{
+	font-size: 12px;
+}
+
+/***********************************/
+/* 样式类型：表格框架              */
+/* 适用范围：所有表格外沿          */
+/***********************************/
+
+table.layout 
+{
+	background-image: url('shadow_top.gif'); background-repeat: repeat-x; background-color: #B0B0B1;
+}
+table.layout td.layout
+{
+	background-image: url('shadow_left.gif'); background-repeat: repeat-y; padding-right: 5px; padding-bottom: 4px;
+}
+table.layout div
+{
+	border: 1px solid #900C41; background-color: #B6488C;
+}
+/***********************************/
+/* 样式类型：标题样式              */
+/* 适用范围：标题外沿              */
+/***********************************/
+
+table.title_hide
+{
+	background-image: url('title_hide_bg.gif'); background-repeat: no-repeat; background-position: right top; background-color: #B6488C;
+}
+table.title_hide td
+{
+	background-image: url('title_left_bg.gif'); background-repeat: no-repeat; background-position: top left; text-align: center; padding: 5px; padding-top: 10px; cursor: hand; color: #FFFFFF;
+}
+
+table.title_show
+{
+	background-image: url('title_show_bg.gif'); background-repeat: no-repeat; background-position: top right; background-color: #B6488C;
+}
+table.title_show td
+{
+	background-image: url('title_left_bg.gif'); background-repeat: no-repeat; background-position: top left; text-align: center; padding: 5px; padding-top: 10px; cursor: hand; color: #FFFFFF;
+}
+
+
+table.chart_list
+{
+	 background-color: #FFFFFF; border-collapse:collapse; line-height: 135%; 
+}
+table.chart_list thead th
+{
+	border-right: 1px solid #D27698;
+	border-top: 1px solid #D27698;
+	background-image: url(chart_title_bg.gif);
+	background-repeat: repeat-x;
+	background-position: bottom left;
+	background-color: ffffff;
+	color: #000000;
+	padding: 5px;
+	padding-top: 7px;
+	font-weight: lighter;
+	border-bottom-color: #D27698;
+	border-left-color: #D27698;
+}
+table.chart_list th
+{
+	border-right: 1px solid #AA0044;
+	border-top: 1px solid #AA0044;
+	background-color: #FFDBE6;
+	color: #7C3D61;
+	padding: 5px;
+	padding-top: 7px;
+	font-weight: lighter;
+	border-bottom-color: #AA0044;
+	border-left-color: #AA0044;
+}
+table.chart_list td
+{
+	border-right: 1px solid #AA0044;
+	border-top: 1px solid #AA0044;
+	background-color: #FFECF2;
+	color: #636363;
+	padding: 5px;
+}
+table.chart_list a
+{
+	color: #0000ff;
+}
+table.chart_list a:hover
+{
+	color: #0000ff;
+}
+
+
+/***********************************/
+/* 样式类型：内容样式              */
+/* 适用范围：所有内容表格          */
+/***********************************/
+table.chart_form
+{
+	 background-color: #FFFFFF; border-collapse:collapse; line-height: 135%; 
+}
+table.chart_form thead th
+{
+	border-right: 1px solid #D27698;
+	border-top: 1px solid #D27698;
+	background-image: url(chart_title_bg.gif);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	background-color: #FFFFFF;
+	color: #000000;
+	padding: 5px;
+	padding-top: 7px;
+	font-weight: lighter;
+	border-bottom-color: #D27698;
+	border-left-color: #D27698;
+}
+table.chart_form th
+{
+	vertical-align: top;
+	border-right: 1px solid #000000;
+	border-top: 1px solid #FFFFFF;
+	background-color: FFDBE6;
+	color: #7C3D61;
+	padding: 5px;
+	padding-top: 7px;
+	font-weight: lighter;
+	border-top-color: #AA0044;
+	border-right-color: #AA0044;
+}
+table.chart_form td
+{
+	border-right: 1px solid #AA0044;
+	border-top: 1px solid #AA0044;
+	background-color: #FFECF2;
+	color: #636363;
+	padding: 5px;
+}
+table.chart_form a
+{
+	color: #0000ff;
+}
+table.chart_form a:hover
+{
+	color: #0000ff;
+}
+
+/***********************************/
+/* 样式类型：频道页面              */
+/* 适用范围：*_chanel.jsp          */
+/***********************************/
+table.chanel
+{
+	border: 1px solid #000000; background-color: #C2C2C2;
+}
+table.chanel td.chanel_top
+{
+	
+}
+table.chanel td.chanel_middle
+{
+	padding:4px; 
+}
+
+table.chanel_top
+{
+	border-bottom: 1px solid #FFFFFF; background-color: #41B274;
+}
+table.chanel_top td
+{
+	border-bottom: 1px solid #000000; background-image: url(chanel_bg.gif); background-repeat: repeat-x;
+}
+
+table.chanel_box
+{
+	background-color: #F4F4F4;
+}
+table.chanel_box td.chanel_box
+{
+	padding: 20px;
+}
+
+table.chanel_list td a
+{
+	color: #F45000;
+}
+.b4 {	BORDER-RIGHT: #b8c6d5 1px solid; BORDER-TOP: #b8c6d5 1px solid; BORDER-LEFT: #b8c6d5 1px solid; BORDER-BOTTOM: #b8c6d5 1px solid
+}
+
+/***********************************/
+/* 样式类型：个人工作台页面        */
+/* 适用范围：person.jsp            */
+/***********************************/
+body.person
+{
+    background-image:url(icon-bg.gif);background-repeat:repeat-x,repeat-y;
+}
+table.person
+{
+	border: 1px solid #000000; background-color:#D185BC;
+}
+table.person td.person_top
+{
+	background-image: url(person_bg.gif);
+}
+table.person td.person_middle
+{
+	padding-right:20px; padding-left: 20px; vertical-align: bottom; padding-top: 0px; padding-bottom: 0px;
+}
+table.person td.person_bottom_left
+{
+	padding-bottom:20px; padding-left:20px; padding-right:0px; padding-top:0px;" width="70%
+}
+table.person td.person_bottom_right
+{
+	padding:20px;
+}
+
+table.message_box
+{
+	border-left: 1px solid #FFFFFF; border-right: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF; background-color: #FFCCF1;
+}
+table.message_box td
+{
+	padding:20px;
+}
+
+table.person_message_title
+{
+	background-image: url(person_bg.gif); background-repeat: repeat-x;
+}
+table.person_message_title td
+{
+	background-image: url(person_top.gif); background-repeat: no-repeat; padding-left: 50px; color: #FFFFFF;
+}
+table.person_message_title th
+{
+	background-image: url(person_right.gif); background-repeat: no-repeat; background-position: right top;
+}
+
+.normal1            {padding:0px;  border:1px solid #D185BC; width: 81px; height: 81px; }
+.over1              {padding:0px;  border-left:1px solid #ffffff; border-right:1px solid #1B242E;border-top:1px solid #ffffff; border-bottom:1px solid #1B242E; }
+.down1              {padding:0px;  border-left:1px solid #1B242E; border-right:1px solid #ffffff;border-top:1px solid #1B242E; border-bottom:1px solid #ffffff; }
+
+.main-tb1
+{
+	background-image: url(main-tb1.gif); background-repeat: no-repeat;
+}
+.main-tb2
+{
+	background-image: url(main-tb2.gif); background-repeat: no-repeat;
+}
+.main-tb3
+{
+	background-image: url(main-tb3.gif); background-repeat: no-repeat;
+}
+.main-tb4
+{
+	background-image: url(main-tb4.gif); background-repeat: no-repeat;
+}
+.css_longbutton
+{
+    BORDER-TOP-WIDTH: 1px;
+    BORDER-LEFT-WIDTH: 1px;
+    FONT-SIZE: 80px; 
+    BORDER-BOTTOM-WIDTH: 1px;
+    CURSOR: hand;
+    PADDING-TOP: 2px;
+    BORDER-RIGHT-WIDTH: 1px;
+	height:35px;
+}
+.css_longbutton1
+{
+    BORDER-TOP-WIDTH: 1px;
+    BORDER-LEFT-WIDTH: 1px;
+    FONT-SIZE: 80px; 
+    BORDER-BOTTOM-WIDTH: 1px;
+    CURSOR: hand;
+    PADDING-TOP: 2px;
+    BORDER-RIGHT-WIDTH: 1px;
+	height:35px;
+}
+.css_longbutton2
+{
+    BORDER-TOP-WIDTH: 1px;
+    BORDER-LEFT-WIDTH: 1px;
+    FONT-SIZE: 80px; 
+    BORDER-BOTTOM-WIDTH: 1px;
+    CURSOR: hand;
+    PADDING-TOP: 2px;
+    BORDER-RIGHT-WIDTH: 1px;
+	height:35px;
+}.css_longbutton3
+{
+    BORDER-TOP-WIDTH: 1px;
+    BORDER-LEFT-WIDTH: 1px;
+    FONT-SIZE: 80px; 
+    BORDER-BOTTOM-WIDTH: 1px;
+    CURSOR: hand;
+    PADDING-TOP: 2px;
+    BORDER-RIGHT-WIDTH: 1px;
+	height:35px;
+}
+.css_longbutton4
+{
+    BORDER-TOP-WIDTH: 1px;
+    BORDER-LEFT-WIDTH: 1px;
+    FONT-SIZE: 80px; 
+    BORDER-BOTTOM-WIDTH: 1px;
+    CURSOR: hand;
+    PADDING-TOP: 2px;
+    BORDER-RIGHT-WIDTH: 1px;
+	height:35px;
+}
+/***********************************/
+/* 样式类型：弹出页面              */
+/* 适用范围：pop_*.jsp             */
+/***********************************/
+table.pop_top
+{
+	background-image: url(pop_top_bg.gif); background-repeat: repeat-x;
+}
+table.pop_top td
+{
+	background-image: url(pop_top_title.gif); background-repeat: no-repeat;
+}
+
+div.pop_div
+{
+	overflow: auto; padding: 20px; border: 1px solid #FF00000;
+}
+
+table.pop_bottom
+{
+	background-color: #547EA1;
+}
+table.pop_bottom td
+{
+	text-align: right; padding-right: 5px;
+}
+table.head_show 
+{
+	border-collapse:collapse;
+	height: 63px;
+	font-size: 15px;
+	line-height: 23px;
+}
+table.head_show td
+{
+	background-image: url(f-middle-bg.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+	color: #991F1F;
+	padding: 7px 5px 5px;
+	font-weight: bold;
+	height: 63px;
+	font-size: 15px;
+}
+table.show 
+{
+	border-collapse:collapse;
+    background-color: #FFECF2;
+}
+table.show td
+{
+	padding: 5px;
+	padding-top: 3px;
+	background-color: #FFECF2;
+}
+body.bg_color
+{
+    background-color: #FFECF2;
+	}
+/***********************************/
+/* 样式类型：退出页面              */
+/* 适用范围：quite.jsp             */
+/***********************************/
+
+body.quite
+{
+	background-color: #51BAE7;
+}
+.tipt {
+background-color: #0DA4F6;
+}

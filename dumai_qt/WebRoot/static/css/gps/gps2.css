@@ -1,0 +1,248 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    min-width: 800px;
+    overflow: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+.loading {
+	position:absolute;
+ 	top:50%;
+ 	left:50%;
+ 	margin-left:-100px;
+ 	margin-top:-0.6rem;
+    display: inline-block;
+    overflow: hidden;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: text-bottom;
+    font-size:30px;
+}
+
+.loading::after {
+    display: inline-table;
+    white-space: pre;
+    text-align: left;
+}
+
+.loading.rhomb::after {
+   content: "◇◇◇◇◇\A◈◇◇◇◇\A◇◈◇◇◇\A◇◇◈◇◇\A◇◇◇◈◇\A◇◇◇◇◈\A◇◇◇◇◇";
+   font-size:40px;
+   color:black;
+   animation: spin6 2s steps(6) infinite;
+ }
+ @keyframes spin6  { to { transform: translateY( -180px); } }
+
+ 
+@-webkit-keyframes stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) } 
+  20% { -webkit-transform: scaleY(1.0) }
+}
+ 
+@keyframes stretchdelay {
+  0%, 40%, 100% {
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% {
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: #0050B6;
+    text-align: center;
+    font-size: 28px;
+    font-weight: normal;
+    word-wrap: normal;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: white;
+}
+
+.con_list{
+    font-size: 0;
+}
+.con_list li{
+    width: 50%;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border-bottom: 4px solid transparent;
+
+}
+.con_list li a{
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+    text-decoration: none;
+    color:rgb(192,192,192);
+}
+.con_list li a:hover{
+	 color:rgb(192,192,192);
+}
+li.current{
+    border-bottom: 4px solid #0050B6;
+}
+.con_info{
+    width: 100%;
+    height: 80%;
+    border: 1px solid;
+}
+/*报警*/
+.messbox{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.messbox .warntitle{
+    width: 100%;
+    height: 35px;
+    background: #3eaf28;
+}
+.messbox .warnContent{
+    width: 100%;
+    height: 85%;
+    font-size: 0;
+}
+.messbox .warnContent .left{
+    float: left;
+    width: 50%;
+    height: 100%;
+
+}
+.warnContent .left .title{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: lightgrey;
+}
+.left .title span{
+    font-size: 14px;
+    display: inline-block;
+    width: 20%;
+}
+.left .selectLi{
+    width: 100%;
+    height: 95%;
+    overflow-y: auto;
+}
+.left .selectLi li{
+    width: 100%;
+    height: 39px;
+    line-height: 40px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+.left .selectLi li:first-child{
+    background: rgb(101, 191, 83);
+    color: rgb(255, 255, 255);
+}
+.left .selectLi li span{
+    font-size: 14px;
+    display: inline-block;
+    width: 20%;
+    cursor: pointer;
+}
+.warnContent .right{
+    width: 49%;
+    height: 100%;
+    background: lightgrey;
+    float: left;
+    border: 1px solid;
+}
+.right #posMap{
+    width: 100%;
+    height: 100%;
+    background: yellow;
+}
+/* 轨迹*/
+.trajectory{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 13px;
+}
+.traje_title_up,.traje_title_down{
+    height: 35px;
+    background: #34ab1c;
+    color: white;
+    line-height: 35px;
+}
+.traje_title_down{
+    background: lightgrey;
+}
+#traceMap{
+    width: 100%;
+    height: 82%;
+    border: 1px solid;
+}
+input{
+    vertical-align: middle;
+}
+input[type="button"]{
+    height:22px;
+    background: lightblue;
+    border: 1px solid green;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px black;
+}
+input.end{
+    background: lightgrey;
+    disabled:true;
+}
+.scroll-wrap {
+    height: 20px;
+    padding: 10px 20px 0 20px;
+    background: #f5f5f5;
+}
+.scroll-bg {
+    width: 100%;
+    height: 10px;
+    background: #cbced2;
+    position: relative;
+    margin: 0 auto;
+}
+.fl {
+    float: left;
+}
+.scroll-up {
+    width: 5px;
+    height: 10px;
+    background: #34ab1c;
+    position: relative;
+    top:0px;
+
+
+}
+.scroll-cur {
+    position: relative;
+    width: 24px;
+    background: url("../../../img/hua.jpg") no-repeat;
+    height: 24px;
+    top:-7px;
+    cursor: pointer;
+}
+.mark{
+    position: absolute;
+    top:129px;
+    width: 100%;
+    height: 30px;
+    background: rgba(0,0,0,.1);
+    display: none;
+}
+
+
+
+

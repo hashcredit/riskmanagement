@@ -1,0 +1,12 @@
+1.初始化
+	1. 根据浏览器语言环境加载EasyUI语言包,实现本地化
+	2. 以后会实现EasyUI的主题加载
+	
+2.覆盖jQuery的方法
+	1. $.fn.text 参加添加默认值,调用时如:$(selector).text(msg,"我是默认值") ,当msg为null(或者undefined)时元素的text将是"我是默认值"
+	
+3.扩展jQuery的方法
+	1.扩展两个文本框内容一致校验:equalTo[selector,msg]
+	2.扩展日期操作:格式化,将字符串转换为日期等，详情看源码的注释
+	3.扩展QueryString反序列函数,$.deserialize(qs),浅层的，
+		例如key.subkey=1不会转换为{key:{subkey:1}}形式，会转换为{"key.subkey":"1"}的形式，对于key=a&key=b会转换为{key:["a","b"]}

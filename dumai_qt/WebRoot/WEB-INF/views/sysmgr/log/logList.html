@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="mySystem">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet/less" href="css/system.less" type="text/less">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ng-grid.css">
+
+</head>
+<body>
+
+<div class="system" id="system" ng-controller="mySystem">
+    <div class="system_header">
+        <h5>读脉风控管理平台<a href="#/homePage"></a></h5>
+    </div>
+    <div class="system_bodies">
+        <ul>
+            <li>
+                <span class="shezhi shezhi_1"></span> <span>功能设定</span>
+            </li>
+            <li>
+                <span class="shezhi shezhi_2"></span> <span>用户管理</span>
+            </li>
+            <li class='current1'>
+                <span class="shezhi shezhi_3"></span> <span>日志</span>
+            </li>
+            <li>
+                <span class="shezhi shezhi_4"></span> <span>修改密码</span>
+            </li>
+        </ul>
+        <div class="system_Box">
+
+            <div  class="system_content system_content3" >
+                <div ng-controller="logGridCtrl">
+                    <div class="log_gridStyle" ng-grid="gridOptions"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script charset="utf-8" type="text/javascript" src="js/lib/less.min.js"></script>
+<script charset="utf-8" type="text/javascript">
+    less.watch();
+</script>
+<script src="js/lib/jquery.min.js"></script>
+<script src="js/lib/angular.js"></script>
+<script src="js/lib/ng-grid.js"></script>
+<script src="js/controller/systemCtroller3.js"></script>
+</body>
+</html>

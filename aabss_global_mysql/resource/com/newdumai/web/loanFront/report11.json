@@ -1,0 +1,153 @@
+{
+	"result": 0,
+	"message": null,
+	"data": {
+		"phone":"",
+		"imsi":"",
+		"imei":"",
+		"record":[
+			{
+				"matchType":"",
+				"matchValue":"",
+				"matchId":"",
+				"classification":[
+					{
+						"M3":{ 
+							"bankLoan":{ 
+								"recordNums":"1", 
+								"orgNums":"2" ,
+								"maxAmount":"(3000, 4000]", 
+								"maxAmountDate":"",
+								"longestDays":"" 
+							},
+							"bankCredit":{
+								"recordNums":"5", 
+								"orgNums":"6" ,
+								"maxAmount":"(1000, 5000]", 
+								"maxAmountDate":"",
+								"longestDays":"" 
+							},
+							"otherLoan":{
+								"recordNums":"5", 
+								"orgNums":"61" ,
+								"maxAmount":"(1000, 5000]", 
+								"maxAmountDate":"",
+								"longestDays":"" 
+							},
+							"otherCredit":{
+								"recordNums":"15", 
+								"orgNums":"6" ,
+								"maxAmount":"(8000, 10000]", 
+								"maxAmountDate":"",
+								"longestDays":"" 
+							}
+						}
+					},
+					{
+						"M6":{ 
+							"bankLoan":{ 
+								"recordNums":"1", 
+								"orgNums":"2" ,
+								"maxAmount":"(3000, 4000]", 
+								"maxAmountDate":"",
+								"longestDays":"" 
+							},
+							"bankCredit":{
+								"recordNums":"5", 
+								"orgNums":"6" ,
+								"maxAmount":"(1000, 5000]", 
+								"maxAmountDate":"",
+								"longestDays":"" 
+							},
+							"otherLoan":{
+								"recordNums":"5", 
+								"orgNums":"61" ,
+								"maxAmount":"(1000, 5000]", 
+								"maxAmountDate":"",
+								"longestDays":"" 
+							},
+							"otherCredit":{
+								"recordNums":"15", 
+								"orgNums":"6" ,
+								"maxAmount":"(8000, 10000]", 
+								"maxAmountDate":"",
+								"longestDays":"" 
+							}
+						}
+					}
+				]
+			},
+			{
+				"matchType":"",
+				"matchValue":"",
+				"matchId":"",
+				"classification":[
+					{
+						"M3":{ 
+							"bankLoan":{ 
+								"recordNums":"1", 
+								"orgNums":"2" ,
+								"maxAmount":"(3000, 4000]", 
+								"maxAmountDate":"",
+								"longestDays":"" 
+							},
+							"bankCredit":{
+								"recordNums":"5", 
+								"orgNums":"6" ,
+								"maxAmount":"(1000, 5000]", 
+								"maxAmountDate":"",
+								"longestDays":"" 
+							},
+							"otherLoan":{
+								"recordNums":"5", 
+								"orgNums":"61" ,
+								"maxAmount":"(1000, 5000]", 
+								"maxAmountDate":"",
+								"longestDays":"" 
+							},
+							"otherCredit":{
+								"recordNums":"15", 
+								"orgNums":"6" ,
+								"maxAmount":"(8000, 10000]", 
+								"maxAmountDate":"",
+								"longestDays":"" 
+							}
+						}
+					},
+					{
+						"M3":{ 
+							"bankLoan":{ 
+								"recordNums":"1", 
+								"orgNums":"2" ,
+								"maxAmount":"(3000, 4000]", 
+								"maxAmountDate":"",
+								"longestDays":"" 
+							},
+							"bankCredit":{
+								"recordNums":"5", 
+								"orgNums":"6" ,
+								"maxAmount":"(1000, 5000]", 
+								"maxAmountDate":"",
+								"longestDays":"" 
+							},
+							"otherLoan":{
+								"recordNums":"5", 
+								"orgNums":"61" ,
+								"maxAmount":"(1000, 5000]", 
+								"maxAmountDate":"",
+								"longestDays":"" 
+							},
+							"otherCredit":{
+								"recordNums":"15", 
+								"orgNums":"6" ,
+								"maxAmount":"(8000, 10000]", 
+								"maxAmountDate":"",
+								"longestDays":"" 
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

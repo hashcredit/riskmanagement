@@ -1,0 +1,8 @@
+public static String queryLoan(Map<String,Object> params){
+		params.put("url","http://www.zhichengcredit.com/CreditPortal/api/queryLoan/v2");
+		return exec(params);
+	}
+	public static String queryBlackList(Map<String,Object> params){
+		params.put("url","http://www.zhichengcredit.com/CreditPortal/api/queryBlackList/v2");
+		return exec(params);
+	}

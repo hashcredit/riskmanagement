@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="resource"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/lib_mysql"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/dumai_new_java"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/dumai_zichan_java"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/dumai_source_java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

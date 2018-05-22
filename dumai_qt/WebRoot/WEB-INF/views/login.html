@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myLogin">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/load.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+<div class="allContent"  ng-controller="loginCtrl">
+    <canvas id="stars"></canvas>
+    <div class="contain">
+        <div class="logo" id="logo"></div>
+        <div class="circle_pure">
+            <ul>
+                <li class="user_load"><i class="icon_user"></i><input type="text" class="user" placeholder="用户名" ng-model="user_name"></li>
+                <li class="password_load" ><i class="icon_password"></i><input type="text" class="password" placeholder="请输入密码" ng-model="user_password"></li>
+                <li style="margin-top: 20px" class="yzm">
+                    <div><span ng-bind="num1"></span><span ng-bind="fuhao"></span><span ng-bind="num2"></span>=</div>
+                    <input type="number" placeholder="整数" ng-model="value" class="yam_num" ng-keyup="myKeyup($event)">
+                    <a href="javascript:;" ng-click="changeYzm()">换一张</a>
+                </li>
+                <li style="margin-top: 20px;padding-left: 0px"><input type="button" value="登录" class="sub" ng-click="login()" ></li>
+                <li class="extra" style="margin-top: 10px" ng-click="extra()">
+                    <label class="load_label"></label><input type="checkbox" checked class="che_ck">记住我
+                    <img src="./image/duigou.png" alt="选择">
+                    <a href="javascript:;">忘记密码</a>
+                </li>
+            </ul>
+        </div>
+        <div class="circle" id="circle"></div>
+        <div class="tip_error">您输入的密码有误，<br>请重新输入！<i class="close"></i></div>
+        <div class="tip_error2">您输入的验证码有误，<br>请重新输入！<i class="close"></i></div>
+        <div class="tip_error3" style=" padding-top: 40px;">请输入您的账号或密码！<i class="close"></i></div>
+    </div>
+</div>
+<script src="js/lib/jquery.min.js"></script>
+<script src="js/lib/angular.js"></script>
+<script src="js/lib/jquery-ui.js"></script>
+<script src="js/model/canvas.js"></script>
+<script src="js/controller/loginControll.js"></script>
+</body>
+</html>

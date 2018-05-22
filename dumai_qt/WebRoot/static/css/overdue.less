@@ -1,0 +1,321 @@
+@import "public.less";
+.overDuePage{
+  position: absolute;
+  top:10%;
+  left:200px;
+  width: 85%;
+  height: 90%;
+  padding: 0 30px;
+  color: white;
+  background: #0D2433;
+  margin-left: 20px;
+  h5{
+    width: 100%;
+    height: 30px;
+    line-height: 20px;
+    margin-bottom: 0;
+    cursor: pointer;
+    span{
+      float: right;
+      color: #E8325A;
+    }
+    .over_back{
+      width: 18px;
+      height: 18px;
+      background: url("../images/overdue_back.png") no-repeat;
+      margin-right:5px;
+      vertical-align: middle;
+    }
+  }
+  .overCon{
+    position: relative;
+    width: 100%;
+    height: 95%;
+    .over_title{
+      position: absolute;
+      width: 100%;
+      height: 40px;
+      margin-bottom: 0;
+      font-size: 0;
+      background: #253B4B;
+      li{
+        display: inline-block;
+        padding: 0 45px;
+        line-height: 40px;
+        border-right: 2px solid #0D2433;
+        font-size: 12px;
+        margin-right: 2px;
+        margin-left: -1px;
+        span{
+          &.icon_peop{
+            float: left;
+            position: relative;
+            left:-44px;
+            top:1px;
+            width: 40px;
+            height: 40px;
+            background: url("../images/overdue_pp.png") no-repeat;
+          }
+          &:nth-child(2){
+            font-size: 14px;
+            color: #4BAB8E;
+          }
+        }
+        &.dzReport{
+          background: #3b4f5d;
+          cursor: pointer;
+          color: #4BAB8E;
+          &:hover{
+            background: #62727d;
+          }
+        }
+      }
+    }
+    .over_box{
+      position: absolute;
+      width: 100%;
+      height: 94%;
+      margin-top: 50px;
+      overflow: hidden;
+      .over_left{
+        position:absolute;
+        left:0;
+        width: 20%;
+        height: 400px;
+        color:#D1DEF4;
+        font-size: 12px;
+        padding: 20px;
+        background: #0F2B39;
+        ul{
+          li{
+            height: 28px;
+            line-height: 28px;
+            textarea{
+              vertical-align: top;
+              margin-top: 10px;
+              padding: 5px;
+              background: #253B4B;
+              border: none;
+              outline: none;
+              resize:none;
+              width: 65%;
+            }
+          }
+        }
+        .anniu{
+          position: absolute;
+          bottom:20px;
+          padding-left: 17%;
+          .agree,.refuse{
+            width: 72px;
+            height: 24px;
+            background: #58D0A4;
+            border-radius: 4px;
+            letter-spacing: 10px;
+            padding-left: 10px;
+          }
+          .refuse{
+            background: #F9335D;
+            margin-left: 20px;
+          }
+        }
+      }
+      .over_left_sheng{
+        height:460px;
+        ul{
+          li{
+            margin-bottom: 10px;
+            span{
+              &:nth-child(1){
+                width: 85px;
+                text-align: right;
+              }
+            }
+            &.soloSel{
+              margin-bottom: 40px;
+              span{
+                vertical-align: top;
+              }
+              div{
+                width: 57%;
+                display: inline-block;
+                margin-left: -3px;
+                label{
+                  display: inline-block;
+                  padding-left: 16px;
+                  cursor: pointer;
+                  background: url("../images/radio_no.png") no-repeat left center;
+                  font-weight: 200;
+                  margin-left: 20px;
+                  //margin-bottom: -5px;
+                  &.checked {
+                    background: url("../images/radio_ok.png") no-repeat left center;
+                  }
+                  //&:nth-child(3){
+                  //  margin-left: 20px;
+                  //}
+                }
+                input{
+                  display: none;
+                }
+              }
+
+            }
+            textarea{
+              width: 58%;
+              margin-left: -4px;
+            }
+          }
+        }
+        .anniu{
+          padding-left: 32%;
+          bottom: 15px;
+        }
+        .info_header_date{
+          color: @bg4;
+          p{
+            position: relative;
+            color: @bg4;
+            font-weight: 200;
+            .hasDatepicker{
+              width: 103px;
+              height: 30px;
+              line-height: 30px;
+              vertical-align: middle;
+              background: #172936;
+              border: 1px solid #4f5c65;
+              outline:none;
+              padding-left: 5px;
+              font-size: @f2;
+              //border-radius: 4px;
+
+            }
+            i{
+              position: relative;
+              left:-25px;
+              top:7px;
+              width: 20px;
+              height: 20px;
+              background: url("../images/shijian.png") no-repeat;
+            }
+
+          }
+        }
+        input,select{
+          display: inline-block;
+          background:#253B4B;
+          height: 30px;
+          border: 1px solid #2A475C;
+          font-size: @f2;
+
+        }
+        select{
+          margin-left: -4px;
+          width: 58%;
+        }
+      }
+      .over_right{
+        position: absolute;
+        width: 79%;
+        height:100%;
+        color: black;
+        background: #0F2B39;
+
+        .gridStyle{
+          position: absolute;
+          width: 100%;
+          height:100%;
+          color: #D1DEF4;
+          font-size: 12px;
+          text-align: center;
+          background: #0F2B39;
+        }
+        .ngTopPanel,.ngGroupPanel,.ngFooterPanel,.ngRow.even,.ngRow.odd {
+          background:none;
+        }
+        .ngCell{border-bottom:1px solid #203E50;}
+        .ngGrid {
+          background-color: #0F2B39;
+        }
+        .ngHeaderScroller{
+          border-bottom: 1px solid #253B4B;
+        }
+        .ngVerticalBarVisible {
+          width: 1px;
+          background:#203E50;
+        }
+        .ngFooterPanel {
+          border-top: 1px solid transparent;
+          position: relative;
+        }
+        .ngTotalSelectContainer{
+          display: none;
+        }
+        .ngHeaderContainer{
+          font-weight: 200;
+        }
+        .ng-valid{
+          background: #2A475C;
+          border: 1px solid #2A475C;
+          margin-left:-2px;
+          margin-top: 0px;
+          margin-right: 1px;
+
+        }
+        .ngLabel{
+          margin-right: 5px;
+        }
+        .ngPagerControl{
+          background: none;
+          .ngPagerButton{
+            background: #253B4B;
+            outline: none;
+            border: none;
+            padding-left: 8px;
+            padding-top: 0px;
+            height: 27px;
+            margin-left: -2px;
+            .ngPagerFirstBar,.ngPagerPrevTriangle,.ngPagerNextTriangle,.ngPagerLastBar {
+              width: 14px;
+              height: 14px;
+              background: url("../images/icon_fenye.png") no-repeat;
+            }
+            .ngPagerFirstBar,.ngPagerLastBar {
+
+              margin-top:-2px;
+              margin-left: 1px;
+              border-left: none;
+              background-position:-18px -13px;
+
+            }
+            .ngPagerPrevTriangle{
+              background-position:-18px -43px;
+            }
+            .ngPagerNextTriangle{
+              background-position:-18px -61px;
+            }
+            .ngPagerLastBar{
+              background-position:-18px -25px;
+            }
+
+          }
+        }
+
+        .ngGridMaxPagesNumber{
+          display: none;
+        }
+        .ngFooterPanel{
+          padding-right: 20px;
+        }
+      }
+      .over_right_cui,.over_right_sheng{
+        left:20%;
+        margin-left: 20px;
+      }
+      .over_right_account{
+        width: 100%;
+      }
+    }
+
+  }
+}

@@ -1,0 +1,30 @@
+BODY {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 160%
+}
+TD {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 130%
+}
+.white12 {
+	FONT-SIZE: 14px; COLOR: #ffffff; FONT-FAMILY: "Geneva", "Arial", "Helvetica", "sans-serif"; TEXT-DECORATION: none
+}
+.redb {
+	FONT-WEIGHT: bold; COLOR: #a10916; TEXT-DECORATION: none
+}
+.redb2 {
+	FONT-WEIGHT: bold; COLOR: #85070b
+}
+.button1 {
+	BORDER-RIGHT: #ffbb8c 1px solid; BORDER-TOP: #ffbb8a 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #e7731e 1px solid; BORDER-BOTTOM: #ae2b01 1px solid; BACKGROUND-COLOR: #fedec7
+}
+.black {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.black:hover {
+	COLOR: #330000; TEXT-DECORATION: none
+}
+.right_bottom {
+	BORDER-BOTTOM: #333333 1px dashed
+}
+.black-13type {
+	FONT-SIZE: 13px; COLOR: #3e3e3e
+}

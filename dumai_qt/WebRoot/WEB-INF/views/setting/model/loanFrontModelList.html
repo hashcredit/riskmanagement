@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myRule">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet/less" href="css/model.less" type="text/less">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/load.css">
+    <link rel="stylesheet" href="css/ng-grid.css">
+</head>
+<body>
+<div id="menuModel" ng-controller="myMenu3">
+    <div class="header">
+        <ul>
+            <li><i class="icon_system"></i><span>系统设置</span></li>
+            <li><i class="icon_data"></i><span>数据报表</span></li>
+            <li><i class="icon_traffic"></i><span>数据流量</span></li>
+        </ul>
+        <h5><a href="#login">退出</a></h5>
+        <div class="info_header">
+            <label class="info_header_date"> <div class="markLine"></div><span class="dark"></span><p>时间: <input type="text" id="datepicker" ng-model="date"><i ng-click="dispear()" ></i></p></label>
+            <ul>
+                <li class="current">贷前审核</li>
+                <li>贷中跟踪</li>
+                <li>逾期催款</li>
+            </ul>
+            <label class="selectName"><i class="search"></i><input type="text" placeholder="请输入借款人身份证或是姓名" class="selectName"  ng-model="value" ng-blur="tipErr()"></label>
+        </div>
+    </div>
+    <div class="bodies">
+        <div class="info_content" >
+            <div class="left">
+                <div class="member">
+                    <img src="./image/photosh.png" alt="">
+                    <p>XXXXXXX</p>
+                </div>
+                <div class="business_type">
+                    <ul class="business changeColor">
+                        <h4 ng-click="togg('.business',togflag)"><span></span>业务类型<i class="xiala" ng-class="{true:'up',false:'down'}[togflag]" ></i></h4>
+                        <li><a href="#/homePage">全部</a></li>
+                        <li><a href="#/homePage">滴滴车分期</a></li>
+                        <li><a href="#/homePage">爱抵贷</a></li>
+                        <li><a href="#/homePage">爱质贷</a></li>
+                        <li><a href="#/homePage">医美分期</a></li>
+                    </ul>
+                    <ul class="result">
+                        <li style="border-top: 1px solid #586772"><span class="no"></span>未审核</li>
+                        <li><span class="refuse"></span>拒绝</li>
+                    </ul>
+                    <ul class="waterBox" >
+                        <li><span class="ruleBox"></span><a href="#/ruleWater">规则池</a><i ng-class="{OFF:'bg1',ON:'bg2'}['OFF']">停用</i></li>
+                        <li><span class="modelBox"></span><a>模型池</a><i ng-class="{OFF:'bg2',ON:'bg1'}['OFF']">启用</i></li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="info_content1 info_rule" style="overflow: hidden;">
+                <div class="rule_list">
+                    <div class="ruleContentBox">
+                        <ul class="square square1">
+                            <h4>鉴权</h4>
+                            <li ng-repeat="powerAry in powerArys">
+                                <div class="rule_content"><span class="rule_icon {{powerAry.icon}}"></span></div>
+                                <div class="rule_tit"><p style="margin-bottom: 8px" ng-bind="powerAry.name"></p><p ng-bind="powerAry.descrite"></p></div>
+                                <div class="{{powerAry.statusflag}}" ng-click="changeItem(powerAry)"></div>
+                            </li>
+                        </ul>
+                        <ul class="square square2">
+                            <h4>反欺诈</h4>
+                            <li ng-repeat="power2Ary in power2Arys">
+                                <div class="rule_content"><span class="rule_icon {{power2Ary.icon}}"></span></div>
+                                <div class="rule_tit"><p style="margin-bottom: 8px" ng-bind="power2Ary.name" class="getRule_title"></p><p ng-bind="power2Ary.descrite"></p></div>
+                                <div class="{{power2Ary.statusflag}}" ng-click="changeItem(power2Ary)"></div>
+                            </li>
+                        </ul>
+                        <ul class="square square3">
+                            <h4>量化定价</h4>
+                            <li ng-repeat="power3Ary in power3Arys">
+                                <div class="rule_content"><span class="rule_icon {{power3Ary.icon}}"></span></div>
+                                <div class="rule_tit"><p style="margin-bottom: 8px" ng-bind="power3Ary.name" class="getRule_title"></p><p ng-bind="power3Ary.descrite"></p></div>
+                                <div class="{{power3Ary.statusflag}}" ng-click="changeItem(power3Ary)"></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tipBox" ng-class="{true:'show_tip',false:'hide_tip'}[tipFlag]">
+                    <div class="tipRule">
+                        <h5><span  ng-click="tipClose()"></span></h5>
+                        <ul>
+                            <h5>鉴权规则</h5>
+                            <li ng-repeat="aa in a" ng-bind="aa.name"></li>
+                        </ul>
+                        <ul>
+                            <h5>反欺诈</h5>
+                            <li ng-repeat="bb in b" ng-bind="bb.name"></li>
+                        </ul>
+                        <ul>
+                            <h5>量化定价</h5>
+                            <li ng-repeat="cc in c" ng-bind="cc.name"></li>
+                        </ul>
+                        <div  class="okRule"><input type="button" ng-click="backIndex()" value="确定"></div>
+                    </div>
+                </div>
+                <input type="button" value="提交" ng-click="tJRule()" class="tJ">
+            </div>
+        </div>
+    </div>
+
+</div>
+<script charset="utf-8" type="text/javascript" src="js/lib/less.min.js"></script>
+<script charset="utf-8" type="text/javascript">
+    less.watch();
+</script>
+<script src="js/lib/jquery.min.js"></script>
+<script src="js/lib/angular.js"></script>
+<script src="js/lib/jquery-ui.js"></script>
+<script src="js/lib/moment.js"></script>
+<script src="js/controller/modelController.js"></script>
+
+</body>
+</html>

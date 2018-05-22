@@ -1,0 +1,89 @@
+@charset "utf-8";
+/** CSS Document 
+ *	Created by mayue on 2016/03/30.
+**/
+
+/* reset start */
+ /*全局CSS设置*/
+  body,ul,li,input,img{
+	padding:0px;
+	margin:0px;
+		}
+  body{
+	font-family:Arial 宋体;
+	color:#444;
+	font-size:15px;
+	background-color:#EFEFEF;
+	font-weight:500;
+	}
+  ul,li{list-style:none;}
+
+  /*内容设置*/
+  .box{background-color:#ffffff;}
+  .back_btn{
+	height:44px;
+	text-align:center;
+	background:#0064bd;
+	}
+  .headline{
+	line-height:44px;
+	color:#fff;
+	font-size:18px;
+	}
+  .back_img{
+	height:22px;
+	float:left;
+	padding-top:11px;
+	padding-left:15px;
+	}
+  .info{
+	height:45px;
+	padding-left:10px;
+	color:#0064bd;
+	display:inline;
+	}
+  .blue{
+	height:16px;
+	width:6px;
+	background-color:#0064bd;
+	float:left 15px;
+	}
+  .line{
+	height:1px;
+	background:#e0e0e0;
+	}
+  .span01{
+	height:20px;
+	background:#e0e0e0;
+	}
+  li{
+	height:45px;
+	border-bottom:1px solid #e0e0e0;
+	line-height:45px;
+	}
+  span{line-height:45px;}
+  input{
+	line-height:45px;
+
+	}
+  .box .content .s1{
+  	width:88%;
+	float:right;
+	line-height:45px;
+	}
+  .content{padding-left:15px;}
+
+  .button{ 
+	height:45px;
+	border-radius:5px; 
+	background:#0064bd;
+	text-align:center; 
+	font-size:18px;
+	margin:30px;
+	}
+  .submit-btn{
+	color:#fff;
+	width:100%;
+	line-height:45px;
+	}
+  a{text-decoration:none;}

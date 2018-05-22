@@ -1,0 +1,26 @@
+private static final String ROOT_URL = "https://i.trustutn.org";
+	private static final String PHONE_URL = "https://i.trustutn.org/b/phoneinfo"; //染黑度
+	private static final String OVERDUE_URL = "https://i.trustutn.org/b/overdueClassify";//逾期
+	private static final String LOAN_URL = "/b/loanClassify";
+	private static final String BLACK_URL = "https://i.trustutn.org/b/blacklist";//黑名单
+	private static final String LOG_URL = "/b/logStatistics";
+	private static final String ID_URL = "/idCheck";
+	private static final String BANK_URL = "/bankcardauth";
+	private static final String PHONE_TAG_URL = "/phonetag";
+	private static final String PHONE_MATCH_URL = "/b/phoneMatch";
+
+	private static final String APP_ID = "120160805001";
+	private static final String PKEY = "4465a59579cbfb01d564088fae77369e";
+
+	private static final String PARAM_ID_CARD = "idCard";
+	private static final String PARAM_NAME = "name";
+	private static final String PARAM_CONTACT_MAIN = "contactMain";//被查人相关号码
+	private static final String PARAM_CONTACTS = "contacts";//联系人号码，用逗号隔开
+	private static final String PARAM_PHONE = "phone";
+
+	private static final String JSON_RESULT = "result";
+	private static final String JSON_MESSAGE = "message";
+	private static final String JSON_DATA = "data";
+
+	private static final String CRET_FILE_PATH = "cacerts";
+	private static String path = "";

@@ -1,0 +1,462 @@
+[
+  {
+    "date":"2017-3-31",
+    "person": [
+      {
+        "name": "张三",
+        "id_card": "121345511254646622",
+        "image": "",
+        "type":"滴滴车分期",
+        "status":1,
+        "status1":0,
+        "status2":1
+
+      },
+      {
+        "name": "李四",
+        "id_card": "254145511254646622",
+        "image": "",
+        "type":"滴滴车分期",
+        "status":1,
+        "status1":0,
+        "status2":0
+      },
+      {
+        "name": "扎努",
+        "id_card": "121346511254646622",
+        "image": "",
+        "type":"爱抵贷",
+        "status":1,
+        "status1":0,
+        "status2":1
+      },
+      {
+        "name": "李思",
+        "id_card": "121345511254646622",
+        "image": "",
+        "type":"爱质贷",
+        "status":1,
+        "status1":1,
+        "status2":0
+      },
+      {
+        "name": "张三",
+        "id_card": "121345511254646622",
+        "image": "",
+        "type":"医美分期",
+        "status":0,
+        "status1":1,
+        "status2":0
+      },
+      {
+        "name": "张三",
+        "id_card": "121345511254646622",
+        "image": "",
+        "type":"滴滴车分期",
+        "status":0,
+        "status1":0,
+        "status2":1
+
+      },
+      {
+        "name": "李四",
+        "id_card": "254145511254646622",
+        "image": "",
+        "type":"滴滴车分期",
+        "status":1,
+        "status1":0,
+        "status2":1
+      },
+      {
+        "name": "扎努",
+        "id_card": "121346511254646622",
+        "image": "",
+        "type":"爱抵贷",
+        "status":0,
+        "status1":1,
+        "status2":0
+      },
+      {
+        "name": "李思",
+        "id_card": "121345511254646622",
+        "image": "",
+        "type":"爱质贷",
+        "status":1,
+        "status1":0,
+        "status2":1
+      },
+      {
+        "name": "张三",
+        "id_card": "121345511254646622",
+        "image": "",
+        "type":"医美分期",
+        "status":1,
+        "status1":0,
+        "status2":0
+      },
+      {
+        "name": "李思",
+        "id_card": "121345511254646622",
+        "image": "",
+        "type":"爱质贷",
+        "status":0,
+        "status1":1,
+        "status2":1
+      },
+      {
+        "name": "张三",
+        "id_card": "121345511254646622",
+        "image": "",
+        "type":"医美分期",
+        "status":1,
+        "status1":0,
+        "status2":1
+      }
+    ]
+  },
+  {
+    "date":"2017-3-30",
+    "person": [
+      {
+        "name": "张三",
+        "id_card": "121345511254646622",
+        "image": "",
+        "type":"滴滴车分期",
+        "status":1,
+        "status1":0,
+        "status2":1
+
+      },
+      {
+        "name": "李四",
+        "id_card": "254145511254646622",
+        "image": "",
+        "type":"滴滴车分期",
+        "status":1,
+        "status1":0,
+        "status2":0
+      },
+      {
+        "name": "扎努",
+        "id_card": "121346511254646622",
+        "image": "",
+        "type":"爱抵贷",
+        "status":1,
+        "status1":0,
+        "status2":1
+      },
+      {
+        "name": "李思",
+        "id_card": "121345511254646622",
+        "image": "",
+        "type":"爱质贷",
+        "status":1,
+        "status1":1,
+        "status2":0
+      },
+      {
+        "name": "张三",
+        "id_card": "121345511254646622",
+        "image": "",
+        "type":"医美分期",
+        "status":0,
+        "status1":1,
+        "status2":0
+      },
+      {
+        "name": "张三",
+        "id_card": "121345511254646622",
+        "image": "",
+        "type":"滴滴车分期",
+        "status":0,
+        "status1":0,
+        "status2":1
+
+      },
+      {
+        "name": "李四",
+        "id_card": "254145511254646622",
+        "image": "",
+        "type":"滴滴车分期",
+        "status":1,
+        "status1":0,
+        "status2":1
+      },
+      {
+        "name": "扎努",
+        "id_card": "121346511254646622",
+        "image": "",
+        "type":"爱抵贷",
+        "status":0,
+        "status1":1,
+        "status2":0
+      },
+      {
+        "name": "李思",
+        "id_card": "121345511254646622",
+        "image": "",
+        "type":"爱质贷",
+        "status":1,
+        "status1":0,
+        "status2":1
+      },
+      {
+        "name": "张三",
+        "id_card": "121345511254646622",
+        "image": "",
+        "type":"医美分期",
+        "status":1,
+        "status1":0,
+        "status2":0
+      },
+      {
+        "name": "李思",
+        "id_card": "121345511254646622",
+        "image": "",
+        "type":"爱质贷",
+        "status":0,
+        "status1":1,
+        "status2":1
+      },
+      {
+        "name": "张三",
+        "id_card": "121345511254646622",
+        "image": "",
+        "type":"医美分期",
+        "status":1,
+        "status1":0,
+        "status2":1
+      }
+    ]
+  },
+  {
+    "date":"2017-2-29",
+    "person": [
+      {
+        "name": "张三",
+        "id_card": "121345511254646622",
+        "image": "",
+        "type":"滴滴车分期",
+        "status":1,
+        "status1":0,
+        "status2":1
+
+      },
+      {
+        "name": "李四",
+        "id_card": "254145511254646622",
+        "image": "",
+        "type":"滴滴车分期",
+        "status":1,
+        "status1":0,
+        "status2":0
+      },
+      {
+        "name": "扎努",
+        "id_card": "121346511254646622",
+        "image": "",
+        "type":"爱抵贷",
+        "status":1,
+        "status1":0,
+        "status2":1
+      },
+      {
+        "name": "李思",
+        "id_card": "121345511254646622",
+        "image": "",
+        "type":"爱质贷",
+        "status":1,
+        "status1":1,
+        "status2":0
+      },
+      {
+        "name": "张三",
+        "id_card": "121345511254646622",
+        "image": "",
+        "type":"医美分期",
+        "status":0,
+        "status1":1,
+        "status2":0
+      },
+      {
+        "name": "张三",
+        "id_card": "121345511254646622",
+        "image": "",
+        "type":"滴滴车分期",
+        "status":0,
+        "status1":0,
+        "status2":1
+
+      },
+      {
+        "name": "李四",
+        "id_card": "254145511254646622",
+        "image": "",
+        "type":"滴滴车分期",
+        "status":1,
+        "status1":0,
+        "status2":1
+      },
+      {
+        "name": "扎努",
+        "id_card": "121346511254646622",
+        "image": "",
+        "type":"爱抵贷",
+        "status":0,
+        "status1":1,
+        "status2":0
+      },
+      {
+        "name": "李思",
+        "id_card": "121345511254646622",
+        "image": "",
+        "type":"爱质贷",
+        "status":1,
+        "status1":0,
+        "status2":1
+      },
+      {
+        "name": "张三",
+        "id_card": "121345511254646622",
+        "image": "",
+        "type":"医美分期",
+        "status":1,
+        "status1":0,
+        "status2":0
+      },
+      {
+        "name": "李思",
+        "id_card": "121345511254646622",
+        "image": "",
+        "type":"爱质贷",
+        "status":0,
+        "status1":1,
+        "status2":1
+      },
+      {
+        "name": "张三",
+        "id_card": "121345511254646622",
+        "image": "",
+        "type":"医美分期",
+        "status":1,
+        "status1":0,
+        "status2":1
+      }
+    ]
+  },
+  {
+    "date":"2017-2-28",
+    "person": [
+      {
+        "name": "张三",
+        "id_card": "121345511254646622",
+        "image": "",
+        "type":"滴滴车分期",
+        "status":1,
+        "status1":0,
+        "status2":1
+
+      },
+      {
+        "name": "李四",
+        "id_card": "254145511254646622",
+        "image": "",
+        "type":"滴滴车分期",
+        "status":1,
+        "status1":0,
+        "status2":0
+      },
+      {
+        "name": "扎努",
+        "id_card": "121346511254646622",
+        "image": "",
+        "type":"爱抵贷",
+        "status":1,
+        "status1":0,
+        "status2":1
+      },
+      {
+        "name": "李思",
+        "id_card": "121345511254646622",
+        "image": "",
+        "type":"爱质贷",
+        "status":1,
+        "status1":1,
+        "status2":0
+      },
+      {
+        "name": "张三",
+        "id_card": "121345511254646622",
+        "image": "",
+        "type":"医美分期",
+        "status":0,
+        "status1":1,
+        "status2":0
+      },
+      {
+        "name": "张三",
+        "id_card": "121345511254646622",
+        "image": "",
+        "type":"滴滴车分期",
+        "status":0,
+        "status1":0,
+        "status2":1
+
+      },
+      {
+        "name": "李四",
+        "id_card": "254145511254646622",
+        "image": "",
+        "type":"滴滴车分期",
+        "status":1,
+        "status1":0,
+        "status2":1
+      },
+      {
+        "name": "扎努",
+        "id_card": "121346511254646622",
+        "image": "",
+        "type":"爱抵贷",
+        "status":0,
+        "status1":1,
+        "status2":0
+      },
+      {
+        "name": "李思",
+        "id_card": "121345511254646622",
+        "image": "",
+        "type":"爱质贷",
+        "status":1,
+        "status1":0,
+        "status2":1
+      },
+      {
+        "name": "张三",
+        "id_card": "121345511254646622",
+        "image": "",
+        "type":"医美分期",
+        "status":1,
+        "status1":0,
+        "status2":0
+      },
+      {
+        "name": "李思",
+        "id_card": "121345511254646622",
+        "image": "",
+        "type":"爱质贷",
+        "status":0,
+        "status1":1,
+        "status2":1
+      },
+      {
+        "name": "张三",
+        "id_card": "121345511254646622",
+        "image": "",
+        "type":"医美分期",
+        "status":1,
+        "status1":0,
+        "status2":1
+      }
+    ]
+  }
+]

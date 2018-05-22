@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jee="http://www.springframework.org/schema/jee" xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="    
+        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd  
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd  
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd  
+        http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-4.0.xsd  
+        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd">
+
+	<context:component-scan base-package="com.newdumai.**.**ServiceImpl"></context:component-scan>
+	
+	<bean id="dumai_zichan" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close"> 
+	    <property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://localhost:3306/finance?characterEncoding=utf-8" />
+		<property name="username" value="root" />
+		<property name="password" value="root" />
+		<property name="initialSize" value="1" />
+		<property name="minIdle" value="5" /> 
+		<property name="maxActive" value="20" />
+		<property name="maxWait" value="120000" />
+		<property name="timeBetweenEvictionRunsMillis" value="60000" />
+		<property name="minEvictableIdleTimeMillis" value="300000" />
+		<property name="validationQuery" value="SELECT 'x' FROM DUAL" />
+		<property name="testWhileIdle" value="true" />
+		<property name="testOnBorrow" value="false" />
+		<property name="testOnReturn" value="false" />
+	    <property name="filters" value="stat" /> 
+	</bean>
+	
+	<bean id="dumai_zichanTransactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dumai_zichan" />
+	</bean>
+	
+	<tx:annotation-driven transaction-manager="dumai_zichanTransactionManager" proxy-target-class="true" />
+</beans>

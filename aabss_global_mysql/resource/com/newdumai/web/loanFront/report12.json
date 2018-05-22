@@ -1,0 +1,89 @@
+{
+	"result": 0,
+	"message": null,
+	"data": {
+		"phone":"",
+		"imsi":"",
+		"imei":"",
+		"record":[
+			{
+				"matchType":"",
+				"matchValue":"",
+				"matchId":"",
+				"classification":[
+					{
+						"M3":{ 
+							"bank":{ 
+								"orgNums":"1", 
+								"loanAmount":"2" ,
+								"totalAmount":"1",
+								"repayAmount":"12" 
+							},
+							"other":{ 
+								"orgNums":"1", 
+								"loanAmount":"2" ,
+								"totalAmount":"1",
+								"repayAmount":"1212" 
+							}
+						}
+					},
+					{
+						"M3":{ 
+							"bank":{ 
+								"orgNums":"1", 
+								"loanAmount":"2" ,
+								"totalAmount":"12",
+								"repayAmount":"12" 
+							},
+							"other":{ 
+								"orgNums":"1", 
+								"loanAmount":"2" ,
+								"totalAmount":"12",
+								"repayAmount":"123" 
+							}
+						}
+					}
+				]
+			},
+			{
+				"matchType":"",
+				"matchValue":"",
+				"matchId":"",
+				"classification":[
+					{
+						"M3":{ 
+							"bank":{ 
+								"orgNums":"1", 
+								"loanAmount":"2" ,
+								"totalAmount":"23",
+								"repayAmount":"21" 
+							},
+							"other":{ 
+								"orgNums":"1", 
+								"loanAmount":"2" ,
+								"totalAmount":"12",
+								"repayAmount":"12" 
+							}
+						}
+					},
+					{
+						"M4":{ 
+							"bank":{ 
+								"orgNums":"1", 
+								"loanAmount":"2" ,
+								"totalAmount":"11",
+								"repayAmount":"11" 
+							},
+							"other":{ 
+								"orgNums":"1", 
+								"loanAmount":"2" ,
+								"totalAmount":"123",
+								"repayAmount":"123" 
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

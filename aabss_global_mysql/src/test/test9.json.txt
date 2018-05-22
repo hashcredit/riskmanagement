@@ -1,0 +1,110 @@
+{
+	"third_interface_sources": [
+		{
+			"code":"3ea2d795-2054-4907-a19a-d351c4e0f920",//yf_入网时长
+			"para_order":{
+			    "cellphone":"mobile"
+			},
+			"out_paras":[
+				{
+				    "name":"入网时长",
+				    "key":"mobileAge"
+				}			    
+			]
+		},
+		//{
+		//	"code":"d9434a08-ebf8-4eb2-9a1b-88c31b97acb5",//xs_不良信息验证
+		//	"para_order":{
+		//	    "name":"name",
+		//	    "idCard":"card_num"
+		//	},
+		//	"out_paras":[
+		//		{
+		//		    "name":"不良信息验证",
+		//		    "key":"RESULT"
+		//		}			    
+		//	]
+		//},
+		//{
+		//	"code":"897e2877-1030-48a2-a696-c81abdcdaab8",//凭安联系人
+		//	"para_order":{
+		//	    "idCard":"card_num",
+		//	    "name":"name",
+		//	    "contactMain":"mobile",
+		//	    "contactPhone1":"linkphone1",
+		//	    "contactPhone2":"linkphone2"
+		//	},
+		//	"out_paras":[
+		//		{
+		//			"key":"dailyCallTimes",
+		//		    "name":"日均通话次数"
+		//		}			    
+		//	]
+		//},
+		//{
+		//	"code":"1b500978-2eee-47a5-b937-6d3dc97a8db3",//单卡用户画像
+		//	"para_order":{
+		//	    "name":"name",
+		//	    "bankcard":"bank_num"
+		//	},
+		//	"out_paras":[
+		//		{
+		//			"key":"S0502",
+		//		    "name":"持卡人是否经常更换城市"
+		//		},
+		//		{
+		//			"key":"S0506",
+		//		    "name":"第一笔交易时间"
+		//		},
+		//		{
+		//			"key":"S0660",
+		//		    "name":"银行卡发卡地"
+		//		}		    
+		//	]
+		//},
+		//{
+		//	"code":"9bb3afce-deab-4276-a027-1f001e2e09ae",//同住人
+		//	"para_order":{
+		//	    "name":"name",
+		//	    "idcard":"card_num"
+		//	},
+		//	"out_paras":[
+		//		{
+		//		    "key":"maritalStatus",
+		//		    "name":"婚姻状况"
+		//		},
+		//		{
+		//		    "key":"birthplace",
+		//		    "name":"籍贯"
+		//		}		    
+		//	]
+		//},
+		//{
+		//	"code":"13f7ddcc-f9bd-49c7-92ed-b8077d768845",//yf_个人借款信息查询（多头借贷）
+		//	"para_order":{
+		//	    "cellphone":"mobile"
+		//	},
+		//	"out_paras":[
+		//		{
+		//		    "key":"loanNum",
+		//		    "name":"借款次数"
+		//		}	    
+		//	]
+		//}
+	],
+	"srcFileAsset": "D:/Work/文档/送技术查询.xls",
+	"srcRange": "A2,D233",
+	"sheet":"Sheet1",
+	"headers": {
+		"A1":"name",
+		"B1":"card_num",
+		"C1":"bank_num",
+		"D1":"mobile"
+	},
+	"fixedProps": [{
+		"linkphone1":"",
+		"linkphone2":""
+	}],
+	"destFilePrefix": "D:/Work/文档/asset/送技术查询 - ",
+	"destStartPos": "E2"
+}	

@@ -1,0 +1,139 @@
+@charset "utf-8";
+/*全局css样式设置*/
+html{height:100%;}
+html,body,div,span,tr,td,th,table,ol,ul,li,form{margin:0;padding:0;}
+a:link,a:visited{color:#0050b6;text-decoration:none;}
+a:hover{color:#0050b6;}
+.clear{clear:both;}
+
+
+ /*title设置*/
+.title{
+	height: 45px;
+	line-height: 45px;
+	background: #0050b6;
+	color: #fff;
+	text-align:center;
+	font-size: 20px;
+	
+}
+.exit{
+	font-size: 13px;
+	float:right;
+	padding-right: 60px;
+}
+
+.index{
+	height: 60px;
+	border-bottom:2px solid #ccc;
+	text-align: center;
+	
+}
+
+.div_tab_box{
+	width:500px;
+	height:57px; 
+	font-size:20px; 
+	margin:0 auto;
+}
+.tab_box span:
+ul{margin:0 auto;}
+li{
+		list-style: none;
+		float:left; 
+		line-height:57px ; 
+		padding:0 40px;	
+	}
+	.content_box_out{
+		border-bottom: 3px solid #0050b6; 
+		padding:0 5px 17px; 
+		color:#0050b6;
+	}
+	.content_box{
+		border-bottom: none; 
+		padding:0 5px 17px; 
+		color:#000;
+	}
+.tab_show{display: block;}
+.tab_none{display:none;}
+
+
+/*多选按钮样式*/
+.div_radio{
+	width:1200px; 
+	margin: 30px 40px; 
+}
+.div_radio table{
+	width:700px;
+	text-align:center; }
+
+/* 时间表单样式*/
+.set_time{
+	width: 1200px; 
+	height:45px; 
+	margin: 30px auto;
+}
+.name{
+	width:350px; 
+	height:40px;
+	padding-left:15px ;
+	margin-left: 15px;
+	margin-right: 25px;
+}
+.start_time,.over_time{
+	width:150px;
+	height:40px;
+	margin-left: 15px;
+	margin-right: 25px;
+}
+
+ /*表格样式*/
+.table_border{
+	width:1200px; 
+	height:495px; 
+	border:1px solid #ccc; 
+	margin:0 auto; 
+	font-size: 14px; 
+	color:#333;
+}
+.table_line{
+	width:1200px; 
+	height:45px; 
+	border-bottom:1px solid #ccc;
+}
+.table_line table{
+	width:1200px; 
+	text-align:center; 
+}
+.table_title{font-size: 16px;}
+tr{height:45px;}
+
+
+
+.table_bottom{
+	width:400;
+	height:30px; 
+	font-size: 14px; 
+	margin:25px auto ;
+	text-align: center;
+}
+.js-submit{
+		width:60px;
+		height:30px;	
+		background: none;
+		border:none;
+		background:#0050B6;
+		text-align: center;
+		line-height:30px;
+		color: #fff;
+		border-radius: 5px;
+		font-size:14px;
+		}
+#page_up{margin-right: 10px;}
+#page_down{margin-right: 25px;}
+.page_num{
+	width:35px;
+	height:28px;
+	margin-left: 15px; 
+	margin-right: 15px;
+}

@@ -1,0 +1,1259 @@
+.baseReport,
+.detailReport {
+  width:100%;
+  height:400px;
+  background: #fdfcfc;
+  padding: 0px;
+  margin-top: 0px;
+  z-index: -1;
+}
+.baseReport .base_header,
+.detailReport .base_header {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 0;
+  margin: 0;
+  border-bottom: 1px solid #D9DADA;
+}
+.baseReport .base_header li,
+.detailReport .base_header li {
+  display: inline-block;
+  font-size: 12px;
+  color: #1A3141;
+}
+.baseReport .base_header li img,
+.detailReport .base_header li img {
+  width: 38px;
+  height: 37px;
+  margin-left: 60%;
+}
+.baseReport .base_header .base_right,
+.detailReport .base_header .base_right {
+  float: right;
+}
+.baseReport .base_header .base_right li,
+.detailReport .base_header .base_right li {
+  float: left;
+  margin-right: 10px;
+}
+.baseReport .base_header .base_right li:nth-child(3) a,
+.detailReport .base_header .base_right li:nth-child(3) a {
+  font-size: 16px;
+  color: #1A3141;
+}
+.baseReport .base_header .base_right li:nth-child(3) span,
+.detailReport .base_header .base_right li:nth-child(3) span {
+  width: 20px;
+  height: 20px;
+  background-position: -692px -275px;
+  *background-position: -692px -275px;
+  vertical-align: middle;
+  margin-left: 5px;
+  margin-top: -3px;
+}
+.baseReport .base_title,
+.detailReport .base_title {
+  width: 100%;
+  text-align: center;
+  color: #F64067;
+  border: 1px solid transparent;
+  margin-top: 10px;
+}
+.baseReport .base_title p,
+.detailReport .base_title p {
+  margin: 0;
+  height: 30px;
+  line-height: 30px;
+}
+.baseReport .base_title span,
+.detailReport .base_title span {
+  
+  top: 61px;
+  right: 20px;
+  width: 73px;
+  height: 28px;
+}
+.baseReport .base_title span.loanFrontNo,
+.detailReport .base_title span.loanFrontNo {
+  background-position: -87px -145px;
+}
+.baseReport .base_title span.loanFronting,
+.detailReport .base_title span.loanFronting {
+  background-position: -87px -175px;
+}
+.baseReport .base_title span.loanFrontOK,
+.detailReport .base_title span.loanFrontOK {
+  background-position: -87px -204px;
+}
+.baseReport .base_list,
+.detailReport .base_list {
+  margin: 0;
+  width:100%;
+  height: 88%;
+  overflow-y: auto;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.baseReport .base_list .soloInfo,
+.detailReport .base_list .soloInfo,
+.baseReport .base_list .fraudRule,
+.detailReport .base_list .fraudRule,
+.baseReport .base_list .fraudScore,
+.detailReport .base_list .fraudScore,
+.baseReport .base_list .creditCheck,
+.detailReport .base_list .creditCheck,
+.baseReport .base_list .phoneCheck,
+.detailReport .base_list .phoneCheck {
+  width: auto;
+  margin: 10px 30px;
+  font-size: 12px;
+}
+.baseReport .base_list .soloInfo .solo_title,
+.detailReport .base_list .soloInfo .solo_title,
+.baseReport .base_list .fraudRule .solo_title,
+.detailReport .base_list .fraudRule .solo_title,
+.baseReport .base_list .fraudScore .solo_title,
+.detailReport .base_list .fraudScore .solo_title,
+.baseReport .base_list .creditCheck .solo_title,
+.detailReport .base_list .creditCheck .solo_title,
+.baseReport .base_list .phoneCheck .solo_title,
+.detailReport .base_list .phoneCheck .solo_title,
+.baseReport .base_list .soloInfo .fraudRule_title,
+.detailReport .base_list .soloInfo .fraudRule_title,
+.baseReport .base_list .fraudRule .fraudRule_title,
+.detailReport .base_list .fraudRule .fraudRule_title,
+.baseReport .base_list .fraudScore .fraudRule_title,
+.detailReport .base_list .fraudScore .fraudRule_title,
+.baseReport .base_list .creditCheck .fraudRule_title,
+.detailReport .base_list .creditCheck .fraudRule_title,
+.baseReport .base_list .phoneCheck .fraudRule_title,
+.detailReport .base_list .phoneCheck .fraudRule_title,
+.baseReport .base_list .soloInfo .fraudScore_title,
+.detailReport .base_list .soloInfo .fraudScore_title,
+.baseReport .base_list .fraudRule .fraudScore_title,
+.detailReport .base_list .fraudRule .fraudScore_title,
+.baseReport .base_list .fraudScore .fraudScore_title,
+.detailReport .base_list .fraudScore .fraudScore_title,
+.baseReport .base_list .creditCheck .fraudScore_title,
+.detailReport .base_list .creditCheck .fraudScore_title,
+.baseReport .base_list .phoneCheck .fraudScore_title,
+.detailReport .base_list .phoneCheck .fraudScore_title,
+.baseReport .base_list .soloInfo .creditCheck_title,
+.detailReport .base_list .soloInfo .creditCheck_title,
+.baseReport .base_list .fraudRule .creditCheck_title,
+.detailReport .base_list .fraudRule .creditCheck_title,
+.baseReport .base_list .fraudScore .creditCheck_title,
+.detailReport .base_list .fraudScore .creditCheck_title,
+.baseReport .base_list .creditCheck .creditCheck_title,
+.detailReport .base_list .creditCheck .creditCheck_title,
+.baseReport .base_list .phoneCheck .creditCheck_title,
+.detailReport .base_list .phoneCheck .creditCheck_title,
+.baseReport .base_list .soloInfo .phoneCheck_title,
+.detailReport .base_list .soloInfo .phoneCheck_title,
+.baseReport .base_list .fraudRule .phoneCheck_title,
+.detailReport .base_list .fraudRule .phoneCheck_title,
+.baseReport .base_list .fraudScore .phoneCheck_title,
+.detailReport .base_list .fraudScore .phoneCheck_title,
+.baseReport .base_list .creditCheck .phoneCheck_title,
+.detailReport .base_list .creditCheck .phoneCheck_title,
+.baseReport .base_list .phoneCheck .phoneCheck_title,
+.detailReport .base_list .phoneCheck .phoneCheck_title {
+  position:relative;
+  text-align: left;
+  color: black;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.baseReport .base_list .soloInfo .solo_title span,
+.detailReport .base_list .soloInfo .solo_title span,
+.baseReport .base_list .fraudRule .solo_title span,
+.detailReport .base_list .fraudRule .solo_title span,
+.baseReport .base_list .fraudScore .solo_title span,
+.detailReport .base_list .fraudScore .solo_title span,
+.baseReport .base_list .creditCheck .solo_title span,
+.detailReport .base_list .creditCheck .solo_title span,
+.baseReport .base_list .phoneCheck .solo_title span,
+.detailReport .base_list .phoneCheck .solo_title span,
+.baseReport .base_list .soloInfo .fraudRule_title span,
+.detailReport .base_list .soloInfo .fraudRule_title span,
+.baseReport .base_list .fraudRule .fraudRule_title span,
+.detailReport .base_list .fraudRule .fraudRule_title span,
+.baseReport .base_list .fraudScore .fraudRule_title span,
+.detailReport .base_list .fraudScore .fraudRule_title span,
+.baseReport .base_list .creditCheck .fraudRule_title span,
+.detailReport .base_list .creditCheck .fraudRule_title span,
+.baseReport .base_list .phoneCheck .fraudRule_title span,
+.detailReport .base_list .phoneCheck .fraudRule_title span,
+.baseReport .base_list .soloInfo .fraudScore_title span,
+.detailReport .base_list .soloInfo .fraudScore_title span,
+.baseReport .base_list .fraudRule .fraudScore_title span,
+.detailReport .base_list .fraudRule .fraudScore_title span,
+.baseReport .base_list .fraudScore .fraudScore_title span,
+.detailReport .base_list .fraudScore .fraudScore_title span,
+.baseReport .base_list .creditCheck .fraudScore_title span,
+.detailReport .base_list .creditCheck .fraudScore_title span,
+.baseReport .base_list .phoneCheck .fraudScore_title span,
+.detailReport .base_list .phoneCheck .fraudScore_title span,
+.baseReport .base_list .soloInfo .creditCheck_title span,
+.detailReport .base_list .soloInfo .creditCheck_title span,
+.baseReport .base_list .fraudRule .creditCheck_title span,
+.detailReport .base_list .fraudRule .creditCheck_title span,
+.baseReport .base_list .fraudScore .creditCheck_title span,
+.detailReport .base_list .fraudScore .creditCheck_title span,
+.baseReport .base_list .creditCheck .creditCheck_title span,
+.detailReport .base_list .creditCheck .creditCheck_title span,
+.baseReport .base_list .phoneCheck .creditCheck_title span,
+.detailReport .base_list .phoneCheck .creditCheck_title span,
+.baseReport .base_list .soloInfo .phoneCheck_title span,
+.detailReport .base_list .soloInfo .phoneCheck_title span,
+.baseReport .base_list .fraudRule .phoneCheck_title span,
+.detailReport .base_list .fraudRule .phoneCheck_title span,
+.baseReport .base_list .fraudScore .phoneCheck_title span,
+.detailReport .base_list .fraudScore .phoneCheck_title span,
+.baseReport .base_list .creditCheck .phoneCheck_title span,
+.detailReport .base_list .creditCheck .phoneCheck_title span,
+.baseReport .base_list .phoneCheck .phoneCheck_title span,
+.detailReport .base_list .phoneCheck .phoneCheck_title span {
+  width: 16px;
+  height: 16px;
+  background-position: -690px -99px;
+  vertical-align: middle;
+  margin-top: -3px;
+  margin-right: 5px;
+}
+.baseReport .base_list .soloInfo .solo_title h5,
+.detailReport .base_list .soloInfo .solo_title h5,
+.baseReport .base_list .fraudRule .solo_title h5,
+.detailReport .base_list .fraudRule .solo_title h5,
+.baseReport .base_list .fraudScore .solo_title h5,
+.detailReport .base_list .fraudScore .solo_title h5,
+.baseReport .base_list .creditCheck .solo_title h5,
+.detailReport .base_list .creditCheck .solo_title h5,
+.baseReport .base_list .phoneCheck .solo_title h5,
+.detailReport .base_list .phoneCheck .solo_title h5,
+.baseReport .base_list .soloInfo .fraudRule_title h5,
+.detailReport .base_list .soloInfo .fraudRule_title h5,
+.baseReport .base_list .fraudRule .fraudRule_title h5,
+.detailReport .base_list .fraudRule .fraudRule_title h5,
+.baseReport .base_list .fraudScore .fraudRule_title h5,
+.detailReport .base_list .fraudScore .fraudRule_title h5,
+.baseReport .base_list .creditCheck .fraudRule_title h5,
+.detailReport .base_list .creditCheck .fraudRule_title h5,
+.baseReport .base_list .phoneCheck .fraudRule_title h5,
+.detailReport .base_list .phoneCheck .fraudRule_title h5,
+.baseReport .base_list .soloInfo .fraudScore_title h5,
+.detailReport .base_list .soloInfo .fraudScore_title h5,
+.baseReport .base_list .fraudRule .fraudScore_title h5,
+.detailReport .base_list .fraudRule .fraudScore_title h5,
+.baseReport .base_list .fraudScore .fraudScore_title h5,
+.detailReport .base_list .fraudScore .fraudScore_title h5,
+.baseReport .base_list .creditCheck .fraudScore_title h5,
+.detailReport .base_list .creditCheck .fraudScore_title h5,
+.baseReport .base_list .phoneCheck .fraudScore_title h5,
+.detailReport .base_list .phoneCheck .fraudScore_title h5,
+.baseReport .base_list .soloInfo .creditCheck_title h5,
+.detailReport .base_list .soloInfo .creditCheck_title h5,
+.baseReport .base_list .fraudRule .creditCheck_title h5,
+.detailReport .base_list .fraudRule .creditCheck_title h5,
+.baseReport .base_list .fraudScore .creditCheck_title h5,
+.detailReport .base_list .fraudScore .creditCheck_title h5,
+.baseReport .base_list .creditCheck .creditCheck_title h5,
+.detailReport .base_list .creditCheck .creditCheck_title h5,
+.baseReport .base_list .phoneCheck .creditCheck_title h5,
+.detailReport .base_list .phoneCheck .creditCheck_title h5,
+.baseReport .base_list .soloInfo .phoneCheck_title h5,
+.detailReport .base_list .soloInfo .phoneCheck_title h5,
+.baseReport .base_list .fraudRule .phoneCheck_title h5,
+.detailReport .base_list .fraudRule .phoneCheck_title h5,
+.baseReport .base_list .fraudScore .phoneCheck_title h5,
+.detailReport .base_list .fraudScore .phoneCheck_title h5,
+.baseReport .base_list .creditCheck .phoneCheck_title h5,
+.detailReport .base_list .creditCheck .phoneCheck_title h5,
+.baseReport .base_list .phoneCheck .phoneCheck_title h5,
+.detailReport .base_list .phoneCheck .phoneCheck_title h5 {
+  position:absolute;
+  right:0;
+  width: 20%;
+  height: 20px;
+  line-height: 20px;
+  display: inline-block;
+  margin: 0;
+}
+.baseReport .base_list .soloInfo .solo_title h5 i,
+.detailReport .base_list .soloInfo .solo_title h5 i,
+.baseReport .base_list .fraudRule .solo_title h5 i,
+.detailReport .base_list .fraudRule .solo_title h5 i,
+.baseReport .base_list .fraudScore .solo_title h5 i,
+.detailReport .base_list .fraudScore .solo_title h5 i,
+.baseReport .base_list .creditCheck .solo_title h5 i,
+.detailReport .base_list .creditCheck .solo_title h5 i,
+.baseReport .base_list .phoneCheck .solo_title h5 i,
+.detailReport .base_list .phoneCheck .solo_title h5 i,
+.baseReport .base_list .soloInfo .fraudRule_title h5 i,
+.detailReport .base_list .soloInfo .fraudRule_title h5 i,
+.baseReport .base_list .fraudRule .fraudRule_title h5 i,
+.detailReport .base_list .fraudRule .fraudRule_title h5 i,
+.baseReport .base_list .fraudScore .fraudRule_title h5 i,
+.detailReport .base_list .fraudScore .fraudRule_title h5 i,
+.baseReport .base_list .creditCheck .fraudRule_title h5 i,
+.detailReport .base_list .creditCheck .fraudRule_title h5 i,
+.baseReport .base_list .phoneCheck .fraudRule_title h5 i,
+.detailReport .base_list .phoneCheck .fraudRule_title h5 i,
+.baseReport .base_list .soloInfo .fraudScore_title h5 i,
+.detailReport .base_list .soloInfo .fraudScore_title h5 i,
+.baseReport .base_list .fraudRule .fraudScore_title h5 i,
+.detailReport .base_list .fraudRule .fraudScore_title h5 i,
+.baseReport .base_list .fraudScore .fraudScore_title h5 i,
+.detailReport .base_list .fraudScore .fraudScore_title h5 i,
+.baseReport .base_list .creditCheck .fraudScore_title h5 i,
+.detailReport .base_list .creditCheck .fraudScore_title h5 i,
+.baseReport .base_list .phoneCheck .fraudScore_title h5 i,
+.detailReport .base_list .phoneCheck .fraudScore_title h5 i,
+.baseReport .base_list .soloInfo .creditCheck_title h5 i,
+.detailReport .base_list .soloInfo .creditCheck_title h5 i,
+.baseReport .base_list .fraudRule .creditCheck_title h5 i,
+.detailReport .base_list .fraudRule .creditCheck_title h5 i,
+.baseReport .base_list .fraudScore .creditCheck_title h5 i,
+.detailReport .base_list .fraudScore .creditCheck_title h5 i,
+.baseReport .base_list .creditCheck .creditCheck_title h5 i,
+.detailReport .base_list .creditCheck .creditCheck_title h5 i,
+.baseReport .base_list .phoneCheck .creditCheck_title h5 i,
+.detailReport .base_list .phoneCheck .creditCheck_title h5 i,
+.baseReport .base_list .soloInfo .phoneCheck_title h5 i,
+.detailReport .base_list .soloInfo .phoneCheck_title h5 i,
+.baseReport .base_list .fraudRule .phoneCheck_title h5 i,
+.detailReport .base_list .fraudRule .phoneCheck_title h5 i,
+.baseReport .base_list .fraudScore .phoneCheck_title h5 i,
+.detailReport .base_list .fraudScore .phoneCheck_title h5 i,
+.baseReport .base_list .creditCheck .phoneCheck_title h5 i,
+.detailReport .base_list .creditCheck .phoneCheck_title h5 i,
+.baseReport .base_list .phoneCheck .phoneCheck_title h5 i,
+.detailReport .base_list .phoneCheck .phoneCheck_title h5 i,
+.baseReport .base_list .soloInfo .solo_title h5 em,
+.detailReport .base_list .soloInfo .solo_title h5 em,
+.baseReport .base_list .fraudRule .solo_title h5 em,
+.detailReport .base_list .fraudRule .solo_title h5 em,
+.baseReport .base_list .fraudScore .solo_title h5 em,
+.detailReport .base_list .fraudScore .solo_title h5 em,
+.baseReport .base_list .creditCheck .solo_title h5 em,
+.detailReport .base_list .creditCheck .solo_title h5 em,
+.baseReport .base_list .phoneCheck .solo_title h5 em,
+.detailReport .base_list .phoneCheck .solo_title h5 em,
+.baseReport .base_list .soloInfo .fraudRule_title h5 em,
+.detailReport .base_list .soloInfo .fraudRule_title h5 em,
+.baseReport .base_list .fraudRule .fraudRule_title h5 em,
+.detailReport .base_list .fraudRule .fraudRule_title h5 em,
+.baseReport .base_list .fraudScore .fraudRule_title h5 em,
+.detailReport .base_list .fraudScore .fraudRule_title h5 em,
+.baseReport .base_list .creditCheck .fraudRule_title h5 em,
+.detailReport .base_list .creditCheck .fraudRule_title h5 em,
+.baseReport .base_list .phoneCheck .fraudRule_title h5 em,
+.detailReport .base_list .phoneCheck .fraudRule_title h5 em,
+.baseReport .base_list .soloInfo .fraudScore_title h5 em,
+.detailReport .base_list .soloInfo .fraudScore_title h5 em,
+.baseReport .base_list .fraudRule .fraudScore_title h5 em,
+.detailReport .base_list .fraudRule .fraudScore_title h5 em,
+.baseReport .base_list .fraudScore .fraudScore_title h5 em,
+.detailReport .base_list .fraudScore .fraudScore_title h5 em,
+.baseReport .base_list .creditCheck .fraudScore_title h5 em,
+.detailReport .base_list .creditCheck .fraudScore_title h5 em,
+.baseReport .base_list .phoneCheck .fraudScore_title h5 em,
+.detailReport .base_list .phoneCheck .fraudScore_title h5 em,
+.baseReport .base_list .soloInfo .creditCheck_title h5 em,
+.detailReport .base_list .soloInfo .creditCheck_title h5 em,
+.baseReport .base_list .fraudRule .creditCheck_title h5 em,
+.detailReport .base_list .fraudRule .creditCheck_title h5 em,
+.baseReport .base_list .fraudScore .creditCheck_title h5 em,
+.detailReport .base_list .fraudScore .creditCheck_title h5 em,
+.baseReport .base_list .creditCheck .creditCheck_title h5 em,
+.detailReport .base_list .creditCheck .creditCheck_title h5 em,
+.baseReport .base_list .phoneCheck .creditCheck_title h5 em,
+.detailReport .base_list .phoneCheck .creditCheck_title h5 em,
+.baseReport .base_list .soloInfo .phoneCheck_title h5 em,
+.detailReport .base_list .soloInfo .phoneCheck_title h5 em,
+.baseReport .base_list .fraudRule .phoneCheck_title h5 em,
+.detailReport .base_list .fraudRule .phoneCheck_title h5 em,
+.baseReport .base_list .fraudScore .phoneCheck_title h5 em,
+.detailReport .base_list .fraudScore .phoneCheck_title h5 em,
+.baseReport .base_list .creditCheck .phoneCheck_title h5 em,
+.detailReport .base_list .creditCheck .phoneCheck_title h5 em,
+.baseReport .base_list .phoneCheck .phoneCheck_title h5 em,
+.detailReport .base_list .phoneCheck .phoneCheck_title h5 em {
+  font-style: normal;
+  left: 40px;
+}
+.baseReport .base_list .soloInfo .solo_title h5 i,
+.detailReport .base_list .soloInfo .solo_title h5 i,
+.baseReport .base_list .fraudRule .solo_title h5 i,
+.detailReport .base_list .fraudRule .solo_title h5 i,
+.baseReport .base_list .fraudScore .solo_title h5 i,
+.detailReport .base_list .fraudScore .solo_title h5 i,
+.baseReport .base_list .creditCheck .solo_title h5 i,
+.detailReport .base_list .creditCheck .solo_title h5 i,
+.baseReport .base_list .phoneCheck .solo_title h5 i,
+.detailReport .base_list .phoneCheck .solo_title h5 i,
+.baseReport .base_list .soloInfo .fraudRule_title h5 i,
+.detailReport .base_list .soloInfo .fraudRule_title h5 i,
+.baseReport .base_list .fraudRule .fraudRule_title h5 i,
+.detailReport .base_list .fraudRule .fraudRule_title h5 i,
+.baseReport .base_list .fraudScore .fraudRule_title h5 i,
+.detailReport .base_list .fraudScore .fraudRule_title h5 i,
+.baseReport .base_list .creditCheck .fraudRule_title h5 i,
+.detailReport .base_list .creditCheck .fraudRule_title h5 i,
+.baseReport .base_list .phoneCheck .fraudRule_title h5 i,
+.detailReport .base_list .phoneCheck .fraudRule_title h5 i,
+.baseReport .base_list .soloInfo .fraudScore_title h5 i,
+.detailReport .base_list .soloInfo .fraudScore_title h5 i,
+.baseReport .base_list .fraudRule .fraudScore_title h5 i,
+.detailReport .base_list .fraudRule .fraudScore_title h5 i,
+.baseReport .base_list .fraudScore .fraudScore_title h5 i,
+.detailReport .base_list .fraudScore .fraudScore_title h5 i,
+.baseReport .base_list .creditCheck .fraudScore_title h5 i,
+.detailReport .base_list .creditCheck .fraudScore_title h5 i,
+.baseReport .base_list .phoneCheck .fraudScore_title h5 i,
+.detailReport .base_list .phoneCheck .fraudScore_title h5 i,
+.baseReport .base_list .soloInfo .creditCheck_title h5 i,
+.detailReport .base_list .soloInfo .creditCheck_title h5 i,
+.baseReport .base_list .fraudRule .creditCheck_title h5 i,
+.detailReport .base_list .fraudRule .creditCheck_title h5 i,
+.baseReport .base_list .fraudScore .creditCheck_title h5 i,
+.detailReport .base_list .fraudScore .creditCheck_title h5 i,
+.baseReport .base_list .creditCheck .creditCheck_title h5 i,
+.detailReport .base_list .creditCheck .creditCheck_title h5 i,
+.baseReport .base_list .phoneCheck .creditCheck_title h5 i,
+.detailReport .base_list .phoneCheck .creditCheck_title h5 i,
+.baseReport .base_list .soloInfo .phoneCheck_title h5 i,
+.detailReport .base_list .soloInfo .phoneCheck_title h5 i,
+.baseReport .base_list .fraudRule .phoneCheck_title h5 i,
+.detailReport .base_list .fraudRule .phoneCheck_title h5 i,
+.baseReport .base_list .fraudScore .phoneCheck_title h5 i,
+.detailReport .base_list .fraudScore .phoneCheck_title h5 i,
+.baseReport .base_list .creditCheck .phoneCheck_title h5 i,
+.detailReport .base_list .creditCheck .phoneCheck_title h5 i,
+.baseReport .base_list .phoneCheck .phoneCheck_title h5 i,
+.detailReport .base_list .phoneCheck .phoneCheck_title h5 i {
+  left: -20px;
+}
+.baseReport .base_list .soloInfo .solo_title h5 span,
+.detailReport .base_list .soloInfo .solo_title h5 span,
+.baseReport .base_list .fraudRule .solo_title h5 span,
+.detailReport .base_list .fraudRule .solo_title h5 span,
+.baseReport .base_list .fraudScore .solo_title h5 span,
+.detailReport .base_list .fraudScore .solo_title h5 span,
+.baseReport .base_list .creditCheck .solo_title h5 span,
+.detailReport .base_list .creditCheck .solo_title h5 span,
+.baseReport .base_list .phoneCheck .solo_title h5 span,
+.detailReport .base_list .phoneCheck .solo_title h5 span,
+.baseReport .base_list .soloInfo .fraudRule_title h5 span,
+.detailReport .base_list .soloInfo .fraudRule_title h5 span,
+.baseReport .base_list .fraudRule .fraudRule_title h5 span,
+.detailReport .base_list .fraudRule .fraudRule_title h5 span,
+.baseReport .base_list .fraudScore .fraudRule_title h5 span,
+.detailReport .base_list .fraudScore .fraudRule_title h5 span,
+.baseReport .base_list .creditCheck .fraudRule_title h5 span,
+.detailReport .base_list .creditCheck .fraudRule_title h5 span,
+.baseReport .base_list .phoneCheck .fraudRule_title h5 span,
+.detailReport .base_list .phoneCheck .fraudRule_title h5 span,
+.baseReport .base_list .soloInfo .fraudScore_title h5 span,
+.detailReport .base_list .soloInfo .fraudScore_title h5 span,
+.baseReport .base_list .fraudRule .fraudScore_title h5 span,
+.detailReport .base_list .fraudRule .fraudScore_title h5 span,
+.baseReport .base_list .fraudScore .fraudScore_title h5 span,
+.detailReport .base_list .fraudScore .fraudScore_title h5 span,
+.baseReport .base_list .creditCheck .fraudScore_title h5 span,
+.detailReport .base_list .creditCheck .fraudScore_title h5 span,
+.baseReport .base_list .phoneCheck .fraudScore_title h5 span,
+.detailReport .base_list .phoneCheck .fraudScore_title h5 span,
+.baseReport .base_list .soloInfo .creditCheck_title h5 span,
+.detailReport .base_list .soloInfo .creditCheck_title h5 span,
+.baseReport .base_list .fraudRule .creditCheck_title h5 span,
+.detailReport .base_list .fraudRule .creditCheck_title h5 span,
+.baseReport .base_list .fraudScore .creditCheck_title h5 span,
+.detailReport .base_list .fraudScore .creditCheck_title h5 span,
+.baseReport .base_list .creditCheck .creditCheck_title h5 span,
+.detailReport .base_list .creditCheck .creditCheck_title h5 span,
+.baseReport .base_list .phoneCheck .creditCheck_title h5 span,
+.detailReport .base_list .phoneCheck .creditCheck_title h5 span,
+.baseReport .base_list .soloInfo .phoneCheck_title h5 span,
+.detailReport .base_list .soloInfo .phoneCheck_title h5 span,
+.baseReport .base_list .fraudRule .phoneCheck_title h5 span,
+.detailReport .base_list .fraudRule .phoneCheck_title h5 span,
+.baseReport .base_list .fraudScore .phoneCheck_title h5 span,
+.detailReport .base_list .fraudScore .phoneCheck_title h5 span,
+.baseReport .base_list .creditCheck .phoneCheck_title h5 span,
+.detailReport .base_list .creditCheck .phoneCheck_title h5 span,
+.baseReport .base_list .phoneCheck .phoneCheck_title h5 span,
+.detailReport .base_list .phoneCheck .phoneCheck_title h5 span {
+  float:right;
+  margin: 0;
+  right: 0px;
+  background-position: -730px -198px;
+}
+
+.baseReport .base_list .soloInfo .fraudRule_title span,
+.detailReport .base_list .soloInfo .fraudRule_title span,
+.baseReport .base_list .fraudRule .fraudRule_title span,
+.detailReport .base_list .fraudRule .fraudRule_title span,
+.baseReport .base_list .fraudScore .fraudRule_title span,
+.detailReport .base_list .fraudScore .fraudRule_title span,
+.baseReport .base_list .creditCheck .fraudRule_title span,
+.detailReport .base_list .creditCheck .fraudRule_title span,
+.baseReport .base_list .phoneCheck .fraudRule_title span,
+.detailReport .base_list .phoneCheck .fraudRule_title span,
+.baseReport .base_list .soloInfo .repayment_title span,
+.detailReport .base_list .soloInfo .repayment_title span,
+.baseReport .base_list .fraudRule .repayment_title span,
+.detailReport .base_list .fraudRule .repayment_title span,
+.baseReport .base_list .fraudScore .repayment_title span,
+.detailReport .base_list .fraudScore .repayment_title span,
+.baseReport .base_list .creditCheck .repayment_title span,
+.detailReport .base_list .creditCheck .repayment_title span,
+.baseReport .base_list .phoneCheck .repayment_title span,
+.detailReport .base_list .phoneCheck .repayment_title span,
+.baseReport .base_list .soloInfo .GPSdata_title span,
+.detailReport .base_list .soloInfo .GPSdata_title span,
+.baseReport .base_list .fraudRule .GPSdata_title span,
+.detailReport .base_list .fraudRule .GPSdata_title span,
+.baseReport .base_list .fraudScore .GPSdata_title span,
+.detailReport .base_list .fraudScore .GPSdata_title span,
+.baseReport .base_list .creditCheck .GPSdata_title span,
+.detailReport .base_list .creditCheck .GPSdata_title span,
+.baseReport .base_list .phoneCheck .GPSdata_title span,
+.detailReport .base_list .phoneCheck .GPSdata_title span,
+.baseReport .base_list .soloInfo .creditCheck_title span,
+.detailReport .base_list .soloInfo .creditCheck_title span,
+.baseReport .base_list .fraudRule .creditCheck_title span,
+.detailReport .base_list .fraudRule .creditCheck_title span,
+.baseReport .base_list .fraudScore .creditCheck_title span,
+.detailReport .base_list .fraudScore .creditCheck_title span,
+.baseReport .base_list .creditCheck .creditCheck_title span,
+.detailReport .base_list .creditCheck .creditCheck_title span,
+.baseReport .base_list .phoneCheck .creditCheck_title span,
+.detailReport .base_list .phoneCheck .creditCheck_title span,
+.baseReport .base_list .soloInfo .fraudScore_title span,
+.detailReport .base_list .soloInfo .fraudScore_title span,
+.baseReport .base_list .fraudRule .fraudScore_title span,
+.detailReport .base_list .fraudRule .fraudScore_title span,
+.baseReport .base_list .fraudScore .fraudScore_title span,
+.detailReport .base_list .fraudScore .fraudScore_title span,
+.baseReport .base_list .creditCheck .fraudScore_title span,
+.detailReport .base_list .creditCheck .fraudScore_title span,
+.baseReport .base_list .phoneCheck .fraudScore_title span,
+.detailReport .base_list .phoneCheck .fraudScore_title span,
+.baseReport .base_list .soloInfo .phoneCheck_title span,
+.detailReport .base_list .soloInfo .phoneCheck_title span,
+.baseReport .base_list .fraudRule .phoneCheck_title span,
+.detailReport .base_list .fraudRule .phoneCheck_title span,
+.baseReport .base_list .fraudScore .phoneCheck_title span,
+.detailReport .base_list .fraudScore .phoneCheck_title span,
+.baseReport .base_list .creditCheck .phoneCheck_title span,
+.detailReport .base_list .creditCheck .phoneCheck_title span,
+.baseReport .base_list .phoneCheck .phoneCheck_title span,
+.detailReport .base_list .phoneCheck .phoneCheck_title span {
+  width: 20px;
+  height: 20px;
+  background-position: -692px -129px;
+}
+.baseReport .base_list .soloInfo .creditCheck_title span,
+.detailReport .base_list .soloInfo .creditCheck_title span,
+.baseReport .base_list .fraudRule .creditCheck_title span,
+.detailReport .base_list .fraudRule .creditCheck_title span,
+.baseReport .base_list .fraudScore .creditCheck_title span,
+.detailReport .base_list .fraudScore .creditCheck_title span,
+.baseReport .base_list .creditCheck .creditCheck_title span,
+.detailReport .base_list .creditCheck .creditCheck_title span,
+.baseReport .base_list .phoneCheck .creditCheck_title span,
+.detailReport .base_list .phoneCheck .creditCheck_title span,
+.baseReport .base_list .soloInfo .phoneCheck_title span,
+.detailReport .base_list .soloInfo .phoneCheck_title span,
+.baseReport .base_list .fraudRule .phoneCheck_title span,
+.detailReport .base_list .fraudRule .phoneCheck_title span,
+.baseReport .base_list .fraudScore .phoneCheck_title span,
+.detailReport .base_list .fraudScore .phoneCheck_title span,
+.baseReport .base_list .creditCheck .phoneCheck_title span,
+.detailReport .base_list .creditCheck .phoneCheck_title span,
+.baseReport .base_list .phoneCheck .phoneCheck_title span,
+.detailReport .base_list .phoneCheck .phoneCheck_title span {
+  background-position: -693px -185px;
+}
+.baseReport .base_list .soloInfo .creditCheck_title h5 span,
+.detailReport .base_list .soloInfo .creditCheck_title h5 span,
+.baseReport .base_list .fraudRule .creditCheck_title h5 span,
+.detailReport .base_list .fraudRule .creditCheck_title h5 span,
+.baseReport .base_list .fraudScore .creditCheck_title h5 span,
+.detailReport .base_list .fraudScore .creditCheck_title h5 span,
+.baseReport .base_list .creditCheck .creditCheck_title h5 span,
+.detailReport .base_list .creditCheck .creditCheck_title h5 span,
+.baseReport .base_list .phoneCheck .creditCheck_title h5 span,
+.detailReport .base_list .phoneCheck .creditCheck_title h5 span,
+.baseReport .base_list .soloInfo .phoneCheck_title h5 span,
+.detailReport .base_list .soloInfo .phoneCheck_title h5 span,
+.baseReport .base_list .fraudRule .phoneCheck_title h5 span,
+.detailReport .base_list .fraudRule .phoneCheck_title h5 span,
+.baseReport .base_list .fraudScore .phoneCheck_title h5 span,
+.detailReport .base_list .fraudScore .phoneCheck_title h5 span,
+.baseReport .base_list .creditCheck .phoneCheck_title h5 span,
+.detailReport .base_list .creditCheck .phoneCheck_title h5 span,
+.baseReport .base_list .phoneCheck .phoneCheck_title h5 span,
+.detailReport .base_list .phoneCheck .phoneCheck_title h5 span {
+  background-position: -730px -225px;
+}
+.baseReport .base_list .soloInfo .fraudScore_title span,
+.detailReport .base_list .soloInfo .fraudScore_title span,
+.baseReport .base_list .fraudRule .fraudScore_title span,
+.detailReport .base_list .fraudRule .fraudScore_title span,
+.baseReport .base_list .fraudScore .fraudScore_title span,
+.detailReport .base_list .fraudScore .fraudScore_title span,
+.baseReport .base_list .creditCheck .fraudScore_title span,
+.detailReport .base_list .creditCheck .fraudScore_title span,
+.baseReport .base_list .phoneCheck .fraudScore_title span,
+.detailReport .base_list .phoneCheck .fraudScore_title span {
+  width: 20px;
+  height: 20px;
+  background-position: -692px -158px;
+}
+.baseReport .base_list .soloInfo .basicInfo,
+.detailReport .base_list .soloInfo .basicInfo,
+.baseReport .base_list .fraudRule .basicInfo,
+.detailReport .base_list .fraudRule .basicInfo,
+.baseReport .base_list .fraudScore .basicInfo,
+.detailReport .base_list .fraudScore .basicInfo,
+.baseReport .base_list .creditCheck .basicInfo,
+.detailReport .base_list .creditCheck .basicInfo,
+.baseReport .base_list .phoneCheck .basicInfo,
+.detailReport .base_list .phoneCheck .basicInfo {
+  width: 53rem;
+  border-bottom: 1px solid #D9DADA;
+}
+.baseReport .base_list .soloInfo .basicInfo li,
+.detailReport .base_list .soloInfo .basicInfo li,
+.baseReport .base_list .fraudRule .basicInfo li,
+.detailReport .base_list .fraudRule .basicInfo li,
+.baseReport .base_list .fraudScore .basicInfo li,
+.detailReport .base_list .fraudScore .basicInfo li,
+.baseReport .base_list .creditCheck .basicInfo li,
+.detailReport .base_list .creditCheck .basicInfo li,
+.baseReport .base_list .phoneCheck .basicInfo li,
+.detailReport .base_list .phoneCheck .basicInfo li {
+  color: #304a5f;
+  margin-bottom: 10px;
+}
+.baseReport .base_list .soloInfo .basicInfo li span:nth-child(1),
+.detailReport .base_list .soloInfo .basicInfo li span:nth-child(1),
+.baseReport .base_list .fraudRule .basicInfo li span:nth-child(1),
+.detailReport .base_list .fraudRule .basicInfo li span:nth-child(1),
+.baseReport .base_list .fraudScore .basicInfo li span:nth-child(1),
+.detailReport .base_list .fraudScore .basicInfo li span:nth-child(1),
+.baseReport .base_list .creditCheck .basicInfo li span:nth-child(1),
+.detailReport .base_list .creditCheck .basicInfo li span:nth-child(1),
+.baseReport .base_list .phoneCheck .basicInfo li span:nth-child(1),
+.detailReport .base_list .phoneCheck .basicInfo li span:nth-child(1) {
+  width: 18%;
+  text-align: right;
+}
+.baseReport .base_list .soloInfo .basicInfo li.emeLink span,
+.detailReport .base_list .soloInfo .basicInfo li.emeLink span,
+.baseReport .base_list .fraudRule .basicInfo li.emeLink span,
+.detailReport .base_list .fraudRule .basicInfo li.emeLink span,
+.baseReport .base_list .fraudScore .basicInfo li.emeLink span,
+.detailReport .base_list .fraudScore .basicInfo li.emeLink span,
+.baseReport .base_list .creditCheck .basicInfo li.emeLink span,
+.detailReport .base_list .creditCheck .basicInfo li.emeLink span,
+.baseReport .base_list .phoneCheck .basicInfo li.emeLink span,
+.detailReport .base_list .phoneCheck .basicInfo li.emeLink span {
+  padding: 0 10px;
+}
+.baseReport .base_list .soloInfo .basicInfo li.emeLink span:first-child,
+.detailReport .base_list .soloInfo .basicInfo li.emeLink span:first-child,
+.baseReport .base_list .fraudRule .basicInfo li.emeLink span:first-child,
+.detailReport .base_list .fraudRule .basicInfo li.emeLink span:first-child,
+.baseReport .base_list .fraudScore .basicInfo li.emeLink span:first-child,
+.detailReport .base_list .fraudScore .basicInfo li.emeLink span:first-child,
+.baseReport .base_list .creditCheck .basicInfo li.emeLink span:first-child,
+.detailReport .base_list .creditCheck .basicInfo li.emeLink span:first-child,
+.baseReport .base_list .phoneCheck .basicInfo li.emeLink span:first-child,
+.detailReport .base_list .phoneCheck .basicInfo li.emeLink span:first-child {
+  padding: 0 ;
+}
+.baseReport .base_list .soloInfo .basicInfo img,
+.detailReport .base_list .soloInfo .basicInfo img,
+.baseReport .base_list .fraudRule .basicInfo img,
+.detailReport .base_list .fraudRule .basicInfo img,
+.baseReport .base_list .fraudScore .basicInfo img,
+.detailReport .base_list .fraudScore .basicInfo img,
+.baseReport .base_list .creditCheck .basicInfo img,
+.detailReport .base_list .creditCheck .basicInfo img,
+.baseReport .base_list .phoneCheck .basicInfo img,
+.detailReport .base_list .phoneCheck .basicInfo img {
+/*   width: 20%;
+  height: 25%;
+  margin-left:80%;
+  margin-top:-70%; */
+    width: 14rem;
+    height: 17rem;
+    margin-left: 55rem;
+    margin-top: -37rem;
+}
+.baseReport .base_list .fraudRule,
+.detailReport .base_list .fraudRule,
+.baseReport .base_list .fraudScore,
+.detailReport .base_list .fraudScore,
+.baseReport .base_list .creditCheck,
+.detailReport .base_list .creditCheck,
+.baseReport .base_list .phoneCheck,
+.detailReport .base_list .phoneCheck {
+  margin-left: 30px;
+  margin-right: 30px;
+  width: auto;
+}
+.baseReport .base_list .fraudRule .reportGrid,
+.detailReport .base_list .fraudRule .reportGrid,
+.baseReport .base_list .fraudScore .reportGrid,
+.detailReport .base_list .fraudScore .reportGrid,
+.baseReport .base_list .creditCheck .reportGrid,
+.detailReport .base_list .creditCheck .reportGrid,
+.baseReport .base_list .phoneCheck .reportGrid,
+.detailReport .base_list .phoneCheck .reportGrid {
+  width: 100%;
+}
+.baseReport .base_list .fraudRule .reportGrid thead,
+.detailReport .base_list .fraudRule .reportGrid thead,
+.baseReport .base_list .fraudScore .reportGrid thead,
+.detailReport .base_list .fraudScore .reportGrid thead,
+.baseReport .base_list .creditCheck .reportGrid thead,
+.detailReport .base_list .creditCheck .reportGrid thead,
+.baseReport .base_list .phoneCheck .reportGrid thead,
+.detailReport .base_list .phoneCheck .reportGrid thead,
+.baseReport .base_list .fraudRule .reportGrid tbody,
+.detailReport .base_list .fraudRule .reportGrid tbody,
+.baseReport .base_list .fraudScore .reportGrid tbody,
+.detailReport .base_list .fraudScore .reportGrid tbody,
+.baseReport .base_list .creditCheck .reportGrid tbody,
+.detailReport .base_list .creditCheck .reportGrid tbody,
+.baseReport .base_list .phoneCheck .reportGrid tbody,
+.detailReport .base_list .phoneCheck .reportGrid tbody {
+  width: 100%;
+}
+.baseReport .base_list .fraudRule .reportGrid thead tr,
+.detailReport .base_list .fraudRule .reportGrid thead tr,
+.baseReport .base_list .fraudScore .reportGrid thead tr,
+.detailReport .base_list .fraudScore .reportGrid thead tr,
+.baseReport .base_list .creditCheck .reportGrid thead tr,
+.detailReport .base_list .creditCheck .reportGrid thead tr,
+.baseReport .base_list .phoneCheck .reportGrid thead tr,
+.detailReport .base_list .phoneCheck .reportGrid thead tr,
+.baseReport .base_list .fraudRule .reportGrid tbody tr,
+.detailReport .base_list .fraudRule .reportGrid tbody tr,
+.baseReport .base_list .fraudScore .reportGrid tbody tr,
+.detailReport .base_list .fraudScore .reportGrid tbody tr,
+.baseReport .base_list .creditCheck .reportGrid tbody tr,
+.detailReport .base_list .creditCheck .reportGrid tbody tr,
+.baseReport .base_list .phoneCheck .reportGrid tbody tr,
+.detailReport .base_list .phoneCheck .reportGrid tbody tr {
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid lightgrey;
+  min-height: 32px;
+}
+.baseReport .base_list .fraudRule .reportGrid thead tr th,
+.detailReport .base_list .fraudRule .reportGrid thead tr th,
+.baseReport .base_list .fraudScore .reportGrid thead tr th,
+.detailReport .base_list .fraudScore .reportGrid thead tr th,
+.baseReport .base_list .creditCheck .reportGrid thead tr th,
+.detailReport .base_list .creditCheck .reportGrid thead tr th,
+.baseReport .base_list .phoneCheck .reportGrid thead tr th,
+.detailReport .base_list .phoneCheck .reportGrid thead tr th,
+.baseReport .base_list .fraudRule .reportGrid tbody tr th,
+.detailReport .base_list .fraudRule .reportGrid tbody tr th,
+.baseReport .base_list .fraudScore .reportGrid tbody tr th,
+.detailReport .base_list .fraudScore .reportGrid tbody tr th,
+.baseReport .base_list .creditCheck .reportGrid tbody tr th,
+.detailReport .base_list .creditCheck .reportGrid tbody tr th,
+.baseReport .base_list .phoneCheck .reportGrid tbody tr th,
+.detailReport .base_list .phoneCheck .reportGrid tbody tr th,
+.baseReport .base_list .fraudRule .reportGrid thead tr td,
+.detailReport .base_list .fraudRule .reportGrid thead tr td,
+.baseReport .base_list .fraudScore .reportGrid thead tr td,
+.detailReport .base_list .fraudScore .reportGrid thead tr td,
+.baseReport .base_list .creditCheck .reportGrid thead tr td,
+.detailReport .base_list .creditCheck .reportGrid thead tr td,
+.baseReport .base_list .phoneCheck .reportGrid thead tr td,
+.detailReport .base_list .phoneCheck .reportGrid thead tr td,
+.baseReport .base_list .fraudRule .reportGrid tbody tr td,
+.detailReport .base_list .fraudRule .reportGrid tbody tr td,
+.baseReport .base_list .fraudScore .reportGrid tbody tr td,
+.detailReport .base_list .fraudScore .reportGrid tbody tr td,
+.baseReport .base_list .creditCheck .reportGrid tbody tr td,
+.detailReport .base_list .creditCheck .reportGrid tbody tr td,
+.baseReport .base_list .phoneCheck .reportGrid tbody tr td,
+.detailReport .base_list .phoneCheck .reportGrid tbody tr td {
+  width: 50%;
+  text-align: center;
+  font-size: 12px;
+  color: #d1def5;
+  border: 1px solid lightgrey ;
+  padding-top: 6px;
+  padding-bottom: 5px;
+  font-weight: 400;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.baseReport .base_list .fraudRule .reportGrid thead tr th,
+.detailReport .base_list .fraudRule .reportGrid thead tr th,
+.baseReport .base_list .fraudScore .reportGrid thead tr th,
+.detailReport .base_list .fraudScore .reportGrid thead tr th,
+.baseReport .base_list .creditCheck .reportGrid thead tr th,
+.detailReport .base_list .creditCheck .reportGrid thead tr th,
+.baseReport .base_list .phoneCheck .reportGrid thead tr th,
+.detailReport .base_list .phoneCheck .reportGrid thead tr th,
+.baseReport .base_list .fraudRule .reportGrid tbody tr th,
+.detailReport .base_list .fraudRule .reportGrid tbody tr th,
+.baseReport .base_list .fraudScore .reportGrid tbody tr th,
+.detailReport .base_list .fraudScore .reportGrid tbody tr th,
+.baseReport .base_list .creditCheck .reportGrid tbody tr th,
+.detailReport .base_list .creditCheck .reportGrid tbody tr th,
+.baseReport .base_list .phoneCheck .reportGrid tbody tr th,
+.detailReport .base_list .phoneCheck .reportGrid tbody tr th {
+  background: #466277;
+}
+.baseReport .base_list .fraudRule .reportGrid thead tr td,
+.detailReport .base_list .fraudRule .reportGrid thead tr td,
+.baseReport .base_list .fraudScore .reportGrid thead tr td,
+.detailReport .base_list .fraudScore .reportGrid thead tr td,
+.baseReport .base_list .creditCheck .reportGrid thead tr td,
+.detailReport .base_list .creditCheck .reportGrid thead tr td,
+.baseReport .base_list .phoneCheck .reportGrid thead tr td,
+.detailReport .base_list .phoneCheck .reportGrid thead tr td,
+.baseReport .base_list .fraudRule .reportGrid tbody tr td,
+.detailReport .base_list .fraudRule .reportGrid tbody tr td,
+.baseReport .base_list .fraudScore .reportGrid tbody tr td,
+.detailReport .base_list .fraudScore .reportGrid tbody tr td,
+.baseReport .base_list .creditCheck .reportGrid tbody tr td,
+.detailReport .base_list .creditCheck .reportGrid tbody tr td,
+.baseReport .base_list .phoneCheck .reportGrid tbody tr td,
+.detailReport .base_list .phoneCheck .reportGrid tbody tr td {
+  color: #304a5f;
+}
+.baseReport .base_list .fraudRule ul,
+.detailReport .base_list .fraudRule ul,
+.baseReport .base_list .fraudScore ul,
+.detailReport .base_list .fraudScore ul,
+.baseReport .base_list .creditCheck ul,
+.detailReport .base_list .creditCheck ul,
+.baseReport .base_list .phoneCheck ul,
+.detailReport .base_list .phoneCheck ul,
+.baseReport .base_list .fraudRule .solution,
+.detailReport .base_list .fraudRule .solution,
+.baseReport .base_list .fraudScore .solution,
+.detailReport .base_list .fraudScore .solution,
+.baseReport .base_list .creditCheck .solution,
+.detailReport .base_list .creditCheck .solution,
+.baseReport .base_list .phoneCheck .solution,
+.detailReport .base_list .phoneCheck .solution {
+  width: 100%;
+}
+.baseReport .base_list .fraudRule ul li,
+.detailReport .base_list .fraudRule ul li,
+.baseReport .base_list .fraudScore ul li,
+.detailReport .base_list .fraudScore ul li,
+.baseReport .base_list .creditCheck ul li,
+.detailReport .base_list .creditCheck ul li,
+.baseReport .base_list .phoneCheck ul li,
+.detailReport .base_list .phoneCheck ul li,
+.baseReport .base_list .fraudRule .solution li,
+.detailReport .base_list .fraudRule .solution li,
+.baseReport .base_list .fraudScore .solution li,
+.detailReport .base_list .fraudScore .solution li,
+.baseReport .base_list .creditCheck .solution li,
+.detailReport .base_list .creditCheck .solution li,
+.baseReport .base_list .phoneCheck .solution li,
+.detailReport .base_list .phoneCheck .solution li {
+  width: 100%;
+  height: 28px;
+  font-size: 0;
+  line-height: 28px;
+  border-bottom: 1px solid #cfdae2;
+  background: white;
+  border-right: 1px solid #cfdae2;
+}
+.baseReport .base_list .fraudRule ul li:last-child,
+.detailReport .base_list .fraudRule ul li:last-child,
+.baseReport .base_list .fraudScore ul li:last-child,
+.detailReport .base_list .fraudScore ul li:last-child,
+.baseReport .base_list .creditCheck ul li:last-child,
+.detailReport .base_list .creditCheck ul li:last-child,
+.baseReport .base_list .phoneCheck ul li:last-child,
+.detailReport .base_list .phoneCheck ul li:last-child,
+.baseReport .base_list .fraudRule .solution li:last-child,
+.detailReport .base_list .fraudRule .solution li:last-child,
+.baseReport .base_list .fraudScore .solution li:last-child,
+.detailReport .base_list .fraudScore .solution li:last-child,
+.baseReport .base_list .creditCheck .solution li:last-child,
+.detailReport .base_list .creditCheck .solution li:last-child,
+.baseReport .base_list .phoneCheck .solution li:last-child,
+.detailReport .base_list .phoneCheck .solution li:last-child {
+  border-radius: 4px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  height: 28px;
+  border-bottom: 1px solid;
+}
+.baseReport .base_list .fraudRule ul li span,
+.detailReport .base_list .fraudRule ul li span,
+.baseReport .base_list .fraudScore ul li span,
+.detailReport .base_list .fraudScore ul li span,
+.baseReport .base_list .creditCheck ul li span,
+.detailReport .base_list .creditCheck ul li span,
+.baseReport .base_list .phoneCheck ul li span,
+.detailReport .base_list .phoneCheck ul li span,
+.baseReport .base_list .fraudRule .solution li span,
+.detailReport .base_list .fraudRule .solution li span,
+.baseReport .base_list .fraudScore .solution li span,
+.detailReport .base_list .fraudScore .solution li span,
+.baseReport .base_list .creditCheck .solution li span,
+.detailReport .base_list .creditCheck .solution li span,
+.baseReport .base_list .phoneCheck .solution li span,
+.detailReport .base_list .phoneCheck .solution li span {
+  width: 32%;
+  font-size: 12px;
+  color: #304a5f;
+  text-align: center;
+  border-right: 1px solid #cfdae2;
+}
+.baseReport .base_list .fraudRule ul li span:last-child,
+.detailReport .base_list .fraudRule ul li span:last-child,
+.baseReport .base_list .fraudScore ul li span:last-child,
+.detailReport .base_list .fraudScore ul li span:last-child,
+.baseReport .base_list .creditCheck ul li span:last-child,
+.detailReport .base_list .creditCheck ul li span:last-child,
+.baseReport .base_list .phoneCheck ul li span:last-child,
+.detailReport .base_list .phoneCheck ul li span:last-child,
+.baseReport .base_list .fraudRule .solution li span:last-child,
+.detailReport .base_list .fraudRule .solution li span:last-child,
+.baseReport .base_list .fraudScore .solution li span:last-child,
+.detailReport .base_list .fraudScore .solution li span:last-child,
+.baseReport .base_list .creditCheck .solution li span:last-child,
+.detailReport .base_list .creditCheck .solution li span:last-child,
+.baseReport .base_list .phoneCheck .solution li span:last-child,
+.detailReport .base_list .phoneCheck .solution li span:last-child {
+  border-right: none;
+}
+.baseReport .base_list .fraudRule ul li:nth-child(1) span,
+.detailReport .base_list .fraudRule ul li:nth-child(1) span,
+.baseReport .base_list .fraudScore ul li:nth-child(1) span,
+.detailReport .base_list .fraudScore ul li:nth-child(1) span,
+.baseReport .base_list .creditCheck ul li:nth-child(1) span,
+.detailReport .base_list .creditCheck ul li:nth-child(1) span,
+.baseReport .base_list .phoneCheck ul li:nth-child(1) span,
+.detailReport .base_list .phoneCheck ul li:nth-child(1) span,
+.baseReport .base_list .fraudRule .solution li:nth-child(1) span,
+.detailReport .base_list .fraudRule .solution li:nth-child(1) span,
+.baseReport .base_list .fraudScore .solution li:nth-child(1) span,
+.detailReport .base_list .fraudScore .solution li:nth-child(1) span,
+.baseReport .base_list .creditCheck .solution li:nth-child(1) span,
+.detailReport .base_list .creditCheck .solution li:nth-child(1) span,
+.baseReport .base_list .phoneCheck .solution li:nth-child(1) span,
+.detailReport .base_list .phoneCheck .solution li:nth-child(1) span {
+  background: #466277;
+  color: #d1def5;
+  border-right: 1px solid #cfdae2;
+}
+.baseReport .base_list .fraudRule ul li:nth-child(1) span:last-child,
+.detailReport .base_list .fraudRule ul li:nth-child(1) span:last-child,
+.baseReport .base_list .fraudScore ul li:nth-child(1) span:last-child,
+.detailReport .base_list .fraudScore ul li:nth-child(1) span:last-child,
+.baseReport .base_list .creditCheck ul li:nth-child(1) span:last-child,
+.detailReport .base_list .creditCheck ul li:nth-child(1) span:last-child,
+.baseReport .base_list .phoneCheck ul li:nth-child(1) span:last-child,
+.detailReport .base_list .phoneCheck ul li:nth-child(1) span:last-child,
+.baseReport .base_list .fraudRule .solution li:nth-child(1) span:last-child,
+.detailReport .base_list .fraudRule .solution li:nth-child(1) span:last-child,
+.baseReport .base_list .fraudScore .solution li:nth-child(1) span:last-child,
+.detailReport .base_list .fraudScore .solution li:nth-child(1) span:last-child,
+.baseReport .base_list .creditCheck .solution li:nth-child(1) span:last-child,
+.detailReport .base_list .creditCheck .solution li:nth-child(1) span:last-child,
+.baseReport .base_list .phoneCheck .solution li:nth-child(1) span:last-child,
+.detailReport .base_list .phoneCheck .solution li:nth-child(1) span:last-child {
+  border-right: none;
+}
+.baseReport .base_list .fraudRule .solution,
+.detailReport .base_list .fraudRule .solution,
+.baseReport .base_list .fraudScore .solution,
+.detailReport .base_list .fraudScore .solution,
+.baseReport .base_list .creditCheck .solution,
+.detailReport .base_list .creditCheck .solution,
+.baseReport .base_list .phoneCheck .solution,
+.detailReport .base_list .phoneCheck .solution {
+  width: auto;
+  margin: 10px 0px 0;
+  border: 1px solid lightgrey;
+  padding: 10px;
+  word-wrap: break-word;
+  word-break: normal;
+}
+.baseReport .base_list .fraudScore .model_unfold,
+.detailReport .base_list .fraudScore .model_unfold,
+.baseReport .base_list .creditCheck .model_unfold,
+.detailReport .base_list .creditCheck .model_unfold,
+.baseReport .base_list .phoneCheck .model_unfold,
+.detailReport .base_list .phoneCheck .model_unfold,
+.baseReport .base_list .fraudScore .credit_unfold,
+.detailReport .base_list .fraudScore .credit_unfold,
+.baseReport .base_list .creditCheck .credit_unfold,
+.detailReport .base_list .creditCheck .credit_unfold,
+.baseReport .base_list .phoneCheck .credit_unfold,
+.detailReport .base_list .phoneCheck .credit_unfold,
+.baseReport .base_list .fraudScore .phone_unfold,
+.detailReport .base_list .fraudScore .phone_unfold,
+.baseReport .base_list .creditCheck .phone_unfold,
+.detailReport .base_list .creditCheck .phone_unfold,
+.baseReport .base_list .phoneCheck .phone_unfold,
+.detailReport .base_list .phoneCheck .phone_unfold,
+.baseReport .base_list .fraudRule .fraud_unfold,
+.detailReport .base_list .fraudRule .fraud_unfold {
+  position:relative;
+  float: right;
+  top: 31px;
+  width: 14px;
+  height: 30px;
+  background: url("../images/icon_fraue.png") no-repeat 100% 100%;
+}
+.baseReport .base_list .fraudScore .model_unfold.on,
+.detailReport .base_list .fraudScore .model_unfold.on,
+.baseReport .base_list .creditCheck .model_unfold.on,
+.detailReport .base_list .creditCheck .model_unfold.on,
+.baseReport .base_list .phoneCheck .model_unfold.on,
+.detailReport .base_list .phoneCheck .model_unfold.on,
+.baseReport .base_list .fraudScore .credit_unfold.on,
+.detailReport .base_list .fraudScore .credit_unfold.on,
+.baseReport .base_list .creditCheck .credit_unfold.on,
+.detailReport .base_list .creditCheck .credit_unfold.on,
+.baseReport .base_list .phoneCheck .credit_unfold.on,
+.detailReport .base_list .phoneCheck .credit_unfold.on,
+.baseReport .base_list .fraudScore .phone_unfold.on,
+.detailReport .base_list .fraudScore .phone_unfold.on,
+.baseReport .base_list .creditCheck .phone_unfold.on,
+.detailReport .base_list .creditCheck .phone_unfold.on,
+.baseReport .base_list .phoneCheck .phone_unfold.on,
+.detailReport .base_list .phoneCheck .phone_unfold.on,
+.baseReport .base_list .fraudRule .fraud_unfold.on,
+.detailReport .base_list .fraudRule .fraud_unfold.on {
+  transform: rotate(180deg);
+}
+.baseReport .base_list .fraudScore .model_unfold.off,
+.detailReport .base_list .fraudScore .model_unfold.off,
+.baseReport .base_list .creditCheck .model_unfold.off,
+.detailReport .base_list .creditCheck .model_unfold.off,
+.baseReport .base_list .phoneCheck .model_unfold.off,
+.detailReport .base_list .phoneCheck .model_unfold.off,
+.baseReport .base_list .fraudScore .credit_unfold.off,
+.detailReport .base_list .fraudScore .credit_unfold.off,
+.baseReport .base_list .creditCheck .credit_unfold.off,
+.detailReport .base_list .creditCheck .credit_unfold.off,
+.baseReport .base_list .phoneCheck .credit_unfold.off,
+.detailReport .base_list .phoneCheck .credit_unfold.off,
+.baseReport .base_list .fraudScore .phone_unfold.off,
+.detailReport .base_list .fraudScore .phone_unfold.off,
+.baseReport .base_list .creditCheck .phone_unfold.off,
+.detailReport .base_list .creditCheck .phone_unfold.off,
+.baseReport .base_list .phoneCheck .phone_unfold.off,
+.detailReport .base_list .phoneCheck .phone_unfold.off,
+.baseReport .base_list .fraudRule .fraud_unfold.off,
+.detailReport .base_list .fraudRule .fraud_unfold.off  {
+  right: 1px;
+  top: 29px;
+  transform: rotate(0deg);
+}
+.baseReport .base_list .fraudScore .model_unfold,
+.detailReport .base_list .fraudScore .model_unfold,
+.baseReport .base_list .creditCheck .model_unfold,
+.detailReport .base_list .creditCheck .model_unfold,
+.baseReport .base_list .phoneCheck .model_unfold,
+.detailReport .base_list .phoneCheck .model_unfold,
+.baseReport .base_list .fraudScore .phone_unfold,
+.detailReport .base_list .fraudScore .phone_unfold,
+.baseReport .base_list .creditCheck .phone_unfold,
+.detailReport .base_list .creditCheck .phone_unfold,
+.baseReport .base_list .phoneCheck .phone_unfold,
+.detailReport .base_list .phoneCheck .phone_unfold,.detailReport .base_list .fraudRule .fraud_unfold_2 {
+  top: 31px;
+  background: url("../images/icon_model.png") no-repeat 100% 100%;
+}
+.baseReport .base_list .fraudRule .fraud_unfold,
+.detailReport .base_list .fraudRule .fraud_unfold {
+	 position:absolute;
+     right:0;
+}
+.baseReport .base_list .fraudRule .fraud_unfold.off,
+.detailReport .base_list .fraudRule .fraud_unfold.off {
+   right:1px;
+   top:29px;
+   transform: rotate(0deg);
+}
+.baseReport .base_list .fraudRule1 .fraudRule_title span,
+.detailReport .base_list .fraudRule1 .fraudRule_title span,
+.baseReport .base_list .fraudRule2 .fraudRule_title span,
+.detailReport .base_list .fraudRule2 .fraudRule_title span {
+  width: 18px;
+  height: 18px;
+}
+.baseReport .base_list .fraudRule1 .fraudRule_title span,
+.detailReport .base_list .fraudRule1 .fraudRule_title span {
+  background-position: -220px -110px;
+}
+.baseReport .base_list .fraudRule2 .fraudRule_title span,
+.detailReport .base_list .fraudRule2 .fraudRule_title span {
+  background-position: -222px -136px;
+}
+.baseReport .base_list .phoneCheck .reportGrid thead tr,
+.detailReport .base_list .phoneCheck .reportGrid thead tr,
+.baseReport .base_list .creditCheck .reportGrid thead tr,
+.detailReport .base_list .creditCheck .reportGrid thead tr,
+.baseReport .base_list .phoneCheck .reportGrid tbody tr,
+.detailReport .base_list .phoneCheck .reportGrid tbody tr,
+.baseReport .base_list .creditCheck .reportGrid tbody tr,
+.detailReport .base_list .creditCheck .reportGrid tbody tr {
+  width: 100%;
+  font-size: 0;
+}
+.baseReport .base_list .phoneCheck .reportGrid thead tr th,
+.detailReport .base_list .phoneCheck .reportGrid thead tr th,
+.baseReport .base_list .creditCheck .reportGrid thead tr th,
+.detailReport .base_list .creditCheck .reportGrid thead tr th,
+.baseReport .base_list .phoneCheck .reportGrid tbody tr th,
+.detailReport .base_list .phoneCheck .reportGrid tbody tr th,
+.baseReport .base_list .creditCheck .reportGrid tbody tr th,
+.detailReport .base_list .creditCheck .reportGrid tbody tr th,
+.baseReport .base_list .phoneCheck .reportGrid thead tr td,
+.detailReport .base_list .phoneCheck .reportGrid thead tr td,
+.baseReport .base_list .creditCheck .reportGrid thead tr td,
+.detailReport .base_list .creditCheck .reportGrid thead tr td,
+.baseReport .base_list .phoneCheck .reportGrid tbody tr td,
+.detailReport .base_list .phoneCheck .reportGrid tbody tr td,
+.baseReport .base_list .creditCheck .reportGrid tbody tr td,
+.detailReport .base_list .creditCheck .reportGrid tbody tr td {
+  width: 20%;
+  font-size: 12px;
+}
+.baseReport .base_list .phoneCheck .reportGrid thead tr th:nth-child(1),
+.detailReport .base_list .phoneCheck .reportGrid thead tr th:nth-child(1),
+.baseReport .base_list .creditCheck .reportGrid thead tr th:nth-child(1),
+.detailReport .base_list .creditCheck .reportGrid thead tr th:nth-child(1),
+.baseReport .base_list .phoneCheck .reportGrid tbody tr th:nth-child(1),
+.detailReport .base_list .phoneCheck .reportGrid tbody tr th:nth-child(1),
+.baseReport .base_list .creditCheck .reportGrid tbody tr th:nth-child(1),
+.detailReport .base_list .creditCheck .reportGrid tbody tr th:nth-child(1),
+.baseReport .base_list .phoneCheck .reportGrid thead tr td:nth-child(1),
+.detailReport .base_list .phoneCheck .reportGrid thead tr td:nth-child(1),
+.baseReport .base_list .creditCheck .reportGrid thead tr td:nth-child(1),
+.detailReport .base_list .creditCheck .reportGrid thead tr td:nth-child(1),
+.baseReport .base_list .phoneCheck .reportGrid tbody tr td:nth-child(1),
+.detailReport .base_list .phoneCheck .reportGrid tbody tr td:nth-child(1),
+.baseReport .base_list .creditCheck .reportGrid tbody tr td:nth-child(1),
+.detailReport .base_list .creditCheck .reportGrid tbody tr td:nth-child(1) {
+  width: 22%;
+  border-left: 1px solid #cfdae2;
+}
+.baseReport .base_list .phoneCheck .reportGrid thead tr th:nth-child(2),
+.detailReport .base_list .phoneCheck .reportGrid thead tr th:nth-child(2),
+.baseReport .base_list .creditCheck .reportGrid thead tr th:nth-child(2),
+.detailReport .base_list .creditCheck .reportGrid thead tr th:nth-child(2),
+.baseReport .base_list .phoneCheck .reportGrid tbody tr th:nth-child(2),
+.detailReport .base_list .phoneCheck .reportGrid tbody tr th:nth-child(2),
+.baseReport .base_list .creditCheck .reportGrid tbody tr th:nth-child(2),
+.detailReport .base_list .creditCheck .reportGrid tbody tr th:nth-child(2),
+.baseReport .base_list .phoneCheck .reportGrid thead tr td:nth-child(2),
+.detailReport .base_list .phoneCheck .reportGrid thead tr td:nth-child(2),
+.baseReport .base_list .creditCheck .reportGrid thead tr td:nth-child(2),
+.detailReport .base_list .creditCheck .reportGrid thead tr td:nth-child(2),
+.baseReport .base_list .phoneCheck .reportGrid tbody tr td:nth-child(2),
+.detailReport .base_list .phoneCheck .reportGrid tbody tr td:nth-child(2),
+.baseReport .base_list .creditCheck .reportGrid tbody tr td:nth-child(2),
+.detailReport .base_list .creditCheck .reportGrid tbody tr td:nth-child(2) {
+  width: 40%;
+}
+.baseReport .base_list .phoneCheck .reportGrid thead tr th:nth-child(3),
+.detailReport .base_list .phoneCheck .reportGrid thead tr th:nth-child(3),
+.baseReport .base_list .creditCheck .reportGrid thead tr th:nth-child(3),
+.detailReport .base_list .creditCheck .reportGrid thead tr th:nth-child(3),
+.baseReport .base_list .phoneCheck .reportGrid tbody tr th:nth-child(3),
+.detailReport .base_list .phoneCheck .reportGrid tbody tr th:nth-child(3),
+.baseReport .base_list .creditCheck .reportGrid tbody tr th:nth-child(3),
+.detailReport .base_list .creditCheck .reportGrid tbody tr th:nth-child(3),
+.baseReport .base_list .phoneCheck .reportGrid thead tr td:nth-child(3),
+.detailReport .base_list .phoneCheck .reportGrid thead tr td:nth-child(3),
+.baseReport .base_list .creditCheck .reportGrid thead tr td:nth-child(3),
+.detailReport .base_list .creditCheck .reportGrid thead tr td:nth-child(3),
+.baseReport .base_list .phoneCheck .reportGrid tbody tr td:nth-child(3),
+.detailReport .base_list .phoneCheck .reportGrid tbody tr td:nth-child(3),
+.baseReport .base_list .creditCheck .reportGrid tbody tr td:nth-child(3),
+.detailReport .base_list .creditCheck .reportGrid tbody tr td:nth-child(3) {
+  width: 10%;
+}
+.baseReport .base_list .phoneCheck .reportGrid thead tr th:nth-child(4),
+.detailReport .base_list .phoneCheck .reportGrid thead tr th:nth-child(4),
+.baseReport .base_list .creditCheck .reportGrid thead tr th:nth-child(4),
+.detailReport .base_list .creditCheck .reportGrid thead tr th:nth-child(4),
+.baseReport .base_list .phoneCheck .reportGrid tbody tr th:nth-child(4),
+.detailReport .base_list .phoneCheck .reportGrid tbody tr th:nth-child(4),
+.baseReport .base_list .creditCheck .reportGrid tbody tr th:nth-child(4),
+.detailReport .base_list .creditCheck .reportGrid tbody tr th:nth-child(4),
+.baseReport .base_list .phoneCheck .reportGrid thead tr td:nth-child(4),
+.detailReport .base_list .phoneCheck .reportGrid thead tr td:nth-child(4),
+.baseReport .base_list .creditCheck .reportGrid thead tr td:nth-child(4),
+.detailReport .base_list .creditCheck .reportGrid thead tr td:nth-child(4),
+.baseReport .base_list .phoneCheck .reportGrid tbody tr td:nth-child(4),
+.detailReport .base_list .phoneCheck .reportGrid tbody tr td:nth-child(4),
+.baseReport .base_list .creditCheck .reportGrid tbody tr td:nth-child(4),
+.detailReport .base_list .creditCheck .reportGrid tbody tr td:nth-child(4) {
+  width: 28%;
+}
+.baseReport .base_list .phoneCheck .reportGrid thead tr.title span:nth-child(3),
+.detailReport .base_list .phoneCheck .reportGrid thead tr.title span:nth-child(3),
+.baseReport .base_list .creditCheck .reportGrid thead tr.title span:nth-child(3),
+.detailReport .base_list .creditCheck .reportGrid thead tr.title span:nth-child(3),
+.baseReport .base_list .phoneCheck .reportGrid tbody tr.title span:nth-child(3),
+.detailReport .base_list .phoneCheck .reportGrid tbody tr.title span:nth-child(3),
+.baseReport .base_list .creditCheck .reportGrid tbody tr.title span:nth-child(3),
+.detailReport .base_list .creditCheck .reportGrid tbody tr.title span:nth-child(3) {
+  border-right: 1px solid #cfdae2;
+}
+.baseReport .base_list .phoneCheck .phoneCheck_title span,
+.detailReport .base_list .phoneCheck .phoneCheck_title span,
+.baseReport .base_list .creditCheck .phoneCheck_title span,
+.detailReport .base_list .creditCheck .phoneCheck_title span {
+  background-position: -693px -217px;
+}
+.baseReport .base_list .detailList,
+.detailReport .base_list .detailList {
+  padding-left: 30px;
+}
+.baseReport .base_list .detailList p,
+.detailReport .base_list .detailList p {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.baseReport .base_list .detailList p span,
+.detailReport .base_list .detailList p span {
+  width: 16px;
+  height: 16px;
+  background-position: -694px -244px;
+  vertical-align: middle;
+  margin-right: 5px ;
+  margin-top: -5px;
+}
+.baseReport .base_list .detailList ul li a,
+.detailReport .base_list .detailList ul li a {
+  font-size: 12px;
+  color: #304a5f;
+  text-decoration: underline;
+}
+.baseReport .base_list .detailList ul li a:hover,
+.detailReport .base_list .detailList ul li a:hover {
+  color: #F76181;
+}
+.baseReport .base_list .detailList ul li:last-child,
+.detailReport .base_list .detailList ul li:last-child {
+  padding-bottom: 10px;
+}

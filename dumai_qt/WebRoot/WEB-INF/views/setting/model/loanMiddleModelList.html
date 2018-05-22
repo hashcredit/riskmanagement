@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myRule">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet/less" href="css/model.less" type="text/less">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/load.css">
+    <link rel="stylesheet" href="css/ng-grid.css">
+</head>
+<body>
+<div id="menuModel" ng-controller="myMenu3">
+    <div class="header">
+        <ul>
+            <li><i class="icon_system"></i><span>系统设置</span></li>
+            <li><i class="icon_data"></i><span>数据报表</span></li>
+            <li><i class="icon_traffic"></i><span>数据流量</span></li>
+        </ul>
+        <h5><a href="#login">退出</a></h5>
+        <div class="info_header">
+            <label class="info_header_date"> <div class="markLine"></div><span class="dark"></span><p>时间: <input type="text" id="datepicker" ng-model="date"><i ng-click="dispear()" ></i></p></label>
+            <ul>
+                <li>贷前审核</li>
+                <li  class="current">贷中跟踪</li>
+                <li>逾期催款</li>
+            </ul>
+            <label class="selectName"><i class="search"></i><input type="text" placeholder="请输入借款人身份证或是姓名" class="selectName"  ng-model="value" ng-blur="tipErr()"></label>
+        </div>
+    </div>
+    <div class="bodies">
+        <div class="info_content" >
+            <div class="left">
+                <div class="member">
+                    <img src="./image/photosh.png" alt="">
+                    <p>XXXXXXX</p>
+                </div>
+                <div class="business_type">
+                    <ul class="business changeColor">
+                        <h4 ng-click="togg('.business',togflag)"><span></span>业务类型<i class="xiala" ng-class="{true:'up',false:'down'}[togflag]" ></i></h4>
+                        <li><a href="#/homePage">全部</a></li>
+                        <li><a href="#/homePage">滴滴车分期</a></li>
+                        <li><a href="#/homePage">爱抵贷</a></li>
+                        <li><a href="#/homePage">爱质贷</a></li>
+                        <li><a href="#/homePage">医美分期</a></li>
+                    </ul>
+                    <ul class="result">
+                        <li style="border-top: 1px solid #586772"><span class="no"></span>未审核</li>
+                        <li><span class="refuse"></span>拒绝</li>
+                    </ul>
+                    <ul class="waterBox" >
+                        <li><span class="ruleBox"></span><a href="#/ruleWater">规则池</a><i ng-class="{OFF:'bg1',ON:'bg2'}['OFF']">停用</i></li>
+                        <li><span class="modelBox"></span><a>模型池</a><i ng-class="{OFF:'bg2',ON:'bg1'}['OFF']">启用</i></li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="info_content1 info_rule" style="overflow: hidden;">
+                <div class="rule_list">
+                 22222
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script charset="utf-8" type="text/javascript" src="js/lib/less.min.js"></script>
+<script charset="utf-8" type="text/javascript">
+    less.watch();
+</script>
+<script src="js/lib/jquery.min.js"></script>
+<script src="js/lib/angular.js"></script>
+<script src="js/lib/jquery-ui.js"></script>
+<script src="js/lib/moment.js"></script>
+<script src="js/controller/modelController2.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,270 @@
+body {
+  BACKGROUND-COLOR:#FFFFFF;
+  MARGIN-LEFT:8px;
+  MARGIN-RIGHT:8px;
+  MARGIN-TOP:5px;
+  MARGIN-BOTTOM:5px;
+  SCROLLBAR-FACE-COLOR:#6BA4DC; /*滚动条和三角颜色*/
+  SCROLLBAR-HIGHLIGHT-COLOR:#FFFFFF; /*滚动条高亮颜色*/
+  SCROLLBAR-SHADOW-COLOR:#FFFFFF;  /*滚动条高亮颜色相反方向颜色*/
+  SCROLLBAR-ARROW-COLOR:#FFFFFF; /*三角的小三角颜色*/
+  SCROLLBAR-TRACK-COLOR:#DCE5EB; /*滚动条底色*/
+  SCROLLBAR-DARKSHADOW-COLOR:#FFFFFF /*不知道*/
+}
+a:hover{
+  FONT-SIZE:9pt; 
+  COLOR:#000000; 
+  TEXT-DECORATION:none
+}
+a:link{
+  FONT-SIZE:9pt; 
+  COLOR:#000000; 
+  TEXT-DECORATION:none
+}
+a:visited{
+  FONT-SIZE:9pt; 
+  COLOR:#000000; 
+  TEXT-DECORATION:none
+}
+a:active{
+  FONT-SIZE:9pt; 
+  COLOR:#000000; 
+  TEXT-DECORATION:none
+}
+td { /*通用td字体大小*/
+  font-size: 9pt; 
+}
+.mtoptd { /*列表台头(搜索栏)样式；注意：table外*/
+  BACKGROUND-COLOR:#922B18;
+}
+.toptd { /*列表台头(搜索栏)样式；注意：table外*/
+  BACKGROUND-COLOR:#6BA4DC;/*#922B18*/
+  height:25px;
+}
+.topfont { /*列表台头(搜索栏)字体样式；注意：table外*/
+  color:#000000;
+  font-family: 宋体;
+  font-size: 11pt;
+  font-weight:bold;
+}
+.titlefont { /*列表台头字体样式；注意：table内*/
+  color:#FFFFFF;
+  font-family: 宋体;
+  font-size: 10pt;
+}
+.searchL {
+  color:FFFFFF;
+  font-family:宋体;
+  font-size:10pt;
+}
+.mtitletd { /*表头样式*/
+  BACKGROUND-COLOR:#B07440;
+  font-family: 宋体;
+  color:#FFFFFF;
+  font-size: 9pt;
+}
+.titletd { /*表头样式*/
+  BACKGROUND-COLOR:#DCE5EB;/*#B07440*/
+  font-family: 宋体;
+  color:#000000;
+  font-size: 9pt;
+  line-height:25px;
+  /*font-weight:bold;*/
+}
+.othertd { /*表头样式*/
+  BACKGROUND-COLOR:#FFFFFF;
+  font-family: 宋体;
+  color:#000000;
+  font-size: 9pt;
+  /*font-weight:bold;*/
+  line-height:25px;
+}
+/*================================================会议室预定特殊*/
+.tablemeeting { /*会议室预定总table边框线样式*/
+  BACKGROUND-COLOR:#FFFFFF;
+  BORDER-LEFT:#FFFFFF 0px solid;
+  BORDER-RIGHT:#FFFFFF 0px solid; 
+  BORDER-TOP:#FFFFFF 0px solid;    
+  BORDER-BOTTOM:#FFFFFF 0px solid; 
+  /*BORDER-COLORDARK:#FFFFFF;*/
+  /*BORDER-COLORLIGHT:#808080*/
+}
+.meetingtd1 { /*会议室网格分隔默认交叉颜色1*/
+  BACKGROUND-COLOR:#FFFFFF;
+  line-height:25px;
+  cursor:hand;
+}
+.meetingtd2 { /*会议室网格分隔默认交叉颜色2*/
+  BACKGROUND-COLOR:#C0C0C0;
+  line-height:25px;
+  cursor:hand;
+}
+.meetingother { /*会议室被他人预约颜色*/
+  BACKGROUND-COLOR:#981F2A;
+  line-height:25px;
+  cursor:hand;
+}
+.meetingotherb { /*会议室被他人预约起点颜色*/
+  BACKGROUND-COLOR:#EE0000;
+  line-height:25px;
+  cursor:hand;
+}
+.meetingself { /*会议室被本人预约颜色*/
+  BACKGROUND-COLOR:#000080;
+  line-height:25px;
+  cursor:hand;
+}
+.meetingselfb { /*会议室被本人预约起点颜色*/
+  BACKGROUND-COLOR:#0F7DCB;
+  line-height:25px;
+  cursor:hand;
+}
+/*================================================会议室预定特殊*/
+.table1ji { /*列表总table边框线样式*/
+  BACKGROUND-COLOR:#779EBA;/*#922B18*/
+  BORDER-LEFT:#FFFFFF 0px solid;
+  BORDER-RIGHT:#FFFFFF 0px solid; 
+  BORDER-TOP:#FFFFFF 0px solid;    
+  BORDER-BOTTOM:#FFFFFF 0px solid; 
+  /*BORDER-COLORDARK:#FFFFFF;*/
+  /*BORDER-COLORLIGHT:#808080*/
+}
+.tablerili { /*日历列表总table边框线样式*/
+  BACKGROUND-COLOR:#848484;
+  BORDER-LEFT:#FFFFFF 0px solid;
+  BORDER-RIGHT:#FFFFFF 0px solid; 
+  BORDER-TOP:#FFFFFF 0px solid;    
+  BORDER-BOTTOM:#FFFFFF 0px solid; 
+  /*BORDER-COLORDARK:#FFFFFF;*/
+  /*BORDER-COLORLIGHT:#808080*/
+}
+.selectstyle { /*下拉菜单样式*/
+  font-family: "宋体"; 
+  font-size: 9pt; 
+  color: #000000; 
+  background-color: #CCCCCC; 
+}
+.inputextstyle { /*文本框样式*/
+  font-family: "宋体"; 
+  font-size: 9pt;
+  color: #000000;
+  background-color: #CCCCCC; 
+  border-top: #000000 1px solid;
+  border-bottom: #FFFFFF 1px solid;
+  border-left: #000000 1px solid;
+  border-right: #FFFFFF 1px solid;
+}
+.inputextstyle2 { /*文本框样式*/
+  font-family: "宋体"; 
+  font-size: 9pt;
+  color: #000000;
+  background-color: #CCCCCC; 
+  border-top: #000000 1px solid;
+  border-bottom: #000000 1px solid;
+  border-left: #000000 1px solid;
+  border-right: #000000 1px solid;
+}
+.inputextstyle3 { /*文本框样式*/
+  font-family: "宋体"; 
+  font-size: 9pt;
+  text-align: right;
+  color: #000000;
+  background-color: #FFFFFF; 
+  border-top: #000000 0px solid;
+  border-bottom: #AAAAAA 1px solid;
+  border-left: #000000 0px solid;
+  border-right: #000000 0px solid;
+}
+.inputextstyle4 { /*文本框样式*/
+  font-family: "宋体"; 
+  font-size: 9pt;
+  text-align: center;
+  color: #000000;
+  background-color: #FFFFFF; 
+  border-top: #000000 1px solid;
+  border-bottom: #000000 1px solid;
+  border-left: #000000 1px solid;
+  border-right: #000000 1px solid;
+}
+.inputextstyle5 { /*文本框样式*/
+  font-family: "宋体"; 
+  font-size: 9pt;
+  text-align: left;
+  color: #000000;
+  background-color: #FFFFFF; 
+  border-top: #000000 1px solid;
+  border-bottom: #000000 1px solid;
+  border-left: #000000 1px solid;
+  border-right: #000000 1px solid;
+}
+.inputextstyle6 { /*文本框样式*/
+  font-family: "宋体"; 
+  font-size: 9pt;
+  text-align: left;
+  color: #000000;
+  background-color: #FFFFFF; 
+  border-top: #000000 0x solid;
+  border-bottom: #AAAAAA 1px solid;
+  border-left: #000000 0px solid;
+  border-right: #000000 0px solid;
+}
+.inputextstyle7 { /*文本框样式*/
+  font-family: "宋体"; 
+  font-size: 9pt;
+  text-align: center;
+  color: #000000;
+  background-color: #FFFFFF; 
+  border-top: #000000 0x solid;
+  border-bottom: #AAAAAA 1px solid;
+  border-left: #000000 0px solid;
+  border-right: #000000 0px solid;
+}
+.inputbuttonstyle { /*按钮样式*/
+  font-family: "宋体"; 
+  font-size: 9pt; 
+  text-align: center;
+  color: #000000; 
+  background-color: #CCCCCC; 
+  border-top: #FFFFFF 1px solid;
+  border-bottom: #000000 1px solid;
+  border-left: #FFFFFF 1px solid;
+  border-right: #000000 1px solid;
+  /*BACKGROUND:url(../images/buttonimage.gif);*/
+}
+.inputbuttonstyle2 { /*按钮样式*/
+  font-family: "宋体"; 
+  font-size: 9pt; 
+  text-align: center;
+  color: #000000; 
+  background-color: #CCCCCC; 
+  border-top: #FFFFFF 1px solid;
+  border-bottom: #000000 1px solid;
+  border-left: #FFFFFF 1px solid;
+  border-right: #000000 1px solid;
+  /*BACKGROUND:url(../images/buttonimage.gif);*/
+}
+.inputfilestyle { /*按钮样式*/
+  font-family: "宋体"; 
+  font-size: 9pt; 
+  color: #000000; 
+  background-color: #CCCCCC; 
+  border-top: #000000 1px solid;
+  border-bottom: #000000 1px solid;
+  border-left: #000000 1px solid;
+  border-right: #000000 1px solid;
+  /*BACKGROUND:url(../images/buttonimage.gif);*/
+}
+.textareastyle { /*按钮样式*/
+  font-family: "宋体"; 
+  font-size: 9pt; 
+  color: #000000; 
+  background-color: #FFFFFF; 
+  border-top: #AAAAAA 1px solid;
+  border-bottom: #AAAAAA 1px solid;
+  border-left: #AAAAAA 1px solid;
+  border-right: #AAAAAA 1px solid;
+  /*BACKGROUND:url(../images/buttonimage.gif);*/
+}
+.trlink	{
+	cursor: hand;
+}

@@ -1,0 +1,72 @@
+body,html{
+  width: 100%;
+  height: 100%;
+  min-width: 800px;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+ul li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+@bg1:#314452;
+@bg2:#203443;
+@bg3:#586772;
+@bg4:#94a4c2;
+@bg5:#D9DADA;
+@c1:#304a5f;
+@bg6: #dedfdf;
+@bg7:#466277;
+@bg8:#cfdae2;
+@w1:16px;
+@h1:16px;
+@f1:16px;
+@f2:12px;
+@bor1:1px solid @bg8;
+
+input,select,option,textarea{outline: none;}
+input:focus {
+  outline: none;
+}
+input[type=button]{
+  outline: none;
+  border: none;
+}
+i{
+  display: inline-block;
+  cursor: pointer;
+}
+span{
+  display: inline-block;
+}
+::-webkit-scrollbar/*整体部分*/
+{
+  width: 10px;
+  height:10px;
+}
+
+::-webkit-scrollbar-track/*滑动轨道*/
+{
+  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+  border-radius: 0px;
+  background: rgba(0,0,0,0.1);
+}
+
+::-webkit-scrollbar-thumb/*滑块*/
+{
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+  background: rgba(0,0,0,0.2);
+}
+
+::-webkit-scrollbar-thumb:hover/*滑块效果*/
+{
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+  background: rgba(0,0,0,0.4);
+}

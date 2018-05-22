@@ -1,0 +1,61 @@
+{
+    "data":{
+        "funds":[
+            {
+                "cocode":"78XXXXX-8",
+                "company":"北京XXX有限公司",
+                "copercent":"12",
+                "curmonth":"2015-01",
+                "firstMonth":"null",
+                "gettime":"2015-06-05 09:05:45",
+                "lastDate":"null",
+                "nature":"550",
+                "opendate":"2011-02-22",
+                "ownpercent":"12",
+                "pay":"768",
+                "phone":"null",
+                "status":"转出",
+                "toMonth":"2015-01"
+            },
+            {
+                "cocode":"58XXXXXX",
+                "company":"北京XXX有限公司",
+                "copercent":"12",
+                "curmonth":"2016-01",
+                "firstMonth":"null",
+                "gettime":"2016-04-21 17:21:39",
+                "lastDate":"null",
+                "nature":"570",
+                "opendate":"2015-03-27",
+                "ownpercent":"12",
+                "pay":"600",
+                "phone":"null",
+                "status":"转出",
+                "toMonth":"2016-01"
+            },
+            {
+                "cocode":"75XXXXXX",
+                "company":"中国XXX公司",
+                "copercent":"12",
+                "curmonth":"2016-01",
+                "firstMonth":"null",
+                "gettime":"2016-04-21 13:21:32",
+                "lastDate":"null",
+                "nature":"510",
+                "opendate":"2015-12-08",
+                "ownpercent":"12",
+                "pay":"3360",
+                "phone":"null",
+                "status":"认缴",
+                "toMonth":"2016-01"
+            }
+        ],
+        "idcard":"14XXXX19XXXXXXXXXX",
+        "name":"孙X",
+        "result":"1",
+        "resultMsg":"查询成功，有数据"
+    },
+    "message":"成功",
+    "seqNum":"0931474267139779",
+    "status":0
+}

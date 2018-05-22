@@ -1,0 +1,98 @@
+/*全局*/
+/*@media (min-width:320px) and (max-width:400px) {*{font-size:20%;}}
+@media (min-width:401px) and (max-width:600px) {*{font-size:40%;}}
+@media (min-width:601px) and (max-width:800px) {*{font-size:50%;}}
+@media (min-width:801px) and (max-width:1024px) {*{font-size:62.5%;}}
+@media (min-width:1025px) and (max-width:1440px) {*{font-size:70%;}}
+@media (min-width:1441px) and (max-width:1600px){*{font-size:100%;}}*/
+*{padding: 0px;margin: 0px;}
+html,body,div,img,p,span{padding: 0px;margin: 0px;}
+html,body{font-size: 62.5%;height: 100%;}
+body{position:relative;font-family:arial,'微软雅黑', 'Microsoft Yahei', 'Hiragino Sans GB',  '宋体', \5b8b\4f53, Tahoma, Arial, Helvetica, STHeiti;}
+.clear{clear: both;}
+.box{height: 100%;}
+/*背景图*/
+.bg_img {    
+    width: 100%;     
+    height: 100%;     
+    position: absolute;     
+    left: 0px;     
+    top: 0px;     
+    z-index: -1;    
+}    
+    
+.stretch {    
+    width:100%;    
+    height:100%;  
+    display: block;  
+}  
+/*导航图*/
+.div_nav{width: 100%;height: 28%;}
+.title_bg{
+	width: 230px;
+	display: table-cell;
+	vertical-align: middle;
+	position: absolute;
+	left: 50%;top: 50%;
+	margin: auto;
+	top: 0 \0;right: 0 \0;bottom: 0 \0;left: 0 \0;
+}
+/*浮动模块儿*/
+.div_section{width: 90%;height: 59%;margin:0 auto;color:#fff;font-size: 1.5rem; }
+.section_padding{padding: 0.5em;}
+.section_bold{font-weight: bold;padding: 0.5em;}
+.section_one{background-color: #00b7e1;width: 32%;height: 48.6%;float: left;position: relative;overflow: hidden;}
+.section_two{background-color: #458ac9;width: 67%;height: 23%;float: right;position: relative;overflow: hidden;}
+.divide_line_first{width: 68%;height: 3%;float: right;}
+.section_three{background-color: #5b64bc;height: 23%;width: 33%;float: right;margin-right: 1%;position: relative;overflow: hidden;}
+.section_four{background-color: #32b06d;height: 23%;width: 33%;float: right;position: relative;overflow: hidden;}
+.divide_line{height: 3%;width: 100%;}
+.section_five{background-color: #f19049;height: 23%;width: 32%;float: left;margin-right: 1%;position: relative;overflow: hidden;}
+.section_six{background-color: #eb6977;height: 23%;width: 33%;float: left;position: relative;overflow: hidden;}
+.section_seven{background-color: #ef84b3;height: 49%;width: 33%;float: right;position: relative;overflow: hidden;}
+.divide_line_last{width: 67%;height:3% ;float: left;}
+.section_eight{background-color: #14b4b1;height: 23%;width: 32%;float: left;margin-right: 1%;position: relative;overflow: hidden;}
+.section_nine{background-color: #cfaa71;height: 23%;width: 33%;float: left;position: relative;overflow: hidden;}
+.div_footer{height: 13%;width:100%;text-align: center;display: table;}
+.footer_font{
+	display:table-cell;
+	color:#fff;
+	font-size: 1.5rem;
+	font-weight: bold;
+	vertical-align: middle;
+	
+}
+.inner_img{
+	display: block;
+	height: 2.6rem;
+	width: 2.6rem;
+	_width:20%;
+	_height:20%;
+	_font-size:16px;
+	/*_margin-top:-13px;
+	_margin-left:-13px;*/
+	+width:20%;
+	+height:20%;
+	+font-size:16px;
+	/*+margin-top:-13px;
+	+margin-left:-13px;*/
+	width:20%\0/;
+	height:20%\0/;
+	font-size:16px\0/;
+	/*margin-top:-13px\0/;
+	margin-left:-13px\0/;*/
+	margin:0 auto;
+	margin: auto\0/;
+	_margin:auto;
+	+margin: auto;
+	position: absolute;
+	left: 50%;top: 50%;
+	/*+top: 0;+right: 0;+bottom: 0;+left: 0;*/
+	top: 0 \0;right: 0 \0;bottom: 0 \0;left: 0 \0;
+	vertical-align: middle;
+	 -webkit-transform: translate(-50%,-50%); 
+	 -moz-transform:translate(-50%,-50%);
+      -ms-transform: translate(-1.3rem,-1.3rem); 
+       -o-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}

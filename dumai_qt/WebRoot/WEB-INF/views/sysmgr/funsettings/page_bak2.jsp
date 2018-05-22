@@ -1,0 +1,186 @@
+<%@ page contentType="text/html;charset=UTF-8" %>
+<%@ taglib prefix="common" tagdir="/WEB-INF/tags/common"%>
+<%@ include file="/WEB-INF/views/common/taglibs.jsp" %> 
+<!DocType html>
+<html lang="en" ng-app="mySystem">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>功能设定</title>
+		<link rel="stylesheet/less" href="${ctx}/static/css/system.less" type="text/less">
+		<link rel="stylesheet" href="${ctx}/static/css/bootstrap.css">
+		<link rel="stylesheet" href="${ctx}/static/css/jquery-ui.css">
+		<link rel="stylesheet" href="${ctx}/static/css/style.css">
+		<link rel="stylesheet" href="${ctx}/static/css/ng-grid.css">
+		
+		<script src="${ctx}/static/script/lib/jquery.min.js"></script>
+		<script src="${ctx}/static/script/lib/angular.min.js"></script>
+		<script src="${ctx}/static/script/lib/ng-grid.js"></script>
+		<script src="${ctx}/static/script/controller/systemCtroller.js"></script>
+		<script charset="utf-8" type="text/javascript" src="${ctx}/static/script/lib/less.min.js"></script>
+		<script charset="utf-8" type="text/javascript">
+		    less.watch();
+		</script>
+		
+	</head>
+<body>
+<div class="system" id="system" ng-controller="mySystem">
+    <div class="system_header">
+        <h5>读脉风控管理平台<a href="${ctx}/loanFront/toLoanFront.do"></a></h5>
+    </div>
+    <div class="system_bodies">
+        <ul>
+            <li data-ng-click="cutoverTab('setup')" data-ng-class="{true:'current1'}[selectedIndex == 'setup']">
+                <span class="shezhi shezhi_1"></span> <span>功能设定</span>
+            </li>
+            <li data-ng-click="cutoverTab('management')" data-ng-class="{true:'current1'}[selectedIndex == 'management']">
+                <span class="shezhi shezhi_2"></span> <span>用户管理</span>
+            </li>
+            <li data-ng-click="cutoverTab('dailyLog')" data-ng-class="{true:'current1'}[selectedIndex == 'dailyLog']">
+                <span class="shezhi shezhi_3"></span> <span>日志</span>
+            </li>
+            <li data-ng-click="cutoverTab('changePass')" data-ng-class="{true:'current1'}[selectedIndex == 'changePass']">
+                <span class="shezhi shezhi_4"></span> <span>修改密码</span>
+            </li>
+        </ul>
+        <div class="system_Box">
+            <div data-ng-show="selectedIndex == 'setup'" class="system_content system_content1" >
+                <div class="system_left">
+                    <h5>安全设定</h5>
+                    <div class="system_left_bottom">
+                        <p>通用</p>
+                        <label ng-click="addIP()" ng-class="{true:'addSel',false:'removeSel'}[addFlag]"></label>
+                        <input type="checkbox">IP访问控制
+                        <div  ng-class="{true:'show_2',false:'hide_2'}[addFlag]">
+                            <textarea name='多个ip用","分隔' ></textarea>
+                            <p>注：多个ip用","分隔</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="system_right">
+                    <h5>审核方式</h5>
+                    <div class="system_right_bottom">
+                        <label>业务类型：
+                            <select ng-Model="bValue" ng-change="changeData()" >
+                                <option style="background-color:#223746;" ng-repeat="typeList in typeLists"  ng-bind="typeList.name" value="{{typeList.code}}"></option>
+                            </select>
+                        </label>
+                        <label style="display: inline-block"> <span style="letter-spacing: 24px">贷</span>前：</label>
+                        <label class="daizhong checked"><input type="radio" name="dai">规则 </label>
+                        <label class="daizhong"><input type="radio" name="dai">模型 </label>
+                    </div>
+                </div>
+                <div class="system_grid" ng-controller="systemGridCtrl">
+                    <h5>数据查询设定</h5>
+                    <div class="system_right_bottom">
+                        <label>业务类型：
+                            <select ng-Model="aValue" ng-change="changeDatas()" ><!--  -->
+                                <option style="background-color:#223746;" ng-repeat="typeList in typesLists"  ng-bind="typeList.name" value="{{typeList.code}}"></option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="system_gridStyle" ng-grid="gridOptions"></div>
+                </div>
+
+            </div>
+            <div data-ng-show="selectedIndex == 'management'" class="system_content system_content2" >
+                <div class="addUser_title">用户列表<span ng-click="addGrid()"><i></i>增加</span></div>
+                <div ng-controller="userGridCtrl">
+                    <div class="user_gridStyle" ng-grid="gridOptions"></div>
+                </div>
+                <div class="system_addUser" ng-class="{true:'show_2',false:'hide_2'}[addUserFlag]">
+                     <ul>
+                        <li><span>用户名：</span>
+                            <label><input type="text" ng-model="user_name" name="user_name" ng-blur="checkUserExist()"></label>
+                        </li>
+                        <li><span>姓名：</span>
+                            <label><input type="text" ng-model="surname" name="surname"></label>
+                        </li>
+                        <li class="dan"><span>性别：</span>
+                            <label class="checked"><input type="radio" name="sex" ng-model="sex" value="女">女</label>
+                            <label><input type="radio" name="sex" ng-model="sex" value="男">男</label>
+                        </li>
+                        <li class="dan"><span>是否为管理员：</span>
+                            <label class="checked"><input type="radio" name="isLeader" ng-model="isLeader" value="2">是</label>
+                            <label><input type="radio" name="isLeader" ng-model="isLeader" value="3">否</label>
+                        </li>
+                        <li><span>部门：</span>
+                            <label><input type="text" ng-model="user_dept" name="user_dept"></label>
+                        </li>
+                        <li><span>角色：</span>
+                            <label><input type="text" ng-model="user_role" name="user_role"></label>
+                        </li>
+                        <li class="dan dan3"><span>权限：</span>
+                            <label><input type="checkbox" name="user_permission" ng-model="user_permission" >查看</label>
+                            <label><input type="checkbox" name="user_permission" ng-model="user_permission" >删除</label>
+                            <label><input type="checkbox" name="user_permission" ng-model="user_permission" >导出</label>
+                        </li>
+                        <li><span>邮箱：</span>
+                            <label><input type="text" ng-model="email" name="email"></label>
+                        </li>
+                        <li><span>工作电话：</span>
+                            <label><input type="text" ng-model="office_tel" name="office_tel"></label>
+                        </li>
+                        <li><span>手机号：</span>
+                            <label><input type="text" ng-model="mobile" name="mobile"></label>
+                        </li>
+                        <li class="dan"><span>账号启用：</span>
+                            <label  class="checked"><input type="radio" name="isvalid" ng-model="isvalid" value="1">是</label>
+                            <label><input type="radio" name="isvalid" ng-model="isvalid" value="0">否</label>
+                        </li>
+                    </ul>
+                    <div class="system_butt">
+                        <input type="button" value="保存" class="system_save" ng-click="addUser()">
+                        <input type="button" value="取消" class="system_cancle" ng-click="close()">
+                    </div>
+                </div>
+            </div>
+            <div data-ng-show="selectedIndex == 'dailyLog'" class="system_content system_content3" >
+                <div ng-controller="logGridCtrl">
+                    <div class="log_gridStyle" ng-grid="gridOptions"></div>
+                </div>
+            </div>
+            <div data-ng-show="selectedIndex == 'changePass'" class="system_content system_content4" >
+                <div class="contain" ng-controller="myPassCtrl">
+                    <div class="bottom">
+                        <form name="myForm" class="form-horizontal userForm">
+                            <div class="form-group">
+                                <label class="control-label col-md-3">新密码：</label>
+                                <div class="col-md-5">
+                                    <input type="password" name="user_name" ng-model="name" ng-maxlength="16" ng-minlength="6" class="form-control col-md-2" required id="pass" ng-blur="CheckWord1('{{name}}')">
+                                    <i class="Eye1" ng-click="changeClass1()" ng-class="{true:'openEye',false:'closeEye'}[classFlag1]"></i>
+                                    <div ng-show="myForm.user_name.$invalid&&myForm.user_name.$dirty">
+                                        <div class="alert alert-danger">
+                                            <p ng-show="myForm.user_name.$error.required">
+                                                该项为必填项，请输入内容
+                                            </p>
+                                            <p ng-show="myForm.user_name.$error.maxlength">
+                                                字符不可以超过16位
+                                            </p>
+                                            <p ng-show="myForm.user_name.$error.minlength">
+                                                字符不可以少于6位
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span style="display: inline;">6-16 个字符，需使用字母、数字或符号组合，不能使用纯数字、纯字母、纯符号</span>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-3">确认密码：</label>
+                                <div class="col-md-5">
+                                    <input type="password" ng-model="newPass" class="form-control" required id="newPass" >
+                                    <i class="Eye2" ng-class="{true:'openEye',false:'closeEye'}[classFlag2]" ng-click="changeClass2()"></i>
+                                </div>
+                                <span style="display: inline-block;margin-top: 8px">请再次输入密码</span>
+                            </div>
+                            <div class="form-group tijiaoButton">
+                                <div ng-click="InputCheckWord()" id="tijiao">保存</div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>			
+</body>
+</html>

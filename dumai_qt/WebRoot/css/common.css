@@ -1,0 +1,43 @@
+
+input,textarea{outline: none}
+body{font-size: 12px;}
+
+
+body{font-size: 12px;background: #eff0f0}
+p{line-height: 20px;margin: 0}
+section{padding: 20px 0}
+ul{margin: 0;padding: 0}
+
+
+/*layout*/
+.lay{}
+/*头部*/
+.container{width: 1000px;margin: 0 auto;}
+.container:after{
+    clear: both;content: ' ';display: block;height: 0;line-height: 0; font-size: 0;visibility: hidden;
+}
+
+
+.f-l{float: left}
+.f-r{float: right}
+.clearfix{zoom:1}
+.clearfix:after{display: block;clear: both;visibility: hidden;content: ' ';height: 0;font-size: 0;line-height:0}
+
+/*颜色*/
+.c_red{color: #fa0000}
+.c_orange{color: #ffc028}
+.c_purple{color: #CE6EFD}
+.f-mt10{margin-top: 10px;}
+
+
+.nav-top{width: 1000px;margin: 0 auto}
+.hd-top{background: #505050;height: 30px;}
+.nav-list{margin: 0;padding: 0}
+.nav-list li{float: left;}
+.nav-list a,.nav-list span{display: block;color: #fff;line-height: 30px;margin:0 4px;padding: 0 10px}
+.nav-list a:hover{background:rgba(0,0,0,.2)}
+.nav-list .divide{margin: 0 2px;padding: 0;}
+.nav-list li:first-child a{margin: 0 4px 0 0}
+
+
+

@@ -1,0 +1,286 @@
+{
+	"success": "s",
+	"message": "查询正常,共5条结果！",
+	"totalnumber": 5,
+	"pg": 1,
+	"pz": 100,
+	"startime": "2016-11-03 14:35:01",
+	"endtime": "2016-11-03 14:35:01",
+	"allmsglist": [
+		{
+			"keyid": 315042292,
+			"name": "王宣宝",
+			"cid": "23042119640****3115",
+			"type": "执行公开信息",
+			"typet": 32,
+			"url": "",
+			"title": "王宣宝(最高法执行)",
+			"description": "",
+			"datetime": "2016-10-13",
+			"onemsglist": [
+				{
+					"propername": "被执行人姓名或名称",
+					"propervalue": "王宣宝"
+				},
+				{
+					"propername": "证件号码",
+					"propervalue": "23042119640****3115"
+				},
+				{
+					"propername": "执行法院",
+					"propervalue": "哈尔滨市南岗区人民法院"
+				},
+				{
+					"propername": "执行案号",
+					"propervalue": "(2016)黑0103执02560号"
+				},
+				{
+					"propername": "执行内容",
+					"propervalue": "执行标的:5354379"
+				},
+				{
+					"propername": "立案时间",
+					"propervalue": "2016-10-13"
+				},
+				{
+					"propername": "执行状态",
+					"propervalue": "执行中"
+				},
+				{
+					"propername": "异议备注",
+					"propervalue": ""
+				}
+			]
+		},
+		{
+			"keyid": 315055445,
+			"name": "王宣宝",
+			"cid": "23042119640****3115",
+			"type": "执行公开信息",
+			"typet": 32,
+			"url": "",
+			"title": "王宣宝(最高法执行)",
+			"description": "",
+			"datetime": "2016-10-13",
+			"onemsglist": [
+				{
+					"propername": "被执行人姓名或名称",
+					"propervalue": "王宣宝"
+				},
+				{
+					"propername": "证件号码",
+					"propervalue": "23042119640****3115"
+				},
+				{
+					"propername": "执行法院",
+					"propervalue": "哈尔滨市南岗区人民法院"
+				},
+				{
+					"propername": "执行案号",
+					"propervalue": "(2016)黑0103执02558号"
+				},
+				{
+					"propername": "执行内容",
+					"propervalue": "执行标的:5264255"
+				},
+				{
+					"propername": "立案时间",
+					"propervalue": "2016-10-13"
+				},
+				{
+					"propername": "执行状态",
+					"propervalue": "执行中"
+				},
+				{
+					"propername": "异议备注",
+					"propervalue": ""
+				}
+			]
+		},
+		{
+			"keyid": 26351929,
+			"name": "王宣宝",
+			"cid": "230421196405093115",
+			"type": "民商事裁判文书",
+			"typet": 31,
+			"url": "",
+			"title": "王宣宝(判决文书)",
+			"description": "",
+			"datetime": "2016-09-19",
+			"onemsglist": [
+				{
+					"propername": "当事人姓名或名称",
+					"propervalue": "王宣宝"
+				},
+				{
+					"propername": "证件号码",
+					"propervalue": "230421196405093115"
+				},
+				{
+					"propername": "审理机关",
+					"propervalue": "黑龙江省哈尔滨市南岗区人民法院"
+				},
+				{
+					"propername": "案号",
+					"propervalue": "（2016）黑0103民初4284号"
+				},
+				{
+					"propername": "涉案事由",
+					"propervalue": "借款合同纠纷"
+				},
+				{
+					"propername": "涉案金额",
+					"propervalue": "0.0000"
+				},
+				{
+					"propername": "诉讼地位",
+					"propervalue": "被告"
+				},
+				{
+					"propername": "结案时间",
+					"propervalue": "2016-09-19"
+				},
+				{
+					"propername": "异议备注",
+					"propervalue": ""
+				}
+			]
+		},
+		{
+			"keyid": 103678623,
+			"name": "王宣宝",
+			"cid": "23042119640****3115",
+			"type": "执行公开信息",
+			"typet": 32,
+			"url": "",
+			"title": "王宣宝(最高法执行)",
+			"description": "",
+			"datetime": "2015-07-23",
+			"onemsglist": [
+				{
+					"propername": "被执行人姓名或名称",
+					"propervalue": "王宣宝"
+				},
+				{
+					"propername": "证件号码",
+					"propervalue": "23042119640****3115"
+				},
+				{
+					"propername": "执行法院",
+					"propervalue": "哈尔滨市道里区人民法院"
+				},
+				{
+					"propername": "执行案号",
+					"propervalue": "(2015)里发执字第01208号"
+				},
+				{
+					"propername": "执行内容",
+					"propervalue": "金额:1300000.00"
+				},
+				{
+					"propername": "立案时间",
+					"propervalue": "2015-07-23"
+				},
+				{
+					"propername": "执行状态",
+					"propervalue": "执行中"
+				},
+				{
+					"propername": "异议备注",
+					"propervalue": ""
+				}
+			]
+		},
+		{
+			"keyid": 86881128,
+			"name": "王宣宝",
+			"cid": "230421196405093115",
+			"type": "执行公开信息",
+			"typet": 32,
+			"url": "",
+			"title": "王宣宝(最高法执行)",
+			"description": "",
+			"datetime": "2014-01-09",
+			"onemsglist": [
+				{
+					"propername": "被执行人姓名或名称",
+					"propervalue": "王宣宝"
+				},
+				{
+					"propername": "证件号码",
+					"propervalue": "230421196405093115"
+				},
+				{
+					"propername": "执行法院",
+					"propervalue": "黑龙江省宝泉岭农垦法院"
+				},
+				{
+					"propername": "执行案号",
+					"propervalue": "(2014)宝执字第00003号"
+				},
+				{
+					"propername": "执行内容",
+					"propervalue": "执行标的:537720"
+				},
+				{
+					"propername": "立案时间",
+					"propervalue": "2014-01-09"
+				},
+				{
+					"propername": "执行状态",
+					"propervalue": ""
+				},
+				{
+					"propername": "异议备注",
+					"propervalue": ""
+				}
+			]
+		}
+	],
+	"navigate": [
+		{
+			"propername": "执行公开信息",
+			"propervalue": "11"
+		},
+		{
+			"propername": "失信老赖名单",
+			"propervalue": "12"
+		},
+		{
+			"propername": "限制高消费名单",
+			"propervalue": "13"
+		},
+		{
+			"propername": "限制出入境名单",
+			"propervalue": "14"
+		},
+		{
+			"propername": "民商事裁判文书",
+			"propervalue": "15"
+		},
+		{
+			"propername": "民商事审判流程",
+			"propervalue": "16"
+		},
+		{
+			"propername": "罪犯及嫌疑人名单",
+			"propervalue": "17"
+		},
+		{
+			"propername": "行政违法记录",
+			"propervalue": "18"
+		},
+		{
+			"propername": "欠税名单",
+			"propervalue": "19"
+		},
+		{
+			"propername": "纳税非正常户",
+			"propervalue": "20"
+		},
+		{
+			"propername": "欠款欠费名单",
+			"propervalue": "21"
+		}
+	]
+}

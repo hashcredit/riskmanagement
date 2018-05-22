@@ -1,0 +1,64 @@
+[
+    {
+    	"null_pass" : "",
+        "identifier": "idCardNameValidate",
+        "expression": "RESULT==1",
+        "invalidMsg": "身份证一致性验证不通过",
+       	"dm_source_code": "aa959655-9ead-4884-91dd-2cb6ab04cac0",
+        "dm_3rd_interface_code": "93a69a72-d867-4f7d-a587-64ab3b8a3378",
+        "para_order":{
+            "name":"name",
+            "idCard":"card_num"
+        }
+    },
+    {
+    	"disable"	: "",
+    	"null_pass" : "",
+        "identifier": "mobileNameValidate",
+        "expression": "data.statusCode=='2005'",
+        "invalidMsg": "手机号一致性验证不通过",
+        "dm_source_code": "4235c551-0ed3-459e-9d59-c245c83dcd1d",
+        "dm_3rd_interface_code": "d70e91e4-dc23-466b-8b82-ef7b3ce9ac13",
+        "para_order":{
+            "name":"name",
+            "idcard":"card_num",
+            "cellphone":"mobile"
+        }
+    },
+    {
+    	"null_pass" : "",
+        "identifier": "bankCardNameValidate",
+        "expression": "data.statusCode=='2005'",
+        "invalidMsg": "银行卡一致性验证不通过",
+        "dm_source_code": "edd257aa-8a11-4946-90b9-4b23024840c6",
+        "dm_3rd_interface_code": "5687256d-ee6b-486c-8741-fc05af7533df",
+        "para_order":{
+            "name":"name",
+            "idcard":"card_num",
+            "bankcard":"bank_num"
+        }
+    },
+    {
+        "null_pass" : "",
+        "identifier": "crimeCountValidate",
+        "expression": "crime_count==0",
+        "invalidMsg": "存在涉案信息，验证不通过",
+        "dm_3rd_interface_code": "9b4cc12d-ff09-4de3-944a-3101c9df688a",
+        "para_order":{
+            "name":"name",
+            "idcard":"card_num"
+        }
+    },
+    {
+        "disable"	: "",
+        "identifier": "carOwnerValidate",
+        "expression": "data.jdcsyr.endsWith('公司') || data.jdcsyr==$.name",
+        "invalidMsg": "车辆车主一致性验证不通过",
+        "dm_source_code": "d6f59205-9855-4dcc-bb4b-c327de2ce8b5",
+        "dm_3rd_interface_code": "ac187116-d5d3-4a32-8b8e-8946d51d6d88",
+        "para_order":{
+            "plate":"plate",
+            "plateType":"plateType"
+        }
+    }
+]

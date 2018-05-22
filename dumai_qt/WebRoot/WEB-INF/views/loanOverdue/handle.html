@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myOverSheng">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet/less" href="css/overdue.less" type="text/less">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ng-grid.css">
+</head>
+<body>
+<div class="overDuePage" ng-class="{true:'show_1',false:'hide_1'}[overdue_shengji_Flag]" ng-controller="gridCtrl_sheng">
+    <h5 ng-click="backMain_sheng()"><span>返回到逾期催收主页面</span><span class="over_back"></span></h5>
+    <div class="overCon">
+        <ul class="over_title">
+            <li><span class="icon_peop"></span><span>李莹莹</span></li>
+            <li><span>借款金额：</span><span>123456</span></li>
+            <li><span>借款期数：</span><span>12</span></li>
+            <li><span>放款日期：</span><span>2016-04-18</span></li>
+        </ul>
+        <div class="over_box">
+            <div class="over_left over_left_sheng">
+                <ul>
+                    <li><span>催收日期：</span><span>2018-04-18</span></li>
+                    <li><span>下次跟进时间：</span>
+                        <label class="info_header_date"><p><input type="text" id="datepicker2" ng-model="date"><i ng-click="dispear()" ></i></p></label>
+                    </li>
+                    <li><span>客户标签：</span>
+                        <select name="aaa">
+                            <option value="客户不接电话">客户不接电话</option>
+                            <option value="客户不接电话">客户不接电话</option>
+                            <option value="客户不接电话">客户不接电话</option>
+                            <option value="客户不接电话">客户不接电话</option>
+
+                        </select>
+
+                    </li>
+                    <li style="margin-top: -10px"><span>沟通内容：</span>
+                        <textarea name="wenben"  rows="3"></textarea>
+                    </li>
+                    <li style="margin-top: 86px" class="soloSel">
+                        <span>升级处理申请：</span>
+                        <div>
+                            <label class="checked"><input type="radio" name="apply" value="外防协催" >外防协催</label>
+                            <label><input type="radio" name="apply" value="展期">展期</label>
+                            <label><input type="radio" name="apply" value="外包">外包</label>
+                            <label><input type="radio" name="apply" value="诉讼">诉讼</label>
+                        </div>
+
+                    </li>
+                    <li style="margin-top: 10px"><span>申请理由：</span>
+                        <textarea name="wenben"  rows="3"></textarea>
+                    </li>
+                </ul>
+                <div class="anniu">
+                    <input type="button" value="保存" class="agree">
+                </div>
+
+            </div>
+            <div class="over_right over_right_sheng" >
+                <div class="gridStyle" ng-grid="gridOptions"  ></div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script charset="utf-8" type="text/javascript" src="js/lib/less.min.js"></script>
+<script charset="utf-8" type="text/javascript">
+    less.watch();
+</script>
+<script src="js/lib/jquery.min.js"></script>
+<script src="js/lib/angular.js"></script>
+<script src="js/lib/ng-grid.js"></script>
+<script src="js/controller/dueController2.js"></script>
+</body>
+</html>

@@ -1,0 +1,291 @@
+BODY {
+	BACKGROUND: url(../images/bg02.gif) center 50%
+}
+.indexlogo {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: Arial
+}
+.top {
+	FONT-SIZE: 12px; COLOR: #ffffff
+}
+.top A:link {
+	FONT-SIZE: 12px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.top A:visited {
+	FONT-SIZE: 12px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.top A:hover {
+	FONT-SIZE: 12px; COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.new A:link {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 20px; TEXT-DECORATION: none
+}
+.new A:visited {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 20px; TEXT-DECORATION: none
+}
+.new A:hover {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 20px; TEXT-DECORATION: underline
+}
+.link A:link {
+	FONT-SIZE: 12px; COLOR: #004098; LINE-HEIGHT: 20px; TEXT-DECORATION: none
+}
+.link A:visited {
+	FONT-SIZE: 12px; COLOR: #004098; LINE-HEIGHT: 20px; TEXT-DECORATION: none
+}
+.link A:hover {
+	FONT-SIZE: 12px; COLOR: #004098; LINE-HEIGHT: 20px; TEXT-DECORATION: underline
+}
+.bottom {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 20px
+}
+.bottom A:link {
+	FONT-SIZE: 12px; COLOR: #014098; LINE-HEIGHT: 20px; TEXT-DECORATION: none
+}
+.bottom A:visited {
+	FONT-SIZE: 12px; COLOR: #014098; LINE-HEIGHT: 20px; TEXT-DECORATION: none
+}
+.bottom A:hover {
+	FONT-SIZE: 12px; COLOR: #014098; LINE-HEIGHT: 20px; TEXT-DECORATION: underline
+}
+.left_b A:link {
+	FONT-SIZE: 12px; COLOR: #da3b3f; TEXT-DECORATION: none
+}
+.left_b A:visited {
+	FONT-SIZE: 12px; COLOR: #da3b3f; TEXT-DECORATION: none
+}
+.left_b A:hover {
+	FONT-SIZE: 12px; COLOR: #da3b3f; TEXT-DECORATION: underline
+}
+.left_b_d A:link {
+	FONT-SIZE: 12px; COLOR: #008caa; TEXT-DECORATION: none
+}
+.left_b_d A:visited {
+	FONT-SIZE: 12px; COLOR: #008caa; TEXT-DECORATION: none
+}
+.left_b_d A:hover {
+	FONT-SIZE: 12px; COLOR: #008caa; TEXT-DECORATION: underline
+}
+.left_s A:link {
+	FONT-SIZE: 12px; COLOR: #d33a34; TEXT-DECORATION: none
+}
+.left_s A:visited {
+	FONT-SIZE: 12px; COLOR: #d33a34; TEXT-DECORATION: none
+}
+.left_s A:hover {
+	FONT-SIZE: 12px; COLOR: #008eac; TEXT-DECORATION: underline
+}
+.left_s_d A:link {
+	FONT-SIZE: 12px; COLOR: #008eac; TEXT-DECORATION: none
+}
+.left_s_d A:visited {
+	FONT-SIZE: 12px; COLOR: #008eac; TEXT-DECORATION: none
+}
+.left_s_d A:hover {
+	FONT-SIZE: 12px; COLOR: #008eac; TEXT-DECORATION: underline
+}
+.al_left A:link {
+	FONT-SIZE: 12px; COLOR: #029ab5; TEXT-DECORATION: none
+}
+.al_left A:visited {
+	FONT-SIZE: 12px; COLOR: #029ab5; TEXT-DECORATION: none
+}
+.al_left A:hover {
+	FONT-SIZE: 12px; COLOR: #029ab5; TEXT-DECORATION: underline
+}
+.al_left_d A:link {
+	FONT-SIZE: 12px; COLOR: #e9005f; TEXT-DECORATION: none
+}
+.al_left_d A:visited {
+	FONT-SIZE: 12px; COLOR: #e9005f; TEXT-DECORATION: none
+}
+.al_left_d A:hover {
+	FONT-SIZE: 12px; COLOR: #e9005f; TEXT-DECORATION: underline
+}
+.al_right A:link {
+	FONT-SIZE: 12px; COLOR: #ea0084; TEXT-DECORATION: none
+}
+.al_right A:visited {
+	FONT-SIZE: 12px; COLOR: #ea0084; TEXT-DECORATION: none
+}
+.al_right A:hover {
+	FONT-SIZE: 12px; COLOR: #ea0084; TEXT-DECORATION: underline
+}
+#al_b {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #eb6a02; LINE-HEIGHT: 23px
+}
+#al_s {
+	FONT-SIZE: 12px; COLOR: #3e3a39; LINE-HEIGHT: 23px
+}
+#al_m {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #3e3d3b; LINE-HEIGHT: 23px
+}
+#al_s A:link {
+	FONT-SIZE: 12px; COLOR: #3e3a39; TEXT-DECORATION: none
+}
+#al_s A:visited {
+	FONT-SIZE: 12px; COLOR: #3e3a39; TEXT-DECORATION: none
+}
+#al_s A:hover {
+	FONT-SIZE: 12px; COLOR: #3e3a39; TEXT-DECORATION: underline
+}
+.news_left A:link {
+	FONT-SIZE: 12px; COLOR: #2c87c2; TEXT-DECORATION: none
+}
+.news_left A:visited {
+	FONT-SIZE: 12px; COLOR: #2c87c2; TEXT-DECORATION: none
+}
+.news_left A:hover {
+	FONT-SIZE: 12px; COLOR: #d7aa07; TEXT-DECORATION: underline
+}
+.news_left_d A:link {
+	FONT-SIZE: 12px; COLOR: #d7aa07; TEXT-DECORATION: none
+}
+.news_left_d A:visited {
+	FONT-SIZE: 12px; COLOR: #d7aa07; TEXT-DECORATION: none
+}
+.news_left_d A:hover {
+	FONT-SIZE: 12px; COLOR: #d7aa07; TEXT-DECORATION: underline
+}
+.news_right {
+	FONT-SIZE: 12px; COLOR: #3e3a39; LINE-HEIGHT: 20px
+}
+.news_right A:link {
+	FONT-SIZE: 12px; COLOR: #3e3a39; LINE-HEIGHT: 20px; TEXT-DECORATION: none
+}
+.news_right A:visited {
+	FONT-SIZE: 12px; COLOR: #3e3a39; LINE-HEIGHT: 20px; TEXT-DECORATION: none
+}
+.news_right A:hover {
+	FONT-SIZE: 12px; COLOR: #3e3a39; LINE-HEIGHT: 20px; TEXT-DECORATION: underline
+}
+.news_bottom {
+	FONT-SIZE: 12px; COLOR: #4f98c8
+}
+.news_bottom A:link {
+	FONT-SIZE: 12px; COLOR: #4f98c8; TEXT-DECORATION: none
+}
+.news_bottom A:visited {
+	FONT-SIZE: 12px; COLOR: #4f98c8; TEXT-DECORATION: none
+}
+.news_bottom A:hover {
+	FONT-SIZE: 12px; COLOR: #4f98c8; TEXT-DECORATION: underline
+}
+.close A:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.close A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.close A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.fa_left A:link {
+	FONT-SIZE: 12px; COLOR: #029ab5; TEXT-DECORATION: none
+}
+.fa_left A:visited {
+	FONT-SIZE: 12px; COLOR: #029ab5; TEXT-DECORATION: none
+}
+.fa_left A:hover {
+	FONT-SIZE: 12px; COLOR: #029ab5; TEXT-DECORATION: underline
+}
+.fa_left_b A:link {
+	FONT-SIZE: 12px; COLOR: #eb6100; TEXT-DECORATION: none
+}
+.fa_left_b A:visited {
+	FONT-SIZE: 12px; COLOR: #eb6100; TEXT-DECORATION: none
+}
+.fa_left_b A:hover {
+	FONT-SIZE: 12px; COLOR: #eb6100; TEXT-DECORATION: underline
+}
+.fa_right A:link {
+	FONT-SIZE: 12px; COLOR: #eb6100; TEXT-DECORATION: none
+}
+.fa_right A:visited {
+	FONT-SIZE: 12px; COLOR: #eb6100; TEXT-DECORATION: none
+}
+.fa_right A:hover {
+	FONT-SIZE: 12px; COLOR: #eb6100; TEXT-DECORATION: underline
+}
+.fa_right_d A:link {
+	FONT-SIZE: 12px; COLOR: #008fc4; TEXT-DECORATION: none
+}
+.fa_right_d A:visited {
+	FONT-SIZE: 12px; COLOR: #008fc4; TEXT-DECORATION: none
+}
+.fa_right_d A:hover {
+	FONT-SIZE: 12px; COLOR: #008fc4; TEXT-DECORATION: underline
+}
+.jzys {
+	FONT-SIZE: 12px; COLOR: #5d5d5d; LINE-HEIGHT: 20px
+}
+.jzys A:link {
+	FONT-SIZE: 12px; COLOR: #5d5d5d; LINE-HEIGHT: 20px; TEXT-DECORATION: none
+}
+.jzys A:visited {
+	FONT-SIZE: 12px; COLOR: #5d5d5d; LINE-HEIGHT: 20px; TEXT-DECORATION: none
+}
+.jzys A:hover {
+	FONT-SIZE: 12px; COLOR: #5d5d5d; LINE-HEIGHT: 20px; TEXT-DECORATION: underline
+}
+#gslc_l {
+	FONT-SIZE: 12px; COLOR: #da3b3f; BORDER-BOTTOM: #000000 1px dotted
+}
+#gslc_r {
+	FONT-SIZE: 12px; COLOR: #000000; BORDER-BOTTOM: #000000 1px dotted
+}
+#ryj {
+	PADDING-LEFT: 10px; FONT-SIZE: 12px; COLOR: #666666
+}
+#job {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 23px
+}
+#job-cp {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #1b9187; LINE-HEIGHT: 23px
+}
+#job-yx {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #003495; LINE-HEIGHT: 23px
+}
+.news_link A:link {
+	FONT-SIZE: 12px; COLOR: #6891ca; LINE-HEIGHT: 20px; TEXT-DECORATION: none
+}
+.news_link A:visited {
+	FONT-SIZE: 12px; COLOR: #6891ca; LINE-HEIGHT: 20px; TEXT-DECORATION: none
+}
+.news_link A:hover {
+	FONT-SIZE: 12px; COLOR: #6891ca; LINE-HEIGHT: 20px; TEXT-DECORATION: underline
+}
+.policy_bottom {
+	FONT-SIZE: 12px; COLOR: #ab2154
+}
+.policy_bottom A:link {
+	FONT-SIZE: 12px; COLOR: #ab2154; TEXT-DECORATION: none
+}
+.policy_bottom A:visited {
+	FONT-SIZE: 12px; COLOR: #ab2154; TEXT-DECORATION: none
+}
+.policy_bottom A:hover {
+	FONT-SIZE: 12px; COLOR: #ab2154; TEXT-DECORATION: underline
+}
+.job {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 20px
+}
+.job A:link {
+	FONT-SIZE: 12px; COLOR: #0000ff; LINE-HEIGHT: 20px; TEXT-DECORATION: none
+}
+.job A:visited {
+	FONT-SIZE: 12px; COLOR: #0000ff; LINE-HEIGHT: 20px; TEXT-DECORATION: none
+}
+.job A:hover {
+	FONT-SIZE: 12px; COLOR: #0000ff; LINE-HEIGHT: 20px; TEXT-DECORATION: underline
+}
+.job_bottom {
+	FONT-SIZE: 12px; COLOR: #145e8e
+}
+.job_bottom A:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #145e8e; TEXT-DECORATION: none
+}
+.job_bottom A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #145e8e; TEXT-DECORATION: none
+}
+.job_bottom A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #145e8e; TEXT-DECORATION: underline
+}

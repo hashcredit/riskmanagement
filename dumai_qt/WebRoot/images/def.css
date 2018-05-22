@@ -1,0 +1,120 @@
+BODY {
+	FONT-SIZE: 9pt; COLOR: #000000
+}
+TABLE {
+	FONT-SIZE: 9pt; COLOR: #000000
+}
+TD {
+	FONT-SIZE: 9pt; COLOR: #000000
+}
+P {
+	FONT-SIZE: 9pt; COLOR: #000000
+}
+BR {
+	FONT-SIZE: 9pt; COLOR: #000000
+}
+FONT.clsContentStyle {
+	FONT-SIZE: 9pt; COLOR: #000000
+}
+FONT.clsTitleStyle {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #000000
+}
+INPUT {
+	FONT-SIZE: 9pt; COLOR: #000000
+}
+radio {
+	FONT-SIZE: 9pt; COLOR: #000000
+}
+SELECT {
+	FONT-SIZE: 9pt; COLOR: #000000
+}
+.biaoti {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px
+}
+.button1 {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #666666 1px solid; BORDER-LEFT: #666666 1px solid; WIDTH: 50px; BORDER-BOTTOM: #ffffff 1px solid; BACKGROUND-COLOR: #f9f9f9
+}
+.button2 {
+	BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; WIDTH: 50px; BORDER-BOTTOM: #666666 1px solid; BACKGROUND-COLOR: #d4d0c8
+}
+TEXTAREA {
+	FONT-SIZE: 9pt
+}
+.divLarge {
+	VISIBILITY: visible
+}
+.divSmall {
+	OVERFLOW: hidden; HEIGHT: 23px
+}
+.InfoListDivLarge {
+	
+}
+.InfoListDivSmall {
+	DISPLAY: none
+}
+A.menu1:link {
+	COLOR: white; TEXT-DECORATION: none
+}
+A.menu1:visited {
+	COLOR: white; TEXT-DECORATION: none
+}
+A.menu1:hover {
+	COLOR: white; TEXT-DECORATION: underline
+}
+A:active:unknown {
+	COLOR: white; TEXT-DECORATION: underline
+}
+A.menu4:link {
+	COLOR: #808080; TEXT-DECORATION: none
+}
+A.menu4:visited {
+	COLOR: #808080; TEXT-DECORATION: underline
+}
+A.menu4:hover {
+	COLOR: #808080; TEXT-DECORATION: underline
+}
+A:active:unknown {
+	COLOR: #808080; TEXT-DECORATION: underline
+}
+A.message:link {
+	COLOR: #00ffff; TEXT-DECORATION: none
+}
+A.message:visited {
+	COLOR: #00ffff; TEXT-DECORATION: none
+}
+A.message:hover {
+	COLOR: yellow; TEXT-DECORATION: underline
+}
+A:active:unknown {
+	COLOR: yellow; TEXT-DECORATION: underline
+}
+A:link {
+	COLOR: #09027d; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #09027d; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #09027d; TEXT-DECORATION: underline
+}
+A:hover {
+	COLOR: #09027d; TEXT-DECORATION: underline
+}
+FONT.clsMouseOver {
+	TEXT-DECORATION: underline
+}
+FONT.clsMouseOut {
+	TEXT-DECORATION: none
+}
+.clsTitleBarBGColor {
+	BACKGROUND-COLOR: #5a92de
+}
+.clsWaitingBGColor {
+	BACKGROUND-COLOR: #f3f8fe
+}
+INPUT.clsBtn {
+	BORDER-RIGHT: #104a7b 1px solid; BORDER-TOP: #afc4d5 1px solid; FONT-SIZE: 9pt; BACKGROUND: #d6e7ef; BORDER-LEFT: #afc4d5 1px solid; CURSOR: hand; COLOR: #000066; BORDER-BOTTOM: #104a7b 1px solid; FONT-FAMILY: ËÎÌו,MS SONG,SimSun,tahoma,sans-serif; HEIGHT: 19px; TEXT-DECORATION: none
+}
+TR.clsListRowSeleted {
+	BACKGROUND-COLOR: #99ffff
+}

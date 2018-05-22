@@ -1,0 +1,63 @@
+{
+	"resCode": "0000",
+	"resMsg": "提交成功",
+	"data": {
+		"statusCode": "2012",
+		"statusMsg": "查询成功",
+		"result": {
+			"info": {
+				"idcardStatus": "有效状态",
+				"usedName": "巴扎"
+			},
+			"detail": {
+				"gender": "女性",
+				"nationality": "汉族",
+				"department": "大工人俱乐部",
+				"education": "小学",
+				"birthplace": "陕西省渭南市留蒲城县",
+				"maritalStatus": "未婚",
+				"birthday": "1990-01-29",
+				"censusAddress": {
+					"district": "陕西省渭南市蒲城二县",
+					"location": "城关镇重泉南一路甲号"
+				}
+			},
+			"identityVerification": {
+				"idExists": "存在",
+				"nameMatched": "一致"
+			},
+			"cohabiters": [
+				{
+					"nationality": "汉族",
+					"gender": "女性",
+					"birthday": "2015-03-10",
+					"name": "陈锦"
+				},
+				{
+					"nationality": "汉族",
+					"gender": "女性",
+					"birthday": "1998-09-25",
+					"name": "李恬"
+				},
+				{
+					"nationality": "汉族",
+					"gender": "男性",
+					"birthday": "1972-12-15",
+					"name": "李民"
+				},
+				{
+					"nationality": "汉族",
+					"gender": "男性",
+					"birthday": "2015-05-10",
+					"name": "张洋"
+				},
+				{
+					"nationality": "汉族",
+					"gender": "男性",
+					"birthday": "1994-02-06",
+					"name": "顾骁"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,34 @@
+<div class="trajectory" ng-controller="gpsInfoCtrl">
+    <div class="traje_title">
+        <div class="traje_title_up">
+            <!--<span>浙A6610W-1</span>-->
+            从 <input type="date" class="startTime"> 至 <input type="date" class="endTime">
+            <input type="button" value="日期确认" class="queren">
+            <input type="button" value="轨迹回放" class="player">
+            <input type="button" value="结束回放" class="end">
+            速度：慢X1 <input type="range" class="speed"  min="1" max="30" value="15" >快X30
+            <label>停留标识
+                <select name="time" id="stayTime">
+                    <option value="5分钟">5分钟</option>
+                    <option value="15分钟">15分钟</option>
+                    <option value="30分钟">30分钟</option>
+                    <option value="1小时">1小时</option>
+                    <option value="6小时">6小时</option>
+                    <option value="12小时">12小时</option>
+                    <option value="1天">1天</option>
+                </select>
+            </label>
+        </div>
+        <div class="traje_title_down">
+            <div class="scroll-wrap">
+                <div class="scroll-bg fl" id="scrollBg">
+                    <div id="scroll-green" class="scroll-up" >
+                        <div class="scroll-cur fr" id="scrollHandle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mark"></div>
+    </div>
+    <div id="traceMap"></div>
+</div>

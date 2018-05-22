@@ -1,0 +1,256 @@
+@charset "utf-8";
+/** CSS Document 
+ *	Created by mayue on 2016/03/30.
+**/
+
+/* reset start */
+html{height:100%;}
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;}
+body{line-height:1;	background: #F8F8F8;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+nav ul{list-style:none;}
+ul{list-style:none;}
+.none{display:none;}
+.clearfix{zoom:1}
+a{text-decoration:none;color:#333;}
+/* safari start */
+
+
+.body-box{
+	background: #efefef;
+	font-family:"simsun";
+}
+header{
+	height: 43px;
+	line-height: 43px;
+	background: #0064bd;
+	color: #fff;
+	text-align: right;
+	padding-right: 15px;
+	font-size: 15px;
+}
+.main-model{
+	background: #fff;
+	margin-top: 15px;
+}
+.main-model h2{
+	height: 28px;
+background: #F8F8F8;
+	line-height: 28px;
+	padding: 0 15px;
+	font-size: 17px;
+	color: #333;
+
+	border-bottom: 1px solid #e0e0e0; 
+}
+.main-model h2 span{
+	font-size: 16px;
+	color: #bbbbbb;
+}
+.main-model h2 img{
+	width: 22px;
+	height: 22px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+.check-list{
+	margin-left:15px;
+	
+}
+.check-list li{
+	padding-left:28px;
+	height:28px;
+	line-height:28px;
+	color:#666666;
+	font-size:15px; 
+	border-bottom: 1px solid #e0e0e0; 
+}
+.check-list li:last-child{
+	border-bottom: none;
+}
+.check{
+	float:right;
+	width:23px;
+	height:23px;
+	margin:2px 20px 0px 0px;
+}
+.check-focus{
+	background: url(../img/check-true-icon.png);
+	background-size: cover;
+}
+.check-blur{
+	background: url(../img/check-false-icon.png);
+	background-size: cover;
+}
+
+
+
+.apptop {
+
+ 	height: 43px;
+	line-height: 43px;
+  padding: 0 10px;
+  background: #0064bd;
+	color: #fff;
+}
+
+.apptop a {
+   color: #ffffff;
+}
+
+.apptop .apptop-title img {
+  margin-top: 12px;
+  height: 25px;
+  vertical-align: top;
+}
+
+.header-left {	
+  position:absolute;
+  left:10px;
+  top:0px;
+
+  width:20%;
+  height:50px;
+   font-size: 1.5rem;
+   font-weight: normal;
+    color: #ffffff;
+    
+  }  
+.header-right {	
+  position:absolute;
+  right:10px;
+  top:0px;
+  
+  width:20%;
+  height:50px;
+   font-size: 2rem;
+   font-weight: normal;
+   text-align: right;
+  }  
+ .header-title{
+ 	 position:absolute;
+ 	 left:20%;
+ 	 width:60%;
+ 	  top:0px;
+ 	 font-size: 2rem;
+   font-weight: normal;
+   text-align: center;
+   display: block;
+   word-wrap: normal;
+  /* for IE */
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;  
+   
+}
+
+ .submit-btn{
+ 	 height:45px;
+
+	background:#3A70B6;
+	text-align:center; 
+	font-size:18px;
+	color:#fff;
+	width:100%;
+	 font-weight:bold;
+	
+	}
+
+  
+  .am-form-group
+  {
+  	 height:43px;
+  	 line-height: 43px;
+  	  	
+  }
+  .inputtext
+  {
+  		background:#fff;
+  	 height:38px;
+  	 line-height: 38px;  	 
+  	  width:100%;
+  	border-bottom: 1px solid #e0e0e0; 
+  	
+  }
+  
+input[type='number'],input[type='text']{
+  		margin-left: 1%;
+  	font-size:16px;
+  	height:30px;
+  	 line-height: 30px;
+  	 }
+
+
+
+
+/**
+ * Checkbox Three
+ */
+.checkboxThree {
+	width: 200px;
+	height: 40px;
+	background: #e5e5e5;
+	margin: 20px 60px;
+ 
+	border-radius: 50px;
+	position: relative;
+}
+
+input[type=checkbox] {
+	visibility: hidden;
+}
+
+/**
+ * Create the text for the On position
+ */
+.checkboxThree:before {
+	content: 'On';
+	position: absolute;
+	top: 12px;
+	left: 13px;
+	height: 2px;
+	color: #26ca28;
+	font-size: 16px;
+}
+/**
+ * Create the label for the off position
+ */
+.checkboxThree:after {
+	content: 'Off';
+	position: absolute;
+	top: 12px;
+	left: 84px;
+	height: 2px;
+	color: #ddd;
+	font-size: 16px;
+}
+
+/**
+ * Create the pill to click
+ */
+.checkboxThree label {
+	display: block;
+	width: 100px;
+	height: 22px;
+	border-radius: 50px;
+ 
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	transition: all .5s ease;
+	cursor: pointer;
+	position: absolute;
+	top: 9px;
+	z-index: 1;
+	left: 12px;
+	background: #ddd;
+}
+ 
+/**
+ * Create the checkbox event for the label
+ */
+.checkboxThree input[type=checkbox]:checked + label {
+	left: 100px;
+	background: #26ca28;
+}

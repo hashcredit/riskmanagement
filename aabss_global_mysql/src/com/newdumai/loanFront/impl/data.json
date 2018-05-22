@@ -1,0 +1,96 @@
+[{"proportion":"2","line":"350","xuanxianglist":[{"item_name":"sqje","item_code":"6081252c-06f5-401d-8490-bb8c02f71b06","item_name_zh":"订单信息--贷款金额--贷款金额","runlist":[{"opt":"<=","result":"true","value":"100000"},{"opt":">","result":"false","value":"100000"}]}]},{"proportion":"2","line":"400","xuanxianglist":[{"item_name":"sqje","item_code":"6081252c-06f5-401d-8490-bb8c02f71b06","item_name_zh":"订单信息--贷款金额--贷款金额","runlist":[{"opt":"<=","result":"===true","value":"100000"},{"opt":"<=","result":"true","value":"250000"},{"opt":">","result":"===false","value":"250000"}]},{"item_name":"birthplace","item_code":"6600b7cf-98ff-487d-a55e-9690722507e3","item_name_zh":"基本信息--籍贯--基础信息","runlist":[{"opt":"contains","result":"false","value":"是"},{"opt":"contains","result":"true","value":"否"}]}]},{"proportion":"2","line":"500","xuanxianglist":[{"item_name":"sqje","item_code":"6081252c-06f5-401d-8490-bb8c02f71b06","item_name_zh":"订单信息--贷款金额--贷款金额","runlist":[{"opt":"<=","result":"true","value":"250000"},{"opt":">","result":"false","value":"250000"}]}]}]
+
+
+[
+    {
+        "proportion": "2",
+        "line": "350",
+        "xuanxianglist": [
+            {
+                "item_name": "sqje",
+                "item_code": "6081252c-06f5-401d-8490-bb8c02f71b06",
+                "item_name_zh": "订单信息--贷款金额--贷款金额",
+                "runlist": [
+                    {
+                        "opt": "<=",
+                        "result": "true",
+                        "value": "100000"
+                    },
+                    {
+                        "opt": ">",
+                        "result": "false",
+                        "value": "100000"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "proportion": "2",
+        "line": "400",
+        "xuanxianglist": [
+            {
+                "item_name": "sqje",
+                "item_code": "6081252c-06f5-401d-8490-bb8c02f71b06",
+                "item_name_zh": "订单信息--贷款金额--贷款金额",
+                "runlist": [
+                    {
+                        "opt": "<=",
+                        "result": "===true",
+                        "value": "100000"
+                    },
+                    {
+                        "opt": "<=",
+                        "result": "true",
+                        "value": "250000"
+                    },
+                    {
+                        "opt": ">",
+                        "result": "===false",
+                        "value": "250000"
+                    }
+                ]
+            },
+            {
+                "item_name": "birthplace",
+                "item_code": "6600b7cf-98ff-487d-a55e-9690722507e3",
+                "item_name_zh": "基本信息--籍贯--基础信息",
+                "runlist": [
+                    {
+                        "opt": "contains",
+                        "result": "false",
+                        "value": "是"
+                    },
+                    {
+                        "opt": "contains",
+                        "result": "true",
+                        "value": "否"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "proportion": "2",
+        "line": "500",
+        "xuanxianglist": [
+            {
+                "item_name": "sqje",
+                "item_code": "6081252c-06f5-401d-8490-bb8c02f71b06",
+                "item_name_zh": "订单信息--贷款金额--贷款金额",
+                "runlist": [
+                    {
+                        "opt": "<=",
+                        "result": "true",
+                        "value": "250000"
+                    },
+                    {
+                        "opt": ">",
+                        "result": "false",
+                        "value": "250000"
+                    }
+                ]
+            }
+        ]
+    }
+]
