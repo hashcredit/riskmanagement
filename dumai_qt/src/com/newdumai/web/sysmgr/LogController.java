@@ -14,24 +14,24 @@ import com.newdumai.web.util.WebUtil;
 
 @Controller
 public class LogController {
-	
-	@Autowired
-	private LogService logService;
-	
-	@RequestMapping("/sysmgr/toLogList.do")
-	public String toLogList(HttpServletRequest request){
-		return "sysmgr/log/logList";
-		
-	}
-	
-	@RequestMapping("/sysmgr/logList.do")
-	@ResponseBody
-	
-	public String logList(HttpServletRequest request){
-		
-		LoginVo login = (LoginVo) WebUtil.getSession(request).getAttribute("login");
-		
-		return logService.list(WebUtil.request2Map(request),login.getSub_entity_id());
-	}
-	
+
+    @Autowired
+    private LogService logService;
+
+    @RequestMapping("/sysmgr/toLogList.do")
+    public String toLogList(HttpServletRequest request) {
+        return "sysmgr/log/logList";
+
+    }
+
+    @RequestMapping("/sysmgr/logList.do")
+    @ResponseBody
+
+    public String logList(HttpServletRequest request) {
+
+        LoginVo login = (LoginVo) WebUtil.getSession(request).getAttribute("login");
+
+        return logService.list(WebUtil.request2Map(request), login.getSub_entity_id());
+    }
+
 }

@@ -5,13 +5,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
  * echarts图表
- *
  */
 @Controller
 public class echartsController {
-	
-	@RequestMapping("sysmgr/echarts/toDataForm.do")
-	public String toDataForm(){
-		return "sysmgr/echarts/data_display";
-	}
+
+    @RequestMapping("sysmgr/echarts/toDataForm.do")
+    public String toDataForm() {
+        return "sysmgr/echarts/data_display";
+    }
 }
