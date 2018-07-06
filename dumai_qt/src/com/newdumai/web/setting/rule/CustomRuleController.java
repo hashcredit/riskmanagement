@@ -24,9 +24,10 @@ import com.newdumai.web.util.WebUtil;
 public class CustomRuleController {
     @Autowired
     private CustomRuleService customRuleService;
-    
+
     /**
      * 跳转贷前规则集合
+     *
      * @param request
      * @return
      */
@@ -34,9 +35,10 @@ public class CustomRuleController {
     public String toLoanFrontList(HttpServletRequest request) {
         return "setting/rule/loanFrontRuleList";
     }
-    
+
     /**
      * 获取贷前规则集合
+     *
      * @param request
      * @return
      */
@@ -53,11 +55,12 @@ public class CustomRuleController {
         } catch (Exception e) {
             e.printStackTrace();
         }
-		return result;
+        return result;
     }
-    
+
     /**
      * 跳转贷中规则集合
+     *
      * @param request
      * @return
      */
@@ -65,9 +68,10 @@ public class CustomRuleController {
     public String toLoanMiddleRuleList(HttpServletRequest request) {
         return "setting/rule/loanMiddleRuleList";
     }
-    
+
     /**
      * 获取贷中规则集合
+     *
      * @param request
      * @return
      */
@@ -84,11 +88,12 @@ public class CustomRuleController {
         } catch (Exception e) {
             e.printStackTrace();
         }
-		return result;
+        return result;
     }
-    
+
     /**
      * 获取业务类型
+     *
      * @param request
      * @param response
      * @return
@@ -101,7 +106,6 @@ public class CustomRuleController {
 //        List<Map<String, Object>> types = customRuleService.getRuleEnabledTypesBySubEntityId(subEntityId);
 //        return types;
 //    }
-    
     @RequestMapping(value = "/rule/ruleGroups.do", method = {RequestMethod.POST, RequestMethod.GET})
     @ResponseBody
     public List<Map<String, Object>> ruleGroupInit(HttpServletRequest request, HttpServletResponse response) {
